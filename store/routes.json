@@ -13,5 +13,8 @@
   },
   "store.custom#newsletter": {
     "path": "/newsletter"
+  },
+  "store.custom#wishlist": {
+    "path": "/wishlist"
   }
 }

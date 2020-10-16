@@ -1,0 +1,14 @@
+{
+  "store.custom#wishlist": {
+    "blocks": [
+      "rich-text#wishlist"
+    ]
+  },
+
+  "rich-text#wishlist": {
+    "props": {
+      "text": "WISHLIST TEST",
+      "blockClass": "wishlist"
+    }
+  }
+}
