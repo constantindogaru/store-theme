@@ -1,0 +1,14 @@
+{
+  "store.custom#blog": {
+    "blocks": [
+      "rich-text#blog"
+    ]
+  },
+
+  "rich-text#blog": {
+    "props": {
+      "text": "BLOG TEST",
+      "blockClass": "blog"
+    }
+  }
+}

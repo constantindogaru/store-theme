@@ -1,0 +1,14 @@
+{
+  "store.custom#newsletter": {
+    "blocks": [
+      "rich-text#newsletter"
+    ]
+  },
+
+  "rich-text#newsletter": {
+    "props": {
+      "text": "NEWSLETTER TEST",
+      "blockClass": "newsletter"
+    }
+  }
+}

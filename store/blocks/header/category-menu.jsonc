@@ -4,14 +4,19 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#browse-categories",
+      "menu-item#about-us",
+      "menu-item#contact-us",
+      "menu-item#faq",
+      "menu-item#blog",
+      "menu-item#newsletter"
     ]
   },
-  "menu-item#category-apparel": {
+
+  // BROWSE CATEGORIES
+  "menu-item#browse-categories": {
     "props": {
-      "id": "menu-item-category-apparel",
+      "id": "menu-item-browse-categories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -19,35 +24,35 @@
         "type": "internal",
         "href": "/apparel---accessories/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "BROWSE CATEGORIES",
+        "text": "BROWSE CATEGORIES"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#browse-categories"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#browse-categories": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#browse-categories"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#browse-categories": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#browse-categories-clothing",
+      "menu-item#browse-categories-accessories",
+      "menu-item#browse-categories-eyeglasses"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#browse-categories-clothing": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-browse-categories-clothing",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -60,9 +65,9 @@
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#browse-categories-accessories": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-browse-categories-accessories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -75,9 +80,9 @@
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#browse-categories-eyeglasses": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-browse-categories-eyeglasses",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -90,72 +95,8 @@
       }
     }
   },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
-      }
-    }
-  },
-  "menu-item#more": {
-    "props": {
-      "id": "menu-item-custom-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
-  },
-  "vtex.menu@2.x:submenu#more": {
-    "props": {
-      "width": "100%"
-    },
-    "children": [
-      "flex-layout.row#menu-more"
-    ]
-  },
-  "flex-layout.row#menu-more": {
-    "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
-    ]
-  },
-  "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
-  },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
-  "vtex.menu@2.x:menu#more": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
-    ]
-  },
+
+  // ABOUT US
   "menu-item#about-us": {
     "props": {
       "id": "menu-item-about-us",
@@ -166,11 +107,30 @@
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "About us",
-        "text": "About us"
+        "tagTitle": "ABOUT US",
+        "text": "ABOUT US"
       }
     }
   },
+
+  // CONTACT US
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "CONTACT US",
+        "text": "CONTACT US"
+      }
+    }
+  },
+
+  // FAQ
   "menu-item#faq": {
     "props": {
       "id": "menu-item-faq",
@@ -186,18 +146,37 @@
       }
     }
   },
-  "menu-item#contact-us": {
+
+  // BLOG
+  "menu-item#blog": {
     "props": {
-      "id": "menu-item-contact-us",
+      "id": "menu-item-blog",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/contact-us",
+        "href": "/blog",
         "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
+        "tagTitle": "BLOG",
+        "text": "BLOG"
+      }
+    }
+  },
+
+  // NEWSLETTER
+  "menu-item#newsletter": {
+    "props": {
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/newsletter",
+        "noFollow": true,
+        "tagTitle": "NEWSLETTER",
+        "text": "NEWSLETTER"
       }
     }
   }
