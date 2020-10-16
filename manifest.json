@@ -1,6 +1,6 @@
 {
   "vendor": "vtex",
-  "name": "store-theme",
+  "name": "finefood-store-theme",
   "version": "3.41.0",
   "builders": {
     "styles": "2.x",
