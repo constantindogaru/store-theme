@@ -10,8 +10,7 @@
       // "flex-layout.row#shelf",
       "info-card#home",
       "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "rich-text#link"
     ]
   },
 
@@ -21,12 +20,20 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-13.jpg",
+          "mobileImage": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-13.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-19.jpg",
+          "mobileImage": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-19.jpg"
+        },
+        {
+          "image": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-3.jpg",
+          "mobileImage": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-3.jpg"
+        },
+        {
+          "image": "https://www.fine-food.ro/wp-content/uploads/2020/05/Slider-fructe-de-mare.jpg",
+          "mobileImage": "https://www.fine-food.ro/wp-content/uploads/2020/05/Slider-fructe-de-mare.jpg"
         }
       ]
     }

@@ -10,12 +10,14 @@
     ]
   },
   "flex-layout.row#footer-1-desktop": {
+    "children": ["slider-layout#brands"],
+    "props": {
+      "blockClass": "sliderbrands"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
       "social-networks"
     ],
     "props": {
@@ -30,33 +32,21 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.fine-food.ro/"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
+          "url": "https://twitter.com/share?url=https://www.fine-food.ro/"
         },
         {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "name": "Pinterest",
+          "url": "https://pinterest.com/pin/create/button/?url=https://www.fine-food.ro/&amp;media=https://www.fine-food.ro/wp-includes/images/media/default.png&amp;description=Home+base-rtl/"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.fine-food.ro/"
         }
       ]
-    }
-  },
-
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
-    "props": {
-      "blockClass": "payment-methods"
-    }
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
     }
   },
 
@@ -68,14 +58,13 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "Copyright 2020 @Fine Food Masterpiece Gourmet. Toate drepturile rezervate",
       "blockClass": "footer"
     }
   },
 
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile"
     ]
   },
@@ -89,7 +78,6 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
       "social-networks",
       "rich-text#footer-mobile"
     ],
@@ -100,16 +88,9 @@
       "rowGap": 4
     }
   },
-  "flex-layout.row#1-footer-mobile": {
-    "props": {
-      "paddingTop": 4,
-      "paddingBottom": 4
-    },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
-  },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "Copyright 2020 @Fine Food Masterpiece Gourmet. Toate drepturile rezervate",
       "blockClass": "footer"
     }
   }

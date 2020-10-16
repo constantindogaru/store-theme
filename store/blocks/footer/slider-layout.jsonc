@@ -1,0 +1,67 @@
+{
+  "slider-layout#brands": {
+    "children": ["image#brand1", "image#brand2", "image#brand3", "image#brand4", "image#brand5", "image#brand6", "image#brand7", "image#brand8"],
+    "props": {
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
+      }
+    }
+  },
+  
+  "image#brand1": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-almdudler-s.png",
+      "maxHeight": 50
+    }
+  },
+
+  "image#brand2": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-carpe-diem-s.png",
+      "maxHeight": 50
+    }
+  },
+
+  "image#brand3": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/07/Clarence-Court-EPS-Logo-1.5MB-8.8.2017.png",
+      "maxHeight": 50
+    }
+  },
+
+  "image#brand4": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/Screen-Shot-2017-03-21-at-10.46.34.png",
+      "maxHeight": 50
+    }
+  },
+
+  "image#brand5": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/brand-oetker.png",
+      "maxHeight": 50
+    }
+  },
+
+  "image#brand6": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-finefood-negru-s.png",
+      "maxHeight": 50
+    }
+  },
+
+  "image#brand7": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-finefood-albastru-s.png",
+      "maxHeight": 50
+    }
+  },
+
+  "image#brand8": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-finefood-portocaliu-s.png",
+      "maxHeight": 50
+    }
+  }
+}
