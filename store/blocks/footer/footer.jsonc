@@ -63,6 +63,7 @@
     }
   },
 
+  // TODO: imbunatateste partea de mobile
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#2-footer-mobile"
