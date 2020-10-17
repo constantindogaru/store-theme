@@ -1,6 +1,10 @@
 {
   "store.custom#about-us": {
-    "blocks": ["stack-layout#about-us-top-banner"]
+    "blocks": [
+      "stack-layout#about-us-top-banner",
+      "flex-layout.row#about-us-description",
+      "flex-layout.row#about-us-contact-block"
+    ]
   },
 
   "stack-layout#about-us-top-banner": {
@@ -23,6 +27,88 @@
       "textPosition": "CENTER",
       "textColor": "c-on-emphasis",
       "blockClass": "title-top-banner"
+    }
+  },
+
+  "flex-layout.row#about-us-description": {
+    "children": [
+      "rich-text#about-us-description-1",
+      "rich-text#about-us-description-2"
+    ],
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 8,
+      "horizontalAlign": "center",
+      "colGap": 4
+    }
+  },
+
+  "rich-text#about-us-description-1": {
+    "props": {
+      "text": "Exista cateva nevoi primare pentru orice fiinta umana, fara de care nu ar putea supravietui. Una din acestea este dragostea si aprecierea oamenilor din jurul sau. De obicei, dragostea si aprecierea se nasc din dezvoltarea virtutilor, care astazi devin din ce in ce mai rare. Totusi, ele nu s-au pierdut.\n\nVirtutile s-au situat cumva sub umbrela protectiei unui brand, sau mai bine spus a unui branding personal. Nici un calator fara incaltari bune, nici un pescar fara vasle puternice.\n\nIn baza acestei credinte a luat nastere Fine-Food.ro, un portal catre o lume a ingredientelor putin cunoscute in piata din Romania. Cunoastem de cativa ani buni produsele importate de noi, pe care am avut ocazia sa le promovam in cadrul culinary turistic al unitatilor clasate in topul restaurantelor din Valea Prahovei, Sinaia. Fiind una din cele mai pretioase si de prestigiu zone turistice care se adreseaza oaspetilor din alte tari, produsele noastre de import au sustinut nivelul bucatariei internationale."
+    }
+  },
+
+  "rich-text#about-us-description-2": {
+    "props": {
+      "text": "Umbrela de protectie a Fine-food este sustinuta de toate brand-urile cu greutate pe care le comercializam. Importam din cele mai recunoscute tari pentru valoarea lor din industria alimentara ingrijita: Austria, Olanda, Franta, Grecia, Anglia, Statele Unite ale Americii s.a. Produsele noastre, fie ca apartin categoriei carnurilor, branzeturilor, ape minerale sau legumelor, isi au originea in zone ingrijite si cu traditie indelungata, special construite pentru obtinerea unor rezultate premium.\n\nAlaturarea cu produsele culinare premium s-a identificat din atentia pe care o dedicam clientilor nostri. Regulile de transport, depozitare si comercializare au un statut strict si riguros, tocmai pentru a pastra calitatea naturala si nutritiva a produselor."
+    }
+  },
+
+  "flex-layout.row#about-us-contact-block": {
+    "children": ["flex-layout.col#about-us-contact-block"],
+    "props": {
+      "paddingTop": 10,
+      "paddingBottom": 10,
+      "blockClass": "about-us-contact-block",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.col#about-us-contact-block": {
+    "children": [
+      "rich-text#about-us-contact-title",
+      "rich-text#about-us-contact-1",
+      "flex-layout.row#about-us-contact-block-divider",
+      "rich-text#about-us-contact-2"
+    ],
+    "props": {
+      "width": "50%"
+    }
+  },
+
+  "rich-text#about-us-contact-title": {
+    "props": {
+      "text": "# Contactează-ne !\n\nPoți fi și tu unul dintre clienții noștri. Trebuie doar sa ne cauți șau să completezi formularul care îti va permite să devii membru Fine Food Masterpiece Gourmet. Vom analiza și îți vom da de știre.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-emphasis"
+    }
+  },
+
+  "rich-text#about-us-contact-1": {
+    "props": {
+      "text": "**Sinaia**\n\nCalea Codrului, Nr. 11-14",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-emphasis"
+    }
+  },
+
+  "flex-layout.row#about-us-contact-block-divider": {
+    "props": {
+      "border": ["bottom"],
+      "borderWidth": 1,
+      "borderColor": "gray"
+    }
+  },
+
+  "rich-text#about-us-contact-2": {
+    "props": {
+      "text": "**Phone:** 0733 991144\n\n**Email:** vanzari@fine-food.ro",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-emphasis"
     }
   }
 }
