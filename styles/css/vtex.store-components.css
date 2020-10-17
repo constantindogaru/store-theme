@@ -28,6 +28,10 @@
   padding: 60px 10px;
 }
 
+.newsletter :global(.vtex-button) {
+  background-color: #83b735;
+}
+
 .label {
   color: #fff;
   font-size: 26px;
