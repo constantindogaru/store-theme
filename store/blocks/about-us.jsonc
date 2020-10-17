@@ -1,26 +1,27 @@
 {
   "store.custom#about-us": {
-    "blocks": ["stack-layout#top-banner"]
+    "blocks": ["stack-layout#about-us-top-banner"]
   },
 
-  "stack-layout#top-banner": {
-    "children": ["image#top-banner", "rich-text#title-top-banner"]
+  "stack-layout#about-us-top-banner": {
+    "children": [
+      "image#about-us-top-banner",
+      "rich-text#about-us-title-top-banner"
+    ]
   },
 
-  "image#top-banner": {
+  "image#about-us-top-banner": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/469b-scaled.jpg?id=1487"
     }
   },
 
-  "rich-text#title-top-banner": {
+  "rich-text#about-us-title-top-banner": {
     "props": {
       "text": "##### DESPRE MAGAZINUL NOSTRU\n# Fine Food Masterpiece Gourmet\nPremium food for a wealthy mood !",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "textColor": "c-on-emphasis",
-      // "font": "t-heading-5",
-      // "blockClass": "help-message"
       "blockClass": "title-top-banner"
     }
   }
