@@ -1,14 +1,25 @@
 {
   "slider-layout#brands": {
-    "children": ["image#brand1", "image#brand2", "image#brand3", "image#brand4", "image#brand5", "image#brand6", "image#brand7", "image#brand8"],
+    "children": [
+      "image#brand1",
+      "image#brand2",
+      "image#brand3",
+      "image#brand4",
+      "image#brand5",
+      "image#brand6",
+      "image#brand7",
+      "image#brand8"
+    ],
     "props": {
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": false
       }
     }
   },
-  
+
   "image#brand1": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-almdudler-s.png",

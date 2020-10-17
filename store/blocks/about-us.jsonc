@@ -3,7 +3,8 @@
     "blocks": [
       "stack-layout#about-us-top-banner",
       "flex-layout.row#about-us-description",
-      "flex-layout.row#about-us-contact-block"
+      "flex-layout.row#about-us-contact-block",
+      "slider-layout#about-us-categories"
     ]
   },
 
@@ -109,6 +110,35 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "textColor": "c-on-emphasis"
+    }
+  },
+
+  "slider-layout#about-us-categories": {
+    "props": {
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "slider-about-us-categories",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      // TODO: cum aranjezi intr-un slider categoriile disponibile? poate trebuie o componenta custom.
+      "rich-text#category",
+      "rich-text#category",
+      "rich-text#category",
+      "rich-text#category",
+      "rich-text#category",
+      "rich-text#category",
+      "rich-text#category"
+    ]
+  },
+
+  "rich-text#category": {
+    "props": {
+      "text": "Text Categorie"
     }
   }
 }
