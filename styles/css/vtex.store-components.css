@@ -29,7 +29,7 @@
 }
 
 .newsletter :global(.vtex-button) {
-  background-color: #83b735;
+  background-color: #83b735 !important;
 }
 
 .label {
