@@ -18,8 +18,9 @@
 }
 
 .newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
+  background: #161616
+    url(https://www.fine-food.ro/wp-content/uploads/2020/07/OH71GF0-scaled.jpg?id=2792) !important;
+  max-width: 100%;
   margin: 0 auto;
 }
 

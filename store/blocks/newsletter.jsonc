@@ -1,7 +1,11 @@
 {
   "store.custom#newsletter": {
-    "blocks": [
-      "newsletter"
-    ]
+    "blocks": ["newsletter"]
+  },
+  "newsletter": {
+    "props": {
+      "placeholder": "Adresa dvs. de email",
+      "label": "ABONEAZĂ-TE LA NEWSLETTERUL NOSTRU"
+    }
   }
 }
