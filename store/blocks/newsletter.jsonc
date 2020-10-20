@@ -1,11 +1,65 @@
 {
   "store.custom#newsletter": {
-    "blocks": ["newsletter"]
+    "blocks": ["stack-layout#newsletter-banner"]
   },
+
+  "stack-layout#newsletter-banner": {
+    "children": [
+      "image#newsletter-banner",
+      "flex-layout.row#newsletter-banner-text-row"
+    ]
+  },
+
+  "image#newsletter-banner": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/07/OH71GF0-scaled.jpg?id=2792"
+    }
+  },
+
+  "flex-layout.row#newsletter-banner-text-row": {
+    "children": ["flex-layout.col#newsletter-banner-text-col"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "newsletterBanner"
+    }
+  },
+
+  "flex-layout.col#newsletter-banner-text-col": {
+    "children": [
+      "rich-text#newsletter-title",
+      "rich-text#newsletter-subtitle",
+      "newsletter"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+
+  "rich-text#newsletter-title": {
+    "props": {
+      "text": "## ABONEAZĂ-TE LA NEWSLETTERUL NOSTRU",
+      "textColor": "c-on-emphasis",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "newsletterTitle"
+    }
+  },
+
+  "rich-text#newsletter-subtitle": {
+    "props": {
+      "text": "**Te așteptăm alături de noi ! În acest fel vom putea să te ținem la curent cu ultimele noutăți si produse.**",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "newsletterSubtitle"
+    }
+  },
+
   "newsletter": {
     "props": {
       "placeholder": "Adresa dvs. de email",
-      "label": "ABONEAZĂ-TE LA NEWSLETTERUL NOSTRU"
+      "hideLabel": true
     }
   }
 }

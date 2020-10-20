@@ -105,3 +105,11 @@
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 10%;
 }
+
+.container--newsletterTitle {
+  border-bottom: 2px solid white;
+}
+
+.paragraph--newsletterSubtitle {
+  color: rgba(255, 255, 255, 0.8);
+}
