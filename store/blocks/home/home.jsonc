@@ -94,7 +94,6 @@
   "flex-layout.col#recommended-category-highlight-1": {
     "children": [
       "flex-layout.row#recommended-category-highlight-1-image",
-
       "rich-text#recommended-category-highlight-1"
     ],
     "props": {

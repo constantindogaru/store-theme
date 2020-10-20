@@ -104,3 +104,13 @@
 .flexRow--imageOverflow {
   overflow: hidden;
 }
+
+@media screen and (min-width: 992px) {
+  .flexCol--aboutUsDescriptionTextWrapperLeft {
+    margin-left: 45%;
+  }
+
+  .flexCol--aboutUsDescriptionTextWrapperRight {
+    margin-right: 45%;
+  }
+}
