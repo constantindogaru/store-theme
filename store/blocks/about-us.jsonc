@@ -134,7 +134,7 @@
 
   "rich-text#about-us-contact-1": {
     "props": {
-      "text": "**Sinaia**\n\nCalea Codrului, Nr. 11-14",
+      "text": "**SINAIA**\n\nCalea Codrului, Nr. 11-14",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "textColor": "c-on-emphasis"
