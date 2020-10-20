@@ -92,3 +92,16 @@
 .paragraph--aboutUsDescriptionText {
   color: rgb(119, 119, 119);
 }
+
+.paragraph--contactTitle1 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.headingLevel1--contactTitle2 {
+  margin: 0;
+}
+
+.paragraph--contactTitle3 {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10%;
+}

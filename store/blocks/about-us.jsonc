@@ -93,7 +93,9 @@
 
   "flex-layout.col#about-us-contact-block": {
     "children": [
-      "rich-text#about-us-contact-title",
+      "rich-text#about-us-contact-title-1",
+      "rich-text#about-us-contact-title-2",
+      "rich-text#about-us-contact-title-3",
       "rich-text#about-us-contact-1",
       "flex-layout.row#about-us-contact-block-divider",
       "rich-text#about-us-contact-2"
@@ -103,12 +105,30 @@
     }
   },
 
-  "rich-text#about-us-contact-title": {
+  "rich-text#about-us-contact-title-1": {
     "props": {
-      "text": "# Contactează-ne !\n\nPoți fi și tu unul dintre clienții noștri. Trebuie doar sa ne cauți șau să completezi formularul care îti va permite să devii membru Fine Food Masterpiece Gourmet. Vom analiza și îți vom da de știre.",
+      "text": "**RĂMÂI ÎN LEGĂTURĂ CU NOI**",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "textColor": "c-on-emphasis"
+      "blockClass": "contactTitle1"
+    }
+  },
+  "rich-text#about-us-contact-title-2": {
+    "props": {
+      "text": "# Contactează-ne !",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-emphasis",
+      "blockClass": "contactTitle2"
+    }
+  },
+  "rich-text#about-us-contact-title-3": {
+    "props": {
+      "text": "Poți fi și tu unul dintre clienții noștri. Trebuie doar sa ne cauți șau să completezi formularul care îti va permite să devii membru Fine Food Masterpiece Gourmet. Vom analiza și îți vom da de știre.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-on-emphasis",
+      "blockClass": "contactTitle3"
     }
   },
 
