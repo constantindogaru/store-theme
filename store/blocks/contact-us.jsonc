@@ -16,45 +16,45 @@
 
   "flex-layout.col#contact-us": {
     "children": [
-      "rich-text#contact-us"
-      // "form#contact-us"
+      "rich-text#contact-us",
+      "form#contact-us"
     ]
   },
   "rich-text#contact-us": {
     "props": {
       "text": "UTILIZAȚI FORMULARUL DE CONTACT!\n#### **VĂ RUGĂM SĂ NE CONTACTATI PENTRU ORICE ÎNTREBARE**\n#### **Telefon: 0733 99 11 44**\nsau ne puteți trimite un email utilizând formularul de mai jos"
     }
+  },
+
+  "form#contact-us": {
+    "props": {
+      "entity": "personEntity",
+      "schema": "personSchema"
+    },
+    "blocks": [
+      "form-success#contact-us"
+    ],
+    "children": [
+      // "form-input.text#name",
+      // "form-input.text#emailAddress",
+      // "form-input.text#subject",
+      // "form-input.textarea#message",
+      // "form-submit#contact"
+    ]
+  },
+
+  "form-success#contact-us": {
+    "children": [
+      "rich-text#success-submit"
+    ]
+  },
+  "rich-text#success-submit": {
+    "props": {
+      "text": "Thanks for reaching out! We will come back shortly.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   }
-
-  // "form#contact-us": {
-  //   "props": {
-  //     "entity": "TODO",
-  //     "schema": "TODO"
-  //   },
-  //   "blocks": [
-  //     "form-success#contact-us"
-  //   ],
-  //   "children": [
-  //     "form-input.text#name",
-  //     "form-input.text#emailAddress",
-  //     "form-input.text#subject",
-  //     "form-input.textarea#message",
-  //     "form-submit#contact"
-  //   ]
-  // },
-
-  // "form-success#contact-us": {
-  //   "children": [
-  //     "rich-text#success-submit"
-  //   ]
-  // },
-  // "rich-text#success-submit": {
-  //   "props": {
-  //     "text": "Thanks for reaching out! We will come back shortly.",
-  //     "textAlignment": "CENTER",
-  //     "textPosition": "CENTER"
-  //   }
-  // },
 
   // "form-input.text#name": {
   //   "props": {
