@@ -12,6 +12,10 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
+  "peerDependencies": {
+    "vtex.wish-list": "1.x",
+    "vtex.wordpress-integration": "2.x"
+  },
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
