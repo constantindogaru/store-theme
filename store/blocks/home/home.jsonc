@@ -3,8 +3,6 @@
     "blocks": [
       "list-context.image-list#demo",
       "flex-layout.row#recommended-categories-wrapper",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
       "rich-text#shelf-title",
@@ -18,7 +16,6 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
       "images": [
         {
           "image": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-13.jpg",
@@ -48,6 +45,15 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
+      "slideTransition": {
+         "speed": 0,
+         "delay": 0,
+         "timing": ""
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
       "blockClass": "carousel"
     }
   },
