@@ -58,6 +58,12 @@
     },
     "children": ["search-bar"]
   },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
   "flex-layout.col#login": {
     "props": {
       "verticalAlign": "middle"
