@@ -1,0 +1,175 @@
+{
+  "flex-layout.row#recommended-categories-wrapper": {
+    "props": {
+      "marginTop": 8
+    },
+    "children": ["flex-layout.col#recommended-categories-wrapper"]
+  },
+  "flex-layout.col#recommended-categories-wrapper": {
+    "props": {
+      "horizontalAlign": "center",
+      "colGap": 7
+    },
+    "children": [
+      "rich-text#recommended-categories-title",
+      "flex-layout.row#recommended-categories-row"
+    ]
+  },
+  "rich-text#recommended-categories-title": {
+    "props": {
+      "text": "COLECȚIILE FINE FOOD\n### CATEGORII RECOMADATE\nProdusele noastre premium",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#recommended-categories-row": {
+    "props": {
+      "marginTop": 5
+    },
+    "children": [
+      "flex-layout.col#recommended-category-highlight-1",
+      "flex-layout.col#recommended-categories-highlights-2"
+    ]
+  },
+  "flex-layout.col#recommended-category-highlight-1": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#recommended-category-highlight-1-image",
+      "rich-text#recommended-category-highlight-1"
+    ]
+  },
+  "flex-layout.row#recommended-category-highlight-1-image": {
+    "props": {
+      "blockClass": "imageOverflow"
+    },
+    "children": ["image#recommended-category-highlight-1"]
+  },
+  "image#recommended-category-highlight-1": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-kids-600x600.jpg",
+      "maxHeight": 600,
+      "maxWidth": 600,
+      "blockClass": "zoomIn"
+    }
+  },
+  "rich-text#recommended-category-highlight-1": {
+    "props": {
+      "text": "### PRODUSE PENTRU COPII"
+    }
+  },
+  "flex-layout.col#recommended-categories-highlights-2": {
+    "children": [
+      "flex-layout.row#recommended-categories-right-row-1",
+      "flex-layout.row#recommended-categories-right-row-2"
+    ]
+  },
+  "flex-layout.row#recommended-categories-right-row-1": {
+    "props": {
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "flex-layout.col#recommended-categories-right-row-1-col-1",
+      "flex-layout.col#recommended-categories-right-row-1-col-2"
+    ]
+  },
+  "flex-layout.row#recommended-categories-right-row-2": {
+    "children": [
+      "flex-layout.col#recommended-categories-right-row-2-col-1",
+      "flex-layout.col#recommended-categories-right-row-2-col-2"
+    ]
+  },
+  "flex-layout.col#recommended-categories-right-row-1-col-1": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#recommended-categories-right-row-1-col-1-image",
+      "rich-text#recommended-category-highlight-2"
+    ]
+  },
+  "flex-layout.row#recommended-categories-right-row-1-col-1-image": {
+    "props": {
+      "blockClass": "imageOverflow"
+    },
+    "children": ["image#recommended-category-highlight-2"]
+  },
+  "flex-layout.col#recommended-categories-right-row-1-col-2": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#recommended-categories-right-row-1-col-2-image",
+      "rich-text#recommended-category-highlight-3"
+    ]
+  },
+  "flex-layout.row#recommended-categories-right-row-1-col-2-image": {
+    "props": {
+      "blockClass": "imageOverflow"
+    },
+    "children": ["image#recommended-category-highlight-3"]
+  },
+  "flex-layout.col#recommended-categories-right-row-2-col-1": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#recommended-categories-right-row-2-col-1-image",
+      "rich-text#recommended-category-highlight-4"
+    ]
+  },
+  "flex-layout.row#recommended-categories-right-row-2-col-1-image": {
+    "props": {
+      "blockClass": "imageOverflow"
+    },
+    "children": ["image#recommended-category-highlight-4"]
+  },
+  "image#recommended-category-highlight-2": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/vegan-300x300.jpg",
+      "maxHeight": 300,
+      "maxWidth": 300,
+      "blockClass": "zoomIn"
+      // TODO: Add Link to images to navigate to specified category
+    }
+  },
+  "rich-text#recommended-category-highlight-2": {
+    "props": {
+      "text": "##### **PRODUSE VEGANE**",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#recommended-category-highlight-3": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-cheese-300x300.jpg",
+      "maxHeight": 300,
+      "maxWidth": 300,
+      "blockClass": "zoomIn"
+      // TODO: Add Link to images to navigate to specified category
+    }
+  },
+  "rich-text#recommended-category-highlight-3": {
+    "props": {
+      "text": "##### **BRÂNZETURI**"
+    }
+  },
+  "image#recommended-category-highlight-4": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-produse-carne-300x300.jpg",
+      "maxHeight": 300,
+      "maxWidth": 300,
+      "blockClass": "zoomIn"
+      // TODO: Add Link to images to navigate to specified category
+    }
+  },
+  "rich-text#recommended-category-highlight-4": {
+    "props": {
+      "text": "##### **PRODUSE DIN CARNE**"
+    }
+  },
+  // Used only for spacer
+  "flex-layout.col#recommended-categories-right-row-2-col-2": {
+    "children": []
+  }
+}

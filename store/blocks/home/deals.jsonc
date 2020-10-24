@@ -1,16 +1,15 @@
 {
   "flex-layout.row#deals": {
+    "props": {
+      "blockClass": "deals"
+    },
     "children": [
       "flex-layout.col#deals1",
       "flex-layout.col#deals2",
       "flex-layout.col#deals3",
       "flex-layout.col#deals4"
-    ],
-    "props": {
-      "blockClass": "deals"
-    }
+    ]
   },
-
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1",
