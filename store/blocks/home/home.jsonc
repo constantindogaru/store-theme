@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "flex-layout.row#home-images",
       "flex-layout.row#recommended-categories-wrapper",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
@@ -13,9 +13,21 @@
     ]
   },
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "flex-layout.row#home-images": {
     "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["flex-layout.col#home-images"]
+  },
+  "flex-layout.col#home-images": {
+    "props": {
+      "width": "80%"
+    },
+    "children": ["list-context.image-list#home-images"]
+  },
+  "list-context.image-list#home-images": {
+    "props": {
+      "height": 650,
       "images": [
         {
           "image": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-13.jpg",
@@ -34,9 +46,10 @@
           "mobileImage": "https://www.fine-food.ro/wp-content/uploads/2020/05/Slider-fructe-de-mare.jpg"
         }
       ]
-    }
+    },
+    "children": ["slider-layout#home-images"]
   },
-  "slider-layout#demo-images": {
+  "slider-layout#home-images": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -44,7 +57,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
       "slideTransition": {
          "speed": 0,
          "delay": 0,
