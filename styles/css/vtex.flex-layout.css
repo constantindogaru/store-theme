@@ -135,4 +135,5 @@
 .flexColChild--categoryHighlightedInfoTitle {
   height: auto !important;
   overflow: hidden;
+  max-width: 100%;
 }

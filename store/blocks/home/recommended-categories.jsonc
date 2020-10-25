@@ -8,8 +8,7 @@
   "flex-layout.col#recommended-categories-wrapper": {
     "props": {
       "horizontalAlign": "center",
-      "blockClass": "recommendedSectionInfoHeader",
-      "colGap": 7
+      "blockClass": "recommendedSectionInfoHeader"
     },
     "children": [
       "rich-text#recommended-categories-title-1",
@@ -95,20 +94,23 @@
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-kids-600x600.jpg",
       "maxHeight": 600,
-      "maxWidth": 600,
       "blockClass": "zoomIn"
     }
   },
   "rich-text#recommended-category-highlight-1": {
     "props": {
       "blockClass": "recommendedCategoryHighlight",
-      "text": "### PRODUSE PENTRU COPII"
+      "text": "### PRODUSE PENTRU COPII",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#recommended-category-highlight-products-info-1": {
     "props": {
       "blockClass": "recommendedCategoryHighlight",
-      "text": "59 produse"
+      "text": "59 produse",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#recommended-categories-highlights-2": {
@@ -187,7 +189,6 @@
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/vegan-300x300.jpg",
       "maxHeight": 300,
-      "maxWidth": 300,
       "blockClass": "zoomIn"
       // TODO: Add Link to images to navigate to specified category
     }
@@ -196,20 +197,22 @@
     "props": {
       "blockClass": "recommendedCategoryHighlight",
       "text": "##### **PRODUSE VEGANE**",
-      "horizontalAlign": "center"
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#recommended-category-highlight-products-info-2": {
     "props": {
       "blockClass": "recommendedCategoryHighlight",
-      "text": "26 produse"
+      "text": "26 produse",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "image#recommended-category-highlight-3": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-cheese-300x300.jpg",
       "maxHeight": 300,
-      "maxWidth": 300,
       "blockClass": "zoomIn"
       // TODO: Add Link to images to navigate to specified category
     }
@@ -217,20 +220,23 @@
   "rich-text#recommended-category-highlight-3": {
     "props": {
       "blockClass": "recommendedCategoryHighlight",
-      "text": "##### **BRÂNZETURI**"
+      "text": "##### **BRÂNZETURI**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#recommended-category-highlight-products-info-3": {
     "props": {
       "blockClass": "recommendedCategoryHighlight",
-      "text": "36 produse"
+      "text": "36 produse",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "image#recommended-category-highlight-4": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-produse-carne-300x300.jpg",
       "maxHeight": 300,
-      "maxWidth": 300,
       "blockClass": "zoomIn"
       // TODO: Add Link to images to navigate to specified category
     }
@@ -238,13 +244,17 @@
   "rich-text#recommended-category-highlight-4": {
     "props": {
       "blockClass": "recommendedCategoryHighlight",
-      "text": "##### **PRODUSE DIN CARNE**"
+      "text": "##### **PRODUSE DIN CARNE**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#recommended-category-highlight-products-info-4": {
     "props": {
       "blockClass": "recommendedCategoryHighlight",
-      "text": "66 produse"
+      "text": "66 produse",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   // Used only for spacer
