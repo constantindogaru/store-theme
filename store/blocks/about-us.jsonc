@@ -4,23 +4,20 @@
       "stack-layout#about-us-top-banner",
       "flex-layout.row#about-us-description",
       "flex-layout.row#about-us-contact-block",
-      "slider-layout#about-us-categories"
+      "flex-layout.row#about-us-recommended-categories-row"
     ]
   },
-
   "stack-layout#about-us-top-banner": {
     "children": [
       "image#about-us-top-banner",
       "rich-text#about-us-title-top-banner"
     ]
   },
-
   "image#about-us-top-banner": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/469b-scaled.jpg?id=1487"
     }
   },
-
   "rich-text#about-us-title-top-banner": {
     "props": {
       "text": "**DESPRE MAGAZINUL NOSTRU**\n# Fine Food Masterpiece Gourmet\nPremium food for a wealthy mood !",
@@ -30,7 +27,6 @@
       "blockClass": "title-top-banner"
     }
   },
-
   "flex-layout.row#about-us-description": {
     "children": [
       "flex-layout.col#about-us-description-1",
@@ -43,13 +39,11 @@
       "horizontalAlign": "center"
     }
   },
-
   "flex-layout.col#spacer-middle": {
     "props": {
       "width": "3%"
     }
   },
-
   "flex-layout.col#about-us-description-1": {
     "children": ["rich-text#about-us-description-1"],
     "props": {
@@ -64,7 +58,6 @@
       "blockClass": "aboutUsDescriptionTextWrapperRight"
     }
   },
-
   "rich-text#about-us-description-1": {
     "props": {
       "text": "Exista cateva nevoi primare pentru orice fiinta umana, fara de care nu ar putea supravietui. Una din acestea este dragostea si aprecierea oamenilor din jurul sau. De obicei, dragostea si aprecierea se nasc din dezvoltarea virtutilor, care astazi devin din ce in ce mai rare. Totusi, ele nu s-au pierdut.\n\nVirtutile s-au situat cumva sub umbrela protectiei unui brand, sau mai bine spus a unui branding personal. Nici un calator fara incaltari bune, nici un pescar fara vasle puternice.\n\nIn baza acestei credinte a luat nastere **Fine-Food.ro**, un portal catre o lume a ingredientelor putin cunoscute in piata din Romania. Cunoastem de cativa ani buni produsele importate de noi, pe care am avut ocazia sa le promovam in cadrul culinary turistic al unitatilor clasate in topul restaurantelor din Valea Prahovei, Sinaia. Fiind una din cele mai pretioase si de prestigiu zone turistice care se adreseaza oaspetilor din alte tari, produsele noastre de import au sustinut nivelul bucatariei internationale.",
@@ -72,15 +65,13 @@
       "blockClass": "aboutUsDescriptionText"
     }
   },
-
   "rich-text#about-us-description-2": {
     "props": {
-      "text": "Umbrela de protectie a Fine-food este sustinuta de toate brand-urile cu greutate pe care le comercializam. Importam din cele mai recunoscute tari pentru valoarea lor din industria alimentara ingrijita: Austria, Olanda, Franta, Grecia, Anglia, Statele Unite ale Americii s.a. Produsele noastre, fie ca apartin categoriei carnurilor, branzeturilor, ape minerale sau legumelor, isi au originea in zone ingrijite si cu traditie indelungata, special construite pentru obtinerea unor rezultate premium.\n\nAlaturarea cu produsele culinare premium s-a identificat din atentia pe care o dedicam clientilor nostri. Regulile de transport, depozitare si comercializare au un statut strict si riguros, tocmai pentru a pastra calitatea naturala si nutritiva a produselor.",
+      "text": "Umbrela de protectie a Fine-food este sustinuta de toate brand-urile cu greutate pe care le comercializam. Importam din cele mai recunoscute tari pentru valoarea lor din industria alimentara ingrijita: Austria, Olanda, Franta, Grecia, Anglia, Statele Unite ale Americii s.a. Produsele noastre, fie ca apartin categoriei carnurilor, branzeturilor, ape minerale sau legumelor, isi au originea in zone ingrijite si cu traditie indelungata, special construite pentru obtinerea unor rezultate *premium*.\n\nAlaturarea cu produsele culinare premium s-a identificat din atentia pe care o dedicam clientilor nostri. Regulile de transport, depozitare si comercializare au un statut strict si riguros, tocmai pentru a pastra calitatea naturala si nutritiva a produselor.",
       "font": "t-small",
       "blockClass": "aboutUsDescriptionText"
     }
   },
-
   "flex-layout.row#about-us-contact-block": {
     "children": ["flex-layout.col#about-us-contact-block"],
     "props": {
@@ -90,7 +81,6 @@
       "horizontalAlign": "center"
     }
   },
-
   "flex-layout.col#about-us-contact-block": {
     "children": [
       "rich-text#about-us-contact-title-1",
@@ -104,7 +94,6 @@
       "width": "50%"
     }
   },
-
   "rich-text#about-us-contact-title-1": {
     "props": {
       "text": "**RĂMÂI ÎN LEGĂTURĂ CU NOI**",
@@ -131,7 +120,6 @@
       "blockClass": "contactTitle3"
     }
   },
-
   "rich-text#about-us-contact-1": {
     "props": {
       "text": "**SINAIA**\n\nCalea Codrului, Nr. 11-14",
@@ -140,7 +128,6 @@
       "textColor": "c-on-emphasis"
     }
   },
-
   "flex-layout.row#about-us-contact-block-divider": {
     "props": {
       "border": ["bottom"],
@@ -148,7 +135,6 @@
       "borderColor": "gray"
     }
   },
-
   "rich-text#about-us-contact-2": {
     "props": {
       "text": "**Phone:** 0733 991144\n\n**Email:** vanzari@fine-food.ro",
@@ -157,33 +143,12 @@
       "textColor": "c-on-emphasis"
     }
   },
-
-  "slider-layout#about-us-categories": {
-    "props": {
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "slider-about-us-categories",
-      "showPaginationDots": "never",
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": true
-      }
-    },
-    "children": [
-      // TODO: cum aranjezi intr-un slider categoriile disponibile? poate trebuie o componenta custom.
-      "rich-text#category",
-      "rich-text#category",
-      "rich-text#category",
-      "rich-text#category",
-      "rich-text#category",
-      "rich-text#category",
-      "rich-text#category"
-    ]
+  "flex-layout.row#about-us-recommended-categories-row": {
+    "props": {},
+    "children": ["flex-layout.col#about-us-recommended-categories-col"]
   },
-
-  "rich-text#category": {
-    "props": {
-      "text": "Text Categorie"
-    }
+  "flex-layout.col#about-us-recommended-categories-col": {
+    "props": {},
+    "children": ["slider-layout#all-categories"]
   }
 }
