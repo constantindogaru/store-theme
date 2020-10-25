@@ -114,3 +114,8 @@
     margin-right: 45%;
   }
 }
+
+.flexColChild--categorySliderInfoTitle {
+  height: auto !important;
+  overflow: hidden;
+}

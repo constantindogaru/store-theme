@@ -118,3 +118,19 @@
   font-size: 12px;
   color: black;
 }
+
+.headingLevel5--recommendedCategory {
+  margin-top: 10px;
+}
+
+.headingLevel5--categoryFromSliderTitle {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.paragraph--categoryFromSliderTitle {
+  margin-top: 5px;
+  color: #8e8e8e;
+  cursor: pointer;
+}

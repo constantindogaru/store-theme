@@ -12,7 +12,8 @@
     },
     "children": [
       "rich-text#recommended-categories-title",
-      "flex-layout.row#recommended-categories-row"
+      "flex-layout.row#recommended-categories-row",
+      "slider-layout#all-categories"
     ]
   },
   "rich-text#recommended-categories-title": {
@@ -24,7 +25,11 @@
   },
   "flex-layout.row#recommended-categories-row": {
     "props": {
-      "marginTop": 5
+      "marginTop": 5,
+      "paddingBottom": 5,
+      "border": "bottom",
+      "borderColor": "red",
+      "borderWidth": 2
     },
     "children": [
       "flex-layout.col#recommended-category-highlight-1",
@@ -56,6 +61,7 @@
   },
   "rich-text#recommended-category-highlight-1": {
     "props": {
+      "blockClass": "recommendedCategory",
       "text": "### PRODUSE PENTRU COPII"
     }
   },
@@ -136,6 +142,7 @@
   },
   "rich-text#recommended-category-highlight-2": {
     "props": {
+      "blockClass": "recommendedCategory",
       "text": "##### **PRODUSE VEGANE**",
       "horizontalAlign": "center"
     }
@@ -151,6 +158,7 @@
   },
   "rich-text#recommended-category-highlight-3": {
     "props": {
+      "blockClass": "recommendedCategory",
       "text": "##### **BRÂNZETURI**"
     }
   },
@@ -165,6 +173,7 @@
   },
   "rich-text#recommended-category-highlight-4": {
     "props": {
+      "blockClass": "recommendedCategory",
       "text": "##### **PRODUSE DIN CARNE**"
     }
   },
