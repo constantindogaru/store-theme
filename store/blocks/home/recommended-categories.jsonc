@@ -76,11 +76,13 @@
   },
   "flex-layout.col#recommended-category-highlight-1": {
     "props": {
+      "blockClass": "categoryHighlightedInfoTitle",
       "horizontalAlign": "center"
     },
     "children": [
       "flex-layout.row#recommended-category-highlight-1-image",
-      "rich-text#recommended-category-highlight-1"
+      "rich-text#recommended-category-highlight-1",
+      "rich-text#recommended-category-highlight-products-info-1"
     ]
   },
   "flex-layout.row#recommended-category-highlight-1-image": {
@@ -99,8 +101,14 @@
   },
   "rich-text#recommended-category-highlight-1": {
     "props": {
-      "blockClass": "recommendedCategory",
+      "blockClass": "recommendedCategoryHighlight",
       "text": "### PRODUSE PENTRU COPII"
+    }
+  },
+  "rich-text#recommended-category-highlight-products-info-1": {
+    "props": {
+      "blockClass": "recommendedCategoryHighlight",
+      "text": "59 produse"
     }
   },
   "flex-layout.col#recommended-categories-highlights-2": {
@@ -126,11 +134,13 @@
   },
   "flex-layout.col#recommended-categories-right-row-1-col-1": {
     "props": {
+      "blockClass": "categoryHighlightedInfoTitle",
       "horizontalAlign": "center"
     },
     "children": [
       "flex-layout.row#recommended-categories-right-row-1-col-1-image",
-      "rich-text#recommended-category-highlight-2"
+      "rich-text#recommended-category-highlight-2",
+      "rich-text#recommended-category-highlight-products-info-2"
     ]
   },
   "flex-layout.row#recommended-categories-right-row-1-col-1-image": {
@@ -141,11 +151,13 @@
   },
   "flex-layout.col#recommended-categories-right-row-1-col-2": {
     "props": {
+      "blockClass": "categoryHighlightedInfoTitle",
       "horizontalAlign": "center"
     },
     "children": [
       "flex-layout.row#recommended-categories-right-row-1-col-2-image",
-      "rich-text#recommended-category-highlight-3"
+      "rich-text#recommended-category-highlight-3",
+      "rich-text#recommended-category-highlight-products-info-3"
     ]
   },
   "flex-layout.row#recommended-categories-right-row-1-col-2-image": {
@@ -156,11 +168,13 @@
   },
   "flex-layout.col#recommended-categories-right-row-2-col-1": {
     "props": {
+      "blockClass": "categoryHighlightedInfoTitle",
       "horizontalAlign": "center"
     },
     "children": [
       "flex-layout.row#recommended-categories-right-row-2-col-1-image",
-      "rich-text#recommended-category-highlight-4"
+      "rich-text#recommended-category-highlight-4",
+      "rich-text#recommended-category-highlight-products-info-4"
     ]
   },
   "flex-layout.row#recommended-categories-right-row-2-col-1-image": {
@@ -180,9 +194,15 @@
   },
   "rich-text#recommended-category-highlight-2": {
     "props": {
-      "blockClass": "recommendedCategory",
+      "blockClass": "recommendedCategoryHighlight",
       "text": "##### **PRODUSE VEGANE**",
       "horizontalAlign": "center"
+    }
+  },
+  "rich-text#recommended-category-highlight-products-info-2": {
+    "props": {
+      "blockClass": "recommendedCategoryHighlight",
+      "text": "26 produse"
     }
   },
   "image#recommended-category-highlight-3": {
@@ -196,8 +216,14 @@
   },
   "rich-text#recommended-category-highlight-3": {
     "props": {
-      "blockClass": "recommendedCategory",
+      "blockClass": "recommendedCategoryHighlight",
       "text": "##### **BRÂNZETURI**"
+    }
+  },
+  "rich-text#recommended-category-highlight-products-info-3": {
+    "props": {
+      "blockClass": "recommendedCategoryHighlight",
+      "text": "36 produse"
     }
   },
   "image#recommended-category-highlight-4": {
@@ -211,8 +237,14 @@
   },
   "rich-text#recommended-category-highlight-4": {
     "props": {
-      "blockClass": "recommendedCategory",
+      "blockClass": "recommendedCategoryHighlight",
       "text": "##### **PRODUSE DIN CARNE**"
+    }
+  },
+  "rich-text#recommended-category-highlight-products-info-4": {
+    "props": {
+      "blockClass": "recommendedCategoryHighlight",
+      "text": "66 produse"
     }
   },
   // Used only for spacer

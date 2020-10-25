@@ -131,3 +131,8 @@
   align-self: center;
   border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
+
+.flexColChild--categoryHighlightedInfoTitle {
+  height: auto !important;
+  overflow: hidden;
+}
