@@ -1,0 +1,69 @@
+{
+    "flex-layout.row#recommended-products-wrapper": {
+        "props": {
+            "marginTop": 8,
+            "fullWidth": true
+        },
+        "children": [
+            "flex-layout.col#recommended-products-wrapper"
+        ]
+    },
+    "flex-layout.col#recommended-products-wrapper": {
+        "props": {
+            "width": "100%",
+            "horizontalAlign": "center",
+            "colGap": 7,
+            "blockClass": "recommendedSectionInfoHeader"
+        },
+        "children": [
+            "rich-text#recommended-products-title-1",
+            "flex-layout.row#recommended-products-middle-title-row",
+            "rich-text#recommended-products-title-3"
+        ]
+    },
+    "rich-text#recommended-products-title-1": {
+        "props": {
+            "text": "PRODUSE EXCLUSIVISTE",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#recommended-products-middle-title-row": {
+        "props": {
+            "fullWidth": true,
+            "verticalAlignment": "center"
+        },
+        "children": [
+            "flex-layout.col#vertical-middle-divider",
+            "flex-layout.col#recommended-products-title-middle-col",
+            "flex-layout.col#vertical-middle-divider"
+        ]
+    },
+    "flex-layout.col#recommended-products-title-middle-col": {
+        "props": {
+            "width": "100%"
+        },
+        "children": ["rich-text#recommended-products-title-2"]
+    },
+    "rich-text#recommended-products-title-2": {
+        "props": {
+            "text": "### PRODUSE RECOMADATE",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "recommendedTitleHeader"
+        }
+    },
+    "rich-text#recommended-products-title-3": {
+        "props": {
+            "text": "Gama noastră de produse de top",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#vertical-middle-divider": {
+        "props": {
+            "width": "100%",
+            "blockClass": "verticalMiddleDivider"
+        }
+    }
+}

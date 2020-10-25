@@ -1,15 +1,5 @@
 {
     // TODO Add links for each category.
-    "flex-layout.row#slider-categories-row": {
-        "children": [
-            "flex-layout.col#slider-categories-col"
-        ]
-    },
-    "flex-layout.col#slider-categories-col": {
-        "children": [
-            "slider-layout#all-categories"
-        ]
-    },
     "slider-layout#all-categories": {
         "props": {
             "infinite": true,

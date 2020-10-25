@@ -8,17 +8,55 @@
   "flex-layout.col#recommended-categories-wrapper": {
     "props": {
       "horizontalAlign": "center",
+      "blockClass": "recommendedSectionInfoHeader",
       "colGap": 7
     },
     "children": [
-      "rich-text#recommended-categories-title",
+      "rich-text#recommended-categories-title-1",
+      "flex-layout.row#recommended-categories-middle-title-row",
+      "rich-text#recommended-categories-title-3",
       "flex-layout.row#recommended-categories-row",
       "slider-layout#all-categories"
     ]
   },
-  "rich-text#recommended-categories-title": {
+  "rich-text#recommended-categories-title-1": {
     "props": {
-      "text": "COLECȚIILE FINE FOOD\n### CATEGORII RECOMADATE\nProdusele noastre premium",
+      "text": "COLECȚIILE FINE FOOD",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "#989898"
+    }
+  },
+  "flex-layout.row#recommended-categories-middle-title-row": {
+    "props": {
+      "fullWidth": true,
+      "verticalAlignment": "center"
+    },
+    "children": [
+      "flex-layout.col#vertical-middle-divider",
+      "flex-layout.col#recommended-categories-title-middle-col",
+      "flex-layout.col#vertical-middle-divider"
+    ]
+  },
+  "flex-layout.col#recommended-categories-title-middle-col": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "rich-text#recommended-categories-title-2"
+    ]
+  },
+  "rich-text#recommended-categories-title-2": {
+    "props": {
+      "text": "### CATEGORII RECOMADATE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "recommendedTitleHeader"
+    }
+  },
+  "rich-text#recommended-categories-title-3": {
+    "props": {
+      "text": "Produsele noastre premium",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
