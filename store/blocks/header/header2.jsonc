@@ -47,8 +47,8 @@
   "search-bar": {
     "props": {
       "openAutocompleteOnFocus": true,
-      "autocompleteAlignment": "center"
-      // "displayMode": "search-and-clear-buttons"
+      "autocompleteAlignment": "center",
+      "displayMode": "search-and-clear-buttons"
     }
   },
 
