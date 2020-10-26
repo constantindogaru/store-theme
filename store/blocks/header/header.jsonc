@@ -15,27 +15,10 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#header-1-desktop",
-      "flex-layout.row#header-2-desktop"
-      // "flex-layout.row#header-3-desktop"
+      "flex-layout.row#header-2-desktop",
+      "flex-layout.row#header-3-desktop"
     ]
   },
-
-  // CATEGORIES
-  "header-row#header-3-desktop": {
-    "children": [
-      "flex-layout.col#category-menu"
-    ],
-    "props": {
-      "blockClass": "categorymenu"
-    }
-  },
-  "flex-layout.col#category-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
-  },
-
 
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
@@ -47,7 +30,7 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer",
+      "flex-layout.col#spacer-grow",
       "login",
       "minicart.v2",
       "locale-switcher"

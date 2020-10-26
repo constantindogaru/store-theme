@@ -9,7 +9,7 @@
       "flex-layout.col#spacer20",
       "flex-layout.col#social-networks",
       "flex-layout.col#top-menu",
-      "flex-layout.col#spacer12"
+      "flex-layout.col#spacer20"
     ]
   },
 
@@ -70,30 +70,26 @@
     },
     "children": [
       "menu-item#newsletter",
-      "menu-item#faq"
+      "menu-item#faq",
+      "locale-switcher"
     ]
   },
   // NEWSLETTER
   "menu-item#newsletter": {
     "props": {
-      "id": "menu-item-shop",
+      "id": "menu-item-newsletter",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/newsletter",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "newsletter",
+        "text": "NEWSLETTER"
       },
       "iconProps": {
-        "id": "mpa-gallery",
-        "size": 16,
-        "viewBox": "0 0 16 16"
-        // "activeClassName": "rebel-pink",
-        // "mutedClassName": "c-action-primary"
-      },
-      "iconToTheRight": true
+        "id": "mpa-credit-card"
+      }
     }
   },
   // FAQ

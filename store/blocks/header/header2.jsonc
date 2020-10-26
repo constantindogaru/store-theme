@@ -14,16 +14,31 @@
       "flex-layout.col#logo",
       "flex-layout.col#search-bar",
       "flex-layout.col#spacer22",
-      "flex-layout.col#login",
-      "flex-layout.col#minicart",
-      "flex-layout.col#spacer5"
+      "flex-layout.col#login-menu"
+      // "flex-layout.col#spacer5"
       // "locale-switcher"
+    ]
+  },
+  "flex-layout.col#login-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#login-menu"]
+  },
+  "vtex.menu@2.x:menu#login-menu": {
+    "props": {
+      "blockClass": "loginmenu"
+    },
+    "children": [
+      "flex-layout.col#login",
+      "menu-item#wishlist",
+      "flex-layout.col#minicart"
     ]
   },
   "flex-layout.col#logo": {
     "props": {
       "verticalAlign": "middle",
-      "marginLeft": 7
+      "marginLeft": 3
     },
     "children": ["logo"]
   },
@@ -57,6 +72,22 @@
     "props": {
       "iconLabel": "LOGIN / REGISTER",
       "verticalAlign": "middle"
+    }
+  },
+  "menu-item#wishlist": {
+    "props": {
+      "id": "menu-item-wishlist",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/wishlist",
+        "noFollow": false,
+        "tagTitle": "wishlist"
+      },
+      "iconProps": {
+        "id": "mpa-heart"
+      }
     }
   },
   "flex-layout.col#minicart": {
