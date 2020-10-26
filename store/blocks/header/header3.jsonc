@@ -8,13 +8,15 @@
       "flex-layout.col#category-menu"
     ]
   },
+
+
+  // CATEGORY MENU
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
-
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
       "experimentalOptimizeRendering": true
@@ -111,7 +113,6 @@
       }
     }
   },
-
   // ABOUT US
   "menu-item#about-us": {
     "props": {
@@ -129,25 +130,6 @@
       }
     }
   },
-
-  // CONTACT US
-  "menu-item#contact-us": {
-    "props": {
-      "blockClass": "categorymenu",
-      "id": "menu-item-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "CONTACT US",
-        "text": "CONTACT"
-      }
-    }
-  },
-
   // BLOG
   "menu-item#blog": {
     "props": {
@@ -162,6 +144,23 @@
         "noFollow": true,
         "tagTitle": "BLOG",
         "text": "BLOG"
+      }
+    }
+  },
+  // CONTACT US
+  "menu-item#contact-us": {
+    "props": {
+      "blockClass": "categorymenu",
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "CONTACT US",
+        "text": "CONTACT"
       }
     }
   }

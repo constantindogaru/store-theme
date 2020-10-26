@@ -1,5 +1,4 @@
 {
-  // SEARCH BAR
   "flex-layout.row#header-2-desktop": {
     "props": {
       // "blockClass": "main-header",
@@ -19,6 +18,42 @@
       // "locale-switcher"
     ]
   },
+
+
+  // LOGO
+  "flex-layout.col#logo": {
+    "props": {
+      "verticalAlign": "middle",
+      "marginLeft": 3
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "href": "/",
+      "url": "https://www.fine-food.ro/wp-content/uploads/2020/03/Logo-fine-food-transparent-1300.png",
+      "width": 240
+    }
+  },
+
+
+  // SEARCH BAR
+  "flex-layout.col#search-bar": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar": {
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment": "center"
+      // "displayMode": "search-and-clear-buttons"
+    }
+  },
+
+
+  // LOGIN MENU
   "flex-layout.col#login-menu": {
     "props": {
       "verticalAlign": "middle"
@@ -35,33 +70,6 @@
       "flex-layout.col#minicart"
     ]
   },
-  "flex-layout.col#logo": {
-    "props": {
-      "verticalAlign": "middle",
-      "marginLeft": 3
-    },
-    "children": ["logo"]
-  },
-  "logo": {
-    "props": {
-      "href": "/",
-      "url": "https://www.fine-food.ro/wp-content/uploads/2020/03/Logo-fine-food-transparent-1300.png",
-      "width": 240
-    }
-  },
-  "flex-layout.col#search-bar": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["search-bar"]
-  },
-  "search-bar": {
-    "props": {
-      "openAutocompleteOnFocus": true,
-      "autocompleteAlignment": "center"
-      // "displayMode": "search-and-clear-buttons"
-    }
-  },
   "flex-layout.col#login": {
     "props": {
       "verticalAlign": "middle"
@@ -74,6 +82,7 @@
       "verticalAlign": "middle"
     }
   },
+  // WISHLIST
   "menu-item#wishlist": {
     "props": {
       "id": "menu-item-wishlist",

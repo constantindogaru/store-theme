@@ -1,4 +1,5 @@
 {
+  // automatically detects how much space needs to be filled
   "flex-layout.col#spacer-grow": {
     "props": {
       "width": "grow"

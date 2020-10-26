@@ -13,6 +13,7 @@
     ]
   },
 
+
   // TOP LEFT TEXT
   "flex-layout.col#premium-food": {
     "props": {
@@ -26,6 +27,7 @@
       "blockClass": "premiumfood"
     }
   },
+
 
   // SOCIAL NETWORKS
   "flex-layout.col#social-networks": {
@@ -57,6 +59,7 @@
     }
   },
 
+  
   // TOP MENU
   "flex-layout.col#top-menu": {
     "props": {
