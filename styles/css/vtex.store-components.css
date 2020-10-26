@@ -6,9 +6,9 @@
   text-decoration: underline;
 }
 
-.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+/* .searchBarContainer :global(.vtex-styleguide-9-x-input) {
   max-width: 100%;
-}
+} */
 
 .infoCardContainer--info-card-home {
   max-width: 1520px;
@@ -127,3 +127,14 @@
   font-weight: bold;
   font-size: 30px;
 }
+
+/* .searchBarContainer {
+  width: 200%;
+} */
+
+.autoCompleteOuterContainer {
+  width: 225%;
+}
+/* .searchBarContainer {
+  width: 200%;
+} */

@@ -1,0 +1,132 @@
+{
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#spacer1": {
+    "props": {
+      "width": "1%"
+    }
+  },
+  "flex-layout.col#spacer2": {
+    "props": {
+      "width": "2%"
+    }
+  },
+  "flex-layout.col#spacer3": {
+    "props": {
+      "width": "3%"
+    }
+  },
+  "flex-layout.col#spacer4": {
+    "props": {
+      "width": "4%"
+    }
+  },
+  "flex-layout.col#spacer5": {
+    "props": {
+      "width": "5%"
+    }
+  },
+  "flex-layout.col#spacer6": {
+    "props": {
+      "width": "6%"
+    }
+  },
+  "flex-layout.col#spacer7": {
+    "props": {
+      "width": "7%"
+    }
+  },
+  "flex-layout.col#spacer8": {
+    "props": {
+      "width": "8%"
+    }
+  },
+  "flex-layout.col#spacer9": {
+    "props": {
+      "width": "9%"
+    }
+  },
+  "flex-layout.col#spacer10": {
+    "props": {
+      "width": "10%"
+    }
+  },
+  "flex-layout.col#spacer11": {
+    "props": {
+      "width": "11%"
+    }
+  },
+  "flex-layout.col#spacer12": {
+    "props": {
+      "width": "12%"
+    }
+  },
+  "flex-layout.col#spacer13": {
+    "props": {
+      "width": "13%"
+    }
+  },
+  "flex-layout.col#spacer14": {
+    "props": {
+      "width": "14%"
+    }
+  },
+  "flex-layout.col#spacer15": {
+    "props": {
+      "width": "15%"
+    }
+  },
+  "flex-layout.col#spacer16": {
+    "props": {
+      "width": "16%"
+    }
+  },
+  "flex-layout.col#spacer17": {
+    "props": {
+      "width": "17%"
+    }
+  },
+  "flex-layout.col#spacer18": {
+    "props": {
+      "width": "18%"
+    }
+  },
+  "flex-layout.col#spacer19": {
+    "props": {
+      "width": "19%"
+    }
+  },
+  "flex-layout.col#spacer20": {
+    "props": {
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#spacer21": {
+    "props": {
+      "width": "21%"
+    }
+  },
+  "flex-layout.col#spacer22": {
+    "props": {
+      "width": "22%"
+    }
+  },
+  "flex-layout.col#spacer23": {
+    "props": {
+      "width": "23%"
+    }
+  },
+  "flex-layout.col#spacer24": {
+    "props": {
+      "width": "24%"
+    }
+  },
+  "flex-layout.col#spacer25": {
+    "props": {
+      "width": "25%"
+    }
+  }
+}

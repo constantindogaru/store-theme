@@ -1,0 +1,115 @@
+{
+  "flex-layout.row#header-1-desktop": {
+    "props": {
+      "blockClass": "header-1-desktop"
+    },
+    "children": [
+      "flex-layout.col#spacer12",
+      "flex-layout.col#premium-food",
+      "flex-layout.col#spacer20",
+      "flex-layout.col#social-networks",
+      "flex-layout.col#top-menu",
+      "flex-layout.col#spacer12"
+    ]
+  },
+
+  // TOP LEFT TEXT
+  "flex-layout.col#premium-food": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#premium-food"]
+  },
+  "rich-text#premium-food": {
+    "props": {
+      "text": "**PREMIUM FOOD FOR A WEALTHY MOOD!**",
+      "blockClass": "premiumfood"
+    }
+  },
+
+  // SOCIAL NETWORKS
+  "flex-layout.col#social-networks": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["social-networks"]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.fine-food.ro/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/share?url=https://www.fine-food.ro/"
+        },
+        {
+          "name": "Pinterest",
+          "url": "https://pinterest.com/pin/create/button/?url=https://www.fine-food.ro/&amp;media=https://www.fine-food.ro/wp-includes/images/media/default.png&amp;description=Home+base-rtl/"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.fine-food.ro/"
+        }
+      ]
+    }
+  },
+
+  // TOP MENU
+  "flex-layout.col#top-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#top-menu"]
+  },
+  "vtex.menu@2.x:menu#top-menu": {
+    "props": {
+      "blockClass": "topmenu"
+    },
+    "children": [
+      "menu-item#newsletter",
+      "menu-item#faq"
+    ]
+  },
+  // NEWSLETTER
+  "menu-item#newsletter": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shop"
+      },
+      "iconProps": {
+        "id": "mpa-gallery",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+        // "activeClassName": "rebel-pink",
+        // "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  // FAQ
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "INTREBARI FRECVENTE"
+      }
+    }
+  } 
+}

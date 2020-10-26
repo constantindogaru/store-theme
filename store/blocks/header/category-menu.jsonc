@@ -7,9 +7,7 @@
       "menu-item#browse-categories",
       "menu-item#about-us",
       "menu-item#contact-us",
-      "menu-item#faq",
       "menu-item#blog",
-      "menu-item#newsletter",
       "menu-item#wishlist"
     ]
   },
@@ -131,23 +129,6 @@
     }
   },
 
-  // FAQ
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
-      }
-    }
-  },
-
   // BLOG
   "menu-item#blog": {
     "props": {
@@ -161,23 +142,6 @@
         "noFollow": true,
         "tagTitle": "BLOG",
         "text": "BLOG"
-      }
-    }
-  },
-
-  // NEWSLETTER
-  "menu-item#newsletter": {
-    "props": {
-      "id": "menu-item-blog",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/newsletter",
-        "noFollow": true,
-        "tagTitle": "NEWSLETTER",
-        "text": "NEWSLETTER"
       }
     }
   },
