@@ -8,13 +8,13 @@
   "store.custom#faq": {
     "path": "/faq"
   },
-  "store.custom#blog": {
-    "path": "/blog"
-  },
   "store.custom#newsletter": {
     "path": "/newsletter"
   },
   "store.custom#wishlist": {
     "path": "/wishlist"
+  },
+  "store.blog-home": {
+    "path": "/blog"
   }
 }

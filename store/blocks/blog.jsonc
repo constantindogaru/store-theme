@@ -1,14 +1,7 @@
 {
-  "store.custom#blog": {
+  "store.blog-home": {
     "blocks": [
-      "rich-text#blog"
+      "blog-all-posts.wordpress-all-posts"
     ]
-  },
-
-  "rich-text#blog": {
-    "props": {
-      "text": "BLOG TEST",
-      "blockClass": "blog"
-    }
   }
 }
