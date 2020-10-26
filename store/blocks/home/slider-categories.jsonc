@@ -1,0 +1,577 @@
+{
+    // TODO Add links for each category.
+    "slider-layout#all-categories": {
+        "props": {
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "sliderAllCategories",
+            "fullWidth": false,
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            }
+        },
+        "children": [
+            "flex-layout.col#category-1",
+            "flex-layout.col#category-2",
+            "flex-layout.col#category-3",
+            "flex-layout.col#category-4",
+            "flex-layout.col#category-5",
+            "flex-layout.col#category-6",
+            "flex-layout.col#category-7",
+            "flex-layout.col#category-8",
+            "flex-layout.col#category-9",
+            "flex-layout.col#category-10",
+            "flex-layout.col#category-11",
+            "flex-layout.col#category-12",
+            "flex-layout.col#category-13",
+            "flex-layout.col#category-14",
+            "flex-layout.col#category-15",
+            "flex-layout.col#category-16"
+        ]
+    },
+    "flex-layout.col#category-1": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-1",
+            "rich-text#category-1",
+            "rich-text#category-products-info-1"
+        ]
+    },
+    "image#category-1": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-legume-fructe-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **FRUCTE**"
+        }
+    },
+    "rich-text#category-products-info-1": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "33 produse"
+        }
+    },
+    "flex-layout.col#category-2": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-2",
+            "rich-text#category-2",
+            "rich-text#category-products-info-2"
+        ]
+    },
+    "image#category-2": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-low-fat-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **MEZELURI LOW CALORIES, FITNESS**"
+        }
+    },
+    "rich-text#category-products-info-2": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "2 produse"
+        }
+    },
+    "flex-layout.col#category-3": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-3",
+            "rich-text#category-3",
+            "rich-text#category-products-info-3"
+        ]
+    },
+    "image#category-3": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-drinks-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-3": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **APĂ MINERALĂ PLATĂ ȘI CARBOGAZOASĂ, BĂUTURI RĂCORITOARE, BĂUTURI DIVERSE**"
+        }
+    },
+    "rich-text#category-products-info-3": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "21 produse"
+        }
+    },
+    "flex-layout.col#category-4": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-4",
+            "rich-text#category-4",
+            "rich-text#category-products-info-4"
+        ]
+    },
+    "image#category-4": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-condimente-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-4": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **SARE, CONDIMENTE ȘI SOSURI**"
+        }
+    },
+    "rich-text#category-products-info-4": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "21 produse"
+        }
+    },
+    "flex-layout.col#category-5": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-5",
+            "rich-text#category-5",
+            "rich-text#category-products-info-5"
+        ]
+    },
+    "image#category-5": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-panificatie-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-5": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **PATISERIE ȘI PANIFICATIE**"
+        }
+    },
+    "rich-text#category-products-info-5": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "47 produse"
+        }
+    },
+    "flex-layout.col#category-6": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-6",
+            "rich-text#category-6",
+            "rich-text#category-products-info-6"
+        ]
+    },
+    "image#category-6": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-miere-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-6": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **MIERE**"
+        }
+    },
+    "rich-text#category-products-info-6": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "8 produse"
+        }
+    },
+    "flex-layout.col#category-7": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-7",
+            "rich-text#category-7",
+            "rich-text#category-products-info-7"
+        ]
+    },
+    "image#category-7": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/cat-paste-300x300.png",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-7": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **PASTE**"
+        }
+    },
+    "rich-text#category-products-info-7": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "15 produse"
+        }
+    },
+    "flex-layout.col#category-8": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-8",
+            "rich-text#category-8",
+            "rich-text#category-products-info-8"
+        ]
+    },
+    "image#category-8": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-peste-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-8": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **PEȘTE**"
+        }
+    },
+    "rich-text#category-products-info-8": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "41 produse"
+        }
+    },
+    "flex-layout.col#category-9": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-9",
+            "rich-text#category-9",
+            "rich-text#category-products-info-9"
+        ]
+    },
+    "image#category-9": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/cat-bio-300x300.png",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-9": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **PRODUSE BIO**"
+        }
+    },
+    "rich-text#category-products-info-9": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "42 produse"
+        }
+    },
+    "flex-layout.col#category-10": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-10",
+            "rich-text#category-10",
+            "rich-text#category-products-info-10"
+        ]
+    },
+    "image#category-10": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-fitness-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-10": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **SEMIPREPARATE**"
+        }
+    },
+    "rich-text#category-products-info-10": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "5 produse"
+        }
+    },
+    "flex-layout.col#category-11": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-11",
+            "rich-text#category-11",
+            "rich-text#category-products-info-11"
+        ]
+    },
+    "image#category-11": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-trufe-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-11": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **TRUFE**"
+        }
+    },
+    "rich-text#category-products-info-11": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "10 produse"
+        }
+    },
+    "flex-layout.col#category-12": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-12",
+            "rich-text#category-12",
+            "rich-text#category-products-info-12"
+        ]
+    },
+    "image#category-12": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/cat-vanta-300x300.png",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-12": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **VÂNAT**"
+        }
+    },
+    "rich-text#category-products-info-12": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "24 produse"
+        }
+    },
+    "flex-layout.col#category-13": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-13",
+            "rich-text#category-13",
+            "rich-text#category-products-info-13"
+        ]
+    },
+    "image#category-13": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-sampanie-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-13": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **VINURI**"
+        }
+    },
+    "rich-text#category-products-info-13": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "20 produse"
+        }
+    },
+    "flex-layout.col#category-14": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-14",
+            "rich-text#category-14",
+            "rich-text#category-products-info-14"
+        ]
+    },
+    "image#category-14": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-bere-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-14": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **BERE, CIDRU**"
+        }
+    },
+    "rich-text#category-products-info-14": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "21 produse"
+        }
+    },
+    "flex-layout.col#category-15": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-15",
+            "rich-text#category-15",
+            "rich-text#category-products-info-15"
+        ]
+    },
+    "image#category-15": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-conserve-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-15": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **CONSERVE**"
+        }
+    },
+    "rich-text#category-products-info-15": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "13 produse"
+        }
+    },
+    "flex-layout.col#category-16": {
+        "props": {
+            "blockClass": "categorySliderInfoTitle",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#category-16",
+            "rich-text#category-16",
+            "rich-text#category-products-info-16"
+        ]
+    },
+    "image#category-16": {
+        "props": {
+            "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-dulciuri-300x300.jpg",
+            "maxHeight": 300,
+            "blockClass": "zoomIn"
+        }
+    },
+    "rich-text#category-16": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "##### **DULCIURI**"
+        }
+    },
+    "rich-text#category-products-info-16": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "categoryFromSliderTitle",
+            "text": "28 produse"
+        }
+    }
+}

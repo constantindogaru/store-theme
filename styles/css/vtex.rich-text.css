@@ -118,3 +118,37 @@
   font-size: 11.5px;
   color: black;
 }
+
+.headingLevel5--categoryFromSliderTitle {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.paragraph--categoryFromSliderTitle {
+  margin-top: 5px;
+  color: #8e8e8e;
+  cursor: pointer;
+}
+
+.headingLevel3--recommendedTitleHeader {
+  margin: 0;
+}
+
+.headingLevel3--recommendedCategoryHighlight {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.headingLevel5--recommendedCategoryHighlight {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.paragraph--recommendedCategoryHighlight {
+  margin-top: 5px;
+  color: #8e8e8e;
+  cursor: pointer;
+}

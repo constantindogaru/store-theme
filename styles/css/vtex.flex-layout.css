@@ -118,3 +118,26 @@
 .flexRow--header-1-desktop {
   margin-top: -0.5%;
 }
+
+.flexColChild--categorySliderInfoTitle {
+  height: auto !important;
+  overflow: hidden;
+}
+
+.flexColChild--recommendedSectionInfoHeader {
+  width: 100%;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.flexCol--verticalMiddleDivider {
+  height: 0;
+  align-self: center;
+  border-bottom: 1px solid rgba(129, 129, 129, 0.2);
+}
+
+.flexColChild--categoryHighlightedInfoTitle {
+  height: auto !important;
+  overflow: hidden;
+  max-width: 100%;
+}
