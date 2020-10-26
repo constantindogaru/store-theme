@@ -13,9 +13,8 @@
       "flex-layout.col#logo",
       "flex-layout.col#search-bar",
       "flex-layout.col#spacer22",
-      "flex-layout.col#login-menu"
-      // "flex-layout.col#spacer5"
-      // "locale-switcher"
+      "flex-layout.col#login-menu",
+      "flex-layout.col#spacer3"
     ]
   },
 
@@ -58,18 +57,19 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#login-menu"]
+    "children": ["flex-layout.row#login-menu"]
   },
-  "vtex.menu@2.x:menu#login-menu": {
+  "flex-layout.row#login-menu": {
     "props": {
-      "blockClass": "loginmenu"
+      "preventHorizontalStretch": true
     },
     "children": [
       "flex-layout.col#login",
-      "menu-item#wishlist",
+      "flex-layout.col#wishlist",
       "flex-layout.col#minicart"
     ]
   },
+  // LOGIN
   "flex-layout.col#login": {
     "props": {
       "verticalAlign": "middle"
@@ -83,8 +83,15 @@
     }
   },
   // WISHLIST
+  "flex-layout.col#wishlist": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["menu-item#wishlist"]
+  },
   "menu-item#wishlist": {
     "props": {
+      "blockClass": "wishlist",
       "id": "menu-item-wishlist",
       "type": "custom",
       "highlight": false,
@@ -99,11 +106,17 @@
       }
     }
   },
+  // MINICART
   "flex-layout.col#minicart": {
     "props": {
       "verticalAlign": "middle",
       "marginRight": 10
     },
     "children": ["minicart"]
+  },
+  "minicart": {
+    "props": {
+      "openOnHover": true
+    }
   }
 }

@@ -4,12 +4,12 @@
       "blockClass": "header-1-desktop"
     },
     "children": [
-      "flex-layout.col#spacer12",
+      "flex-layout.col#spacer11",
       "flex-layout.col#premium-food",
       "flex-layout.col#spacer20",
       "flex-layout.col#social-networks",
       "flex-layout.col#top-menu",
-      "flex-layout.col#spacer20"
+      "flex-layout.col#spacer21"
     ]
   },
 
