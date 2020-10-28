@@ -16,5 +16,8 @@
   },
   "store.blog-home": {
     "path": "/blog"
+  },
+  "store.blog-post": {
+    "path": "/blog/post/:slug"
   }
 }

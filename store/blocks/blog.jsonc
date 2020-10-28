@@ -3,5 +3,10 @@
     "blocks": [
       "blog-all-posts.wordpress-all-posts"
     ]
+  },
+  "blog-all-posts.wordpress-all-posts": {
+    "props": {
+      "customDomainSlug": "blog"
+    }
   }
 }
