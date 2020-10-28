@@ -1,0 +1,48 @@
+@media screen and (min-width: 42em) {
+  .listFlexItem--blogHomeListItem {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .listFlexItem--blogHomeListItem {
+    width: 33.3333%;
+  }
+}
+
+.listContainer--blogHomeListItem {
+  width: 95%;
+  max-width: 1222px !important;
+}
+
+.teaserTitle--blogHomeListItem {
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.teaserTitleLink--blogHomeListItem {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+}
+
+.teaserTitle--blogHomeListItem:hover .teaserTitleLink--blogHomeListItem {
+  color: #83b735;
+}
+
+.listFlexItem--blogHomeListItem :global(.vtex-card):hover {
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.2) !important;
+}
+
+.listFlexItem--blogHomeListItem :global(.vtex-card) {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12) !important;
+  transition: box-shadow 0.35s ease;
+}
+
+:global(.vtex-card) {
+  /* 
+   * Cannot target the paragraph from excerpt since there is no CSS Handle for that in vtex.
+   * This is the best we can do for now to ensure the text is grey in the teaser post.
+   */
+  color: rgb(119, 119, 119);
+}

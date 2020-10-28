@@ -1,0 +1,12 @@
+{
+    "store.blog-category": {
+        "blocks": [
+            "blog-category-list.wordpress-category-list"
+        ]
+    },
+    "blog-category-list.wordpress-category-list": {
+        "props": {
+            "customDomainSlug": "blog"
+        }
+    }
+}

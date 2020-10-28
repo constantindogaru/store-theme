@@ -6,7 +6,8 @@
   },
   "blog-all-posts.wordpress-all-posts": {
     "props": {
-      "customDomainSlug": "blog"
+      "customDomainSlug": "blog",
+      "blockClass": "blogHomeListItem"
     }
   }
 }
