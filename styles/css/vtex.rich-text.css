@@ -153,3 +153,42 @@
   color: #8e8e8e;
   cursor: pointer;
 }
+
+.container--contactUsTopTitleForm {
+  margin-bottom: 30px;
+}
+
+.headingLevel4--contactUsTopTitleForm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.headingLevel4--contactUsBottomTitleForm {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.paragraph--contactUsTopTitleForm {
+  font-size: 14px;
+  color: #777777;
+}
+
+.paragraph--contactUsBottomTitleForm {
+  font-size: 14px;
+  color: #777777;
+}
+
+:global(.vtex-input) :global(.vtex-input__label) {
+  font-size: 14px;
+  color: #777777;
+}
+
+:global(.vtex-textarea) :global(.vtex-textarea__label) {
+  font-size: 14px;
+  color: #777777;
+  border-radius: 0px;
+}
+
+:global(.vtex-input-prefix__group) {
+  border-radius: 0px;
+}

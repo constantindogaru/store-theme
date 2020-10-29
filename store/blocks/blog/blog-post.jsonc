@@ -1,13 +1,72 @@
 {
     "store.blog-post": {
         "blocks": [
+            "blog-breadcrumb.wordpress-breadcrumb",
             "blog-post-details.wordpress-post-details",
-            "blog-post-container.wordpress"
+            "blog-post-container.wordpress",
+            "blog-latest-posts-preview.wordpress-latest-posts-preview"
         ]
     },
+    "blog-breadcrumb.wordpress-breadcrumb": {
+        "props": {
+            "blockClass": "detailedBlogPost"
+        }
+    },
     "blog-post-details.wordpress-post-details": {
+        "props": {
+            "blockClass": "detailedBlogPost"
+        },
         "children": [
             "blog-related-products.wordpress-related-products"
         ]
+    },
+    "blog-post-container.wordpress": {
+        "props": {
+            "blockClass": "detailedBlogPost"
+        },
+        "children": [
+            "social-networks#blog-post",
+            "blog-post-navigation.wordpress"
+        ]
+    },
+    // TODO How do we get the current url for sharing on social networks?
+    "social-networks#blog-post": {
+        "props": {
+            "showInColor": true,
+            "blockClass": "detailedBlogPost",
+            "socialNetworks": [
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.fine-food.ro/"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/share?url=https://www.fine-food.ro/"
+                },
+                {
+                    "name": "Pinterest",
+                    "url": "https://pinterest.com/pin/create/button/?url=https://www.fine-food.ro/&amp;media=https://www.fine-food.ro/wp-includes/images/media/default.png&amp;description=Home+base-rtl/"
+                },
+                {
+                    "name": "LinkedIn",
+                    "url": "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.fine-food.ro/"
+                }
+            ]
+        }
+    },
+    "blog-post-navigation.wordpress": {
+        "props": {
+            "blockClass": "detailedBlogPost"
+        }
+    },
+    "blog-latest-posts-preview.wordpress-latest-posts-preview": {
+        "props": {
+            "title": "Recente",
+            "useTextOverlays": false,
+            "customDomainSlug": "blog",
+            "showAuthors": true,
+            "showExcerpts":  true,
+            "blockClass": "detailedBlogPost"
+        }
     }
 }
