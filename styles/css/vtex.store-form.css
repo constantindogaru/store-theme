@@ -1,0 +1,12 @@
+.formSubmitButton--formContactUs :global(.vtex-button) {
+  background-color: #f3f3f3;
+  border-color: #f3f3f3;
+  color: #3e3e3e;
+  border-radius: 0px;
+  font-size: 13px;
+}
+
+.formSubmitButton--formContactUs :global(.vtex-button):hover {
+  background-color: rgb(221, 221, 221);
+  border-color: rgb(221, 221, 221);
+}
