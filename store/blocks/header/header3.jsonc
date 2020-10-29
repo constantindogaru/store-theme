@@ -1,8 +1,5 @@
 {
   "flex-layout.row#header-3-desktop": {
-    "props": {
-      "blockClass": "categorymenu"
-    },
     "children": [
       "flex-layout.col#spacer12",
       "flex-layout.col#category-menu"
@@ -31,13 +28,13 @@
   // BROWSE CATEGORIES
   "menu-item#browse-categories": {
     "props": {
-      "blockClass": "categorymenu",
+      "blockClass": "browse-categories",
       "id": "menu-item-browse-categories",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/",
+        "href": "/shop",
         "noFollow": false,
         "tagTitle": "BROWSE CATEGORIES",
         "text": "BROWSE CATEGORIES"
@@ -52,71 +49,147 @@
   },
   "vtex.menu@2.x:submenu#browse-categories": {
     "props": {
-      "width": "auto"
+      "blockClass": "submenu-browse-categories"
     },
     "children": [
-      "vtex.menu@2.x:menu#browse-categories"
+      "flex-layout.col#category-wrapper"
     ]
   },
-  "vtex.menu@2.x:menu#browse-categories": {
+  "flex-layout.col#category-wrapper": {
     "props": {
-      "orientation": "vertical"
+      "blockClass": "category-wrapper"
     },
     "children": [
-      "menu-item#browse-categories-clothing",
-      "menu-item#browse-categories-accessories",
-      "menu-item#browse-categories-eyeglasses"
+      "menu-item#primary-oferte-speciale",
+      "menu-item#primary-produse-noi",
+      "menu-item#primary-apa-bauturi-racoritoare",
+      "menu-item#primary-bere-cidru",
+      "menu-item#primary-ciorbe",
+      "menu-item#primary-cafea",
+      "menu-item#primary-carne-vanat-specialitati"
     ]
   },
-  "menu-item#browse-categories-clothing": {
+  "menu-item#primary-oferte-speciale": {
     "props": {
-      "id": "menu-item-browse-categories-clothing",
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-oferte-speciale",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/oferte-speciale/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "Oferte speciale"
+      }
+    }
+    // "blocks": ["vtex.menu@2.x:submenu#clothing"] // Defining a submenu
+  },
+  // "vtex.menu@2.x:submenu#clothing": {
+  //   "children": [
+  //     "flex-layout.col#clothing"
+  //   ]
+  // },
+  // "flex-layout.col#clothing": {
+  //   "props": {
+  //     "marginLeft": 10
+  //   },
+  //   "children": ["menu-item#about-us", "menu-item#about-us", "menu-item#about-us", "menu-item#about-us"]
+  // },
+  "menu-item#primary-produse-noi": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-produse-noi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/produse-noi/",
+        "noFollow": false,
+        "text": "Produse noi"
       }
     }
   },
-  "menu-item#browse-categories-accessories": {
+  "menu-item#primary-apa-bauturi-racoritoare": {
     "props": {
-      "id": "menu-item-browse-categories-accessories",
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-apa-bauturi-racoritoare",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/product-category/apa-bauturi-racoritoare/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "text": "Apă minerala plata si carbogazoasa, băuturi răcoritoare, bauturi diverse"
       }
     }
   },
-  "menu-item#browse-categories-eyeglasses": {
+  "menu-item#primary-bere-cidru": {
     "props": {
-      "id": "menu-item-browse-categories-eyeglasses",
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-bere-cidru",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/product-category/bere-cidru/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "text": "Bere, Cidru"
+      }
+    }
+  },
+  "menu-item#primary-ciorbe": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-ciorbe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/ciorbe/",
+        "noFollow": false,
+        "text": "Ciorbe"
+      }
+    }
+  },
+  "menu-item#primary-cafea": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-cafea",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/cafea/",
+        "noFollow": false,
+        "text": "Cafea"
+      }
+    }
+  },
+  "menu-item#primary-carne-vanat-specialitati": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-carne-vanat-specialitati",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/carne-vanat-specialitati/",
+        "noFollow": false,
+        "text": "Carne, vânat, specialități"
       }
     }
   },
   // ABOUT US
   "menu-item#about-us": {
     "props": {
-      "blockClass": "categorymenu",
+      "blockClass": "headermenu",
       "id": "menu-item-about-us",
       "type": "custom",
       "iconId": null,
@@ -133,7 +206,7 @@
   // BLOG
   "menu-item#blog": {
     "props": {
-      "blockClass": "categorymenu",
+      "blockClass": "headermenu",
       "id": "menu-item-blog",
       "type": "custom",
       "iconId": null,
@@ -150,7 +223,7 @@
   // CONTACT US
   "menu-item#contact-us": {
     "props": {
-      "blockClass": "categorymenu",
+      "blockClass": "headermenu",
       "id": "menu-item-contact-us",
       "type": "custom",
       "iconId": null,

@@ -13,7 +13,9 @@
 .socialNetworkImage {
   width: 50%;
 }
-/* 
-.socialNetworksContainer {
-  margin-top: 10px;
-} */
+
+.socialNetworkLink--linkedin {
+  border-right-style: solid;
+  border-color: #D3D3D3;
+  border-width: 1px;
+}

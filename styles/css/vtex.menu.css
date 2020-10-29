@@ -1,10 +1,90 @@
 .styledLinkContent {
   font-size: 12px;
-  /* margin-top: 4px; */
 }
 
-.styledLinkContent--categorymenu {
-  font-weight: bold;
-  font-size: 13px;
-  /* margin-top: 4px; */
+/* styles for header1 */
+/* ------------------ */
+.styledLinkContent--topmenu {
+  color: #333;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Lato",Arial,Helvetica,sans-serif;
 }
+.styledLinkContainer--topmenu {
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 3px;
+}
+/* ------------------ */
+
+
+/* styles for header2 */
+/* ------------------ */
+.styledLinkContent--wishlist {
+  margin-left: 0px;
+}
+.styledLinkContainer--wishlist {
+  margin-left: 0px;
+}
+.styledLinkIcon--wishlist {
+  color: #979899;
+}
+/* ------------------ */
+
+
+/* styles for header3 */
+/* ------------------ */
+.styledLinkContent--browse-categories {
+  width: 72%;
+  color: #333;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "Lato",Arial,Helvetica,sans-serif;
+}
+.styledLinkContainer--browse-categories {
+  margin-left: 0px;
+}
+.menuItem--browse-categories {
+  width: 20%;
+  margin-right: 30px;
+}
+.styledLinkIcon--browse-categories {
+  margin-top: -2px;
+}
+
+.styledLinkContent--headermenu {
+  font-family: "Lato",Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+.styledLinkContainer--headermenu {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.menuItem--headermenu {
+  border-right-style: solid;
+  border-color: #D3D3D3;
+  border-width: 1px;
+}
+/* ------------------ */
+
+/* styles for menu drop down */
+/* ------------------------- */
+.styledLinkContent--primary-category {
+  white-space: initial;
+  word-break: normal;
+  width: 120%;
+  font-family: "Lato",Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: #333;
+}
+.styledLinkContainer--primary-category {
+  margin-left: 20px;
+}
+.menuItem--primary-category {
+  border-color: lightgray;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+/* ------------------------- */

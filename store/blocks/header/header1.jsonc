@@ -23,7 +23,7 @@
   },
   "rich-text#premium-food": {
     "props": {
-      "text": "**PREMIUM FOOD FOR A WEALTHY MOOD!**",
+      "text": "PREMIUM FOOD FOR A WEALTHY MOOD!",
       "blockClass": "premiumfood"
     }
   },
@@ -68,9 +68,6 @@
     "children": ["vtex.menu@2.x:menu#top-menu"]
   },
   "vtex.menu@2.x:menu#top-menu": {
-    "props": {
-      "blockClass": "topmenu"
-    },
     "children": [
       "menu-item#newsletter",
       "menu-item#faq",
@@ -80,6 +77,7 @@
   // NEWSLETTER
   "menu-item#newsletter": {
     "props": {
+      "blockClass": "topmenu",
       "id": "menu-item-newsletter",
       "type": "custom",
       "highlight": false,
@@ -98,6 +96,7 @@
   // FAQ
   "menu-item#faq": {
     "props": {
+      "blockClass": "topmenu",
       "id": "menu-item-faq",
       "type": "custom",
       "iconId": null,
