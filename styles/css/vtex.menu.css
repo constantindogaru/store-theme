@@ -70,6 +70,10 @@
 
 /* styles for menu drop down */
 /* ------------------------- */
+.submenuWrapper--submenu-browse-categories {
+  margin-top: -12px;
+  padding-bottom: 0px;
+}
 .styledLinkContent--primary-category {
   white-space: initial;
   word-break: normal;
