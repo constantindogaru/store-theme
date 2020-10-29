@@ -138,3 +138,19 @@
 /* .searchBarContainer {
   width: 200%;
 } */
+
+.imageElement--imageSliderBrands {
+  cursor: pointer;
+  opacity: 0.5;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: opacity 0.3s ease, -webkit-filter 0.3s ease;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+  transition: filter 0.3s ease, opacity 0.3s ease, -webkit-filter 0.3s ease;
+}
+
+.imageElement--imageSliderBrands:hover {
+  opacity: 1;
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}

@@ -12,7 +12,7 @@
   "flex-layout.row#footer-1-desktop": {
     "children": ["slider-layout#brands"],
     "props": {
-      "blockClass": "sliderbrands"
+      "blockClass": "sliderBrands"
     }
   },
 
