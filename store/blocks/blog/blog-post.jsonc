@@ -25,8 +25,34 @@
             "blockClass": "detailedBlogPost"
         },
         "children": [
+            "social-networks#blog-post",
             "blog-post-navigation.wordpress"
         ]
+    },
+    // TODO How do we get the current url for sharing on social networks?
+    "social-networks#blog-post": {
+        "props": {
+            "showInColor": true,
+            "blockClass": "detailedBlogPost",
+            "socialNetworks": [
+                {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.fine-food.ro/"
+                },
+                {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/share?url=https://www.fine-food.ro/"
+                },
+                {
+                    "name": "Pinterest",
+                    "url": "https://pinterest.com/pin/create/button/?url=https://www.fine-food.ro/&amp;media=https://www.fine-food.ro/wp-includes/images/media/default.png&amp;description=Home+base-rtl/"
+                },
+                {
+                    "name": "LinkedIn",
+                    "url": "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.fine-food.ro/"
+                }
+            ]
+        }
     },
     "blog-post-navigation.wordpress": {
         "props": {

@@ -17,3 +17,23 @@
 .socialNetworksContainer {
   margin-top: 10px;
 } */
+
+.socialNetworkWrapper--detailedBlogPost {
+  max-width: 1222px !important;
+  margin: auto;
+  width: 95%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 2px solid rgba(113, 113, 113, 0.15);
+}
+
+.socialNetworksContainer--detailedBlogPost {
+  justify-content: center !important;
+}
+
+.socialNetworkImage--detailedBlogPost {
+  width: 95% !important;
+}
