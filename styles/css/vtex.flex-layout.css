@@ -166,14 +166,9 @@
   margin-bottom: 1rem;
 }
 
-.flexRow--logo-header {
+.flexRow--categories-menu {
   border-color: lightgray;
   border-bottom-style: solid;
-  border-width: 1px;
-}
-
-.flexRow--home-images {
-  border-color: lightgray;
   border-top-style: solid;
   border-width: 1px;
 }

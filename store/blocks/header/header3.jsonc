@@ -1,5 +1,8 @@
 {
   "flex-layout.row#header-3-desktop": {
+    "props": {
+      "blockClass": "categories-menu"
+    },
     "children": [
       "flex-layout.col#spacer12",
       "flex-layout.col#category-menu"
