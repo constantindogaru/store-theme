@@ -2,10 +2,18 @@
   .listFlexItem--blogHomeListItem {
     width: 50%;
   }
+
+  .latestPostsBlockFlexItem--detailedBlogPost {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 64em) {
   .listFlexItem--blogHomeListItem {
+    width: 33.3333%;
+  }
+
+  .latestPostsBlockFlexItem--detailedBlogPost {
     width: 33.3333%;
   }
 }
@@ -26,7 +34,22 @@
   color: rgb(42, 42, 42);
 }
 
+.teaserTitle--detailedBlogPost {
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.teaserTitleLink--detailedBlogPost {
+  text-decoration: none;
+  color: rgb(42, 42, 42);
+}
+
 .teaserTitle--blogHomeListItem:hover .teaserTitleLink--blogHomeListItem {
+  color: #83b735;
+}
+
+.teaserTitle--detailedBlogPost:hover .teaserTitleLink--detailedBlogPost {
   color: #83b735;
 }
 
@@ -34,7 +57,16 @@
   box-shadow: 0 0 9px rgba(0, 0, 0, 0.2) !important;
 }
 
+.latestPostsBlockFlexItem--detailedBlogPost :global(.vtex-card):hover {
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.2) !important;
+}
+
 .listFlexItem--blogHomeListItem :global(.vtex-card) {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12) !important;
+  transition: box-shadow 0.35s ease;
+}
+
+.latestPostsBlockFlexItem--detailedBlogPost :global(.vtex-card) {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.12) !important;
   transition: box-shadow 0.35s ease;
 }
@@ -45,4 +77,76 @@
    * This is the best we can do for now to ensure the text is grey in the teaser post.
    */
   color: rgb(119, 119, 119);
+}
+
+.breadcrumbContainer--detailedBlogPost {
+  max-width: 1222px !important;
+  margin-top: 24px;
+}
+
+.breadcrumbSeparator--detailedBlogPost {
+  color: #3f3f3f;
+}
+
+.breadcrumbHomeLink--detailedBlogPost {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+.breadcrumbHomeLink--detailedBlogPost:hover {
+  color: rgb(119, 119, 119);
+}
+
+.breadcrumbLink--detailedBlogPost {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+
+.breadcrumbLink--detailedBlogPost:hover {
+  color: rgb(119, 119, 119);
+}
+
+.breadcrumbCurrentPage--detailedBlogPost {
+  color: #83b735;
+  font-weight: bold;
+}
+
+.postFlex--detailedBlogPost {
+  max-width: 1222px !important;
+}
+
+.postContainer--detailedBlogPost {
+  padding: 0;
+}
+
+.postBody--detailedBlogPost {
+  color: rgb(119, 119, 119);
+}
+
+.postNavigationContainer--detailedBlogPost {
+  max-width: 1222px !important;
+}
+
+.latestPostsBlockContainer--detailedBlogPost {
+  max-width: 1222px !important;
+  margin: auto;
+}
+
+.postNavigationFlexItem--detailedBlogPost {
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+}
+
+.postNavigationLink--detailedBlogPost {
+  text-decoration: none;
+  color: #3f3f3f;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.postNavigationFlexItem--detailedBlogPost:hover
+  .postNavigationLink--detailedBlogPost {
+  color: #83b735;
 }

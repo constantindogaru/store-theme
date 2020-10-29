@@ -1,13 +1,46 @@
 {
     "store.blog-post": {
         "blocks": [
+            "blog-breadcrumb.wordpress-breadcrumb",
             "blog-post-details.wordpress-post-details",
-            "blog-post-container.wordpress"
+            "blog-post-container.wordpress",
+            "blog-latest-posts-preview.wordpress-latest-posts-preview"
         ]
     },
+    "blog-breadcrumb.wordpress-breadcrumb": {
+        "props": {
+            "blockClass": "detailedBlogPost"
+        }
+    },
     "blog-post-details.wordpress-post-details": {
+        "props": {
+            "blockClass": "detailedBlogPost"
+        },
         "children": [
             "blog-related-products.wordpress-related-products"
         ]
+    },
+    "blog-post-container.wordpress": {
+        "props": {
+            "blockClass": "detailedBlogPost"
+        },
+        "children": [
+            "blog-post-navigation.wordpress"
+        ]
+    },
+    "blog-post-navigation.wordpress": {
+        "props": {
+            "blockClass": "detailedBlogPost"
+        }
+    },
+    "blog-latest-posts-preview.wordpress-latest-posts-preview": {
+        "props": {
+            "title": "Recente",
+            "useTextOverlays": false,
+            "customDomainSlug": "blog",
+            "showAuthors": true,
+            "showExcerpts":  true,
+            "blockClass": "detailedBlogPost"
+        }
     }
 }
