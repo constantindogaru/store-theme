@@ -3,6 +3,7 @@
     "blocks": [
       "stack-layout#about-us-top-banner",
       "flex-layout.row#about-us-description",
+      "flex-layout.row#social-network-about-us",
       "flex-layout.row#about-us-contact-block",
       "flex-layout.row#about-us-recommended-categories-row"
     ]
@@ -39,6 +40,14 @@
       "horizontalAlign": "center"
     }
   },
+  "flex-layout.row#social-network-about-us": {
+    "props": {
+      "blockClass": "aboutUsDescriptionSocialNetworks"
+    },
+    "children": [
+      "social-networks#about-us"
+    ]
+  },
   "flex-layout.col#spacer-middle": {
     "props": {
       "width": "3%"
@@ -70,6 +79,29 @@
       "text": "Umbrela de protectie a Fine-food este sustinuta de toate brand-urile cu greutate pe care le comercializam. Importam din cele mai recunoscute tari pentru valoarea lor din industria alimentara ingrijita: Austria, Olanda, Franta, Grecia, Anglia, Statele Unite ale Americii s.a. Produsele noastre, fie ca apartin categoriei carnurilor, branzeturilor, ape minerale sau legumelor, isi au originea in zone ingrijite si cu traditie indelungata, special construite pentru obtinerea unor rezultate *premium*.\n\nAlaturarea cu produsele culinare premium s-a identificat din atentia pe care o dedicam clientilor nostri. Regulile de transport, depozitare si comercializare au un statut strict si riguros, tocmai pentru a pastra calitatea naturala si nutritiva a produselor.",
       "font": "t-small",
       "blockClass": "aboutUsDescriptionText"
+    }
+  },
+  "social-networks#about-us": {
+    "props": {
+      "blockClass": "aboutUsDescriptionSocialNetworks",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.fine-food.ro/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/share?url=https://www.fine-food.ro/"
+        },
+        {
+          "name": "Pinterest",
+          "url": "https://pinterest.com/pin/create/button/?url=https://www.fine-food.ro/&amp;media=https://www.fine-food.ro/wp-includes/images/media/default.png&amp;description=Home+base-rtl/"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.fine-food.ro/"
+        }
+      ]
     }
   },
   "flex-layout.row#about-us-contact-block": {

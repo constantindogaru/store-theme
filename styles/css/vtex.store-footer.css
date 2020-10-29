@@ -36,6 +36,31 @@
 
 .socialNetworkLink--linkedin {
   border-right-style: solid;
-  border-color: #D3D3D3;
+  border-color: #d3d3d3;
   border-width: 1px;
+}
+
+.socialNetworkLink--detailedBlogPost {
+  border: none;
+}
+
+.socialNetworkWrapper--aboutUsDescriptionSocialNetworks {
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 64px;
+  border-top: 2px solid rgba(113, 113, 113, 0.15);
+}
+
+.socialNetworksContainer--aboutUsDescriptionSocialNetworks {
+  justify-content: flex-end !important;
+}
+
+.socialNetworkLink--aboutUsDescriptionSocialNetworks {
+  border: none;
+}
+
+.socialNetworkImage--aboutUsDescriptionSocialNetworks {
+  width: 70% !important;
 }

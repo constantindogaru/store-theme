@@ -113,6 +113,11 @@
   .flexCol--aboutUsDescriptionTextWrapperRight {
     margin-right: 45%;
   }
+
+  .flexRowContent--aboutUsDescriptionSocialNetworks {
+    padding-left: 21%;
+    padding-right: 21%;
+  }
 }
 
 .flexRow--header-1-desktop {
