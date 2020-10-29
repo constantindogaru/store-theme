@@ -174,7 +174,11 @@
         "href": "/product-category/carne-vanat-specialitati/",
         "noFollow": false,
         "text": "Carne, vânat, specialități"
-      }
+      },
+      "iconProps": {
+        "id": "mpa-angle--up"
+      },
+      "iconPosition": "right"
     },
     "blocks": ["vtex.menu@2.x:submenu#carne-vanat-specialitati"]
   },
