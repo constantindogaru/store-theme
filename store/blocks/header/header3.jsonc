@@ -69,7 +69,8 @@
       "menu-item#primary-bere-cidru",
       "menu-item#primary-ciorbe",
       "menu-item#primary-cafea",
-      "menu-item#primary-carne-vanat-specialitati"
+      "menu-item#primary-carne-vanat-specialitati",
+      "menu-item#primary-sare-condimente-si-sosuri"
     ]
   },
   "menu-item#primary-oferte-speciale": {
@@ -271,6 +272,21 @@
         "href": "product-category/carne-vanat-specialitati/vita/",
         "noFollow": false,
         "text": "Vita"
+      }
+    }
+  },
+  "menu-item#primary-sare-condimente-si-sosuri": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-sare-condimente-si-sosuri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/sare-condimente-si-sosuri/",
+        "noFollow": false,
+        "text": "Sare, condimente și sosuri"
       }
     }
   },
