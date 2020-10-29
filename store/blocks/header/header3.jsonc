@@ -86,19 +86,7 @@
         "text": "Oferte speciale"
       }
     }
-    // "blocks": ["vtex.menu@2.x:submenu#clothing"] // Defining a submenu
   },
-  // "vtex.menu@2.x:submenu#clothing": {
-  //   "children": [
-  //     "flex-layout.col#clothing"
-  //   ]
-  // },
-  // "flex-layout.col#clothing": {
-  //   "props": {
-  //     "marginLeft": 10
-  //   },
-  //   "children": ["menu-item#about-us", "menu-item#about-us", "menu-item#about-us", "menu-item#about-us"]
-  // },
   "menu-item#primary-produse-noi": {
     "props": {
       "blockClass": "primary-category",
@@ -186,6 +174,99 @@
         "href": "/product-category/carne-vanat-specialitati/",
         "noFollow": false,
         "text": "Carne, vânat, specialități"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#carne-vanat-specialitati"]
+  },
+  "vtex.menu@2.x:submenu#carne-vanat-specialitati": {
+    "props": {
+      "blockClass": "submenu-subcategories"
+    },
+    "children": [
+      "flex-layout.col#carne-vanat-specialitati"
+    ]
+  },
+  "flex-layout.col#carne-vanat-specialitati": {
+    "children": [
+      "menu-item#secondary-miel-berbecut-muflon",
+      "menu-item#secondary-pasare",
+      "menu-item#secondary-porc",
+      "menu-item#secondary-vanat",
+      "menu-item#secondary-vita"
+    ]
+  },
+  "menu-item#secondary-miel-berbecut-muflon": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-miel-berbecut-muflon",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/carne-vanat-specialitati/miel-berbecut-muflon/",
+        "noFollow": false,
+        "text": "Miel, berbecut, muflon"
+      }
+    }
+  },
+  "menu-item#secondary-pasare": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-pasare",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/carne-vanat-specialitati/pasare/",
+        "noFollow": false,
+        "text": "Pasare"
+      }
+    }
+  },
+  "menu-item#secondary-porc": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-porc",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/carne-vanat-specialitati/porc/",
+        "noFollow": false,
+        "text": "Porc"
+      }
+    }
+  },
+  "menu-item#secondary-vanat": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-vanat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/carne-vanat-specialitati/vanat/",
+        "noFollow": false,
+        "text": "Vanat"
+      }
+    }
+  },
+  "menu-item#secondary-vita": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-vita",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/carne-vanat-specialitati/vita/",
+        "noFollow": false,
+        "text": "Vita"
       }
     }
   },

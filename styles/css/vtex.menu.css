@@ -87,4 +87,15 @@
   border-bottom-style: solid;
   border-width: 1px;
 }
+.menuItem--primary-category:hover {
+  background-color: whitesmoke;
+}
 /* ------------------------- */
+
+/* styles for submenu drop down */
+/* ---------------------------- */
+.submenuWrapper--submenu-subcategories {
+  margin-top: -47px;
+  margin-left: 269px;
+}
+/* ---------------------------- */
