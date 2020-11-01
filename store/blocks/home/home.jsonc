@@ -5,9 +5,18 @@
       "flex-layout.row#recommended-categories-wrapper",
       "flex-layout.row#recommended-products-wrapper",
       "slider-layout#moving-products",
+      "newsletter#home-page",
       "blog-latest-posts-preview.wordpress-latest-posts-preview"
       // "flex-layout.row#deals",
       // "flex-layout.row#shelf"
     ]
+  },
+  "newsletter#home-page": {
+    "props": {
+      "label": "ABONAȚI-VĂ LA NEWSLETTERUL NOSTRU",
+      "placeholder": "Adresa dvs. de email",
+      "submit": "SIGN UP",
+      "blockClass": "newsletter-home-page"
+    }
   }
 }
