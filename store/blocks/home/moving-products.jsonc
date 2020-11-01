@@ -1,0 +1,42 @@
+{
+  // "flex-layout.row#moving-products": {
+  //   "props": {
+  //     "fullWidth": true
+  //   },
+  //   "children": ["slider-layout#moving-products"]
+  // },
+  "slider-layout#moving-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": true,
+      "showNavigationArrows": "never"
+    },
+    "children": ["info-card#yellow-yoghurt", "info-card#red-yoghurt"]
+  },
+  "info-card#yellow-yoghurt": {
+    "props": {
+      "textPosition": "right",
+      "textAlignment": "center",
+      "imageUrl": "https://www.fine-food.ro/wp-content/uploads/2020/04/Mango.png",
+      "callToActionMode": "link",
+      "callToActionText": "Iaurt cu mango și fructul pasiunii, natural live yoghurt",
+      "callToActionUrl": "/product/iaurt-cu-mango-si-fructul-pasiunii-natural-live-yoghurt-glenilen-farm-140-g/",
+      "blockClass": "info-card-moving-products"
+    }
+  },
+  "info-card#red-yoghurt": {
+    "props": {
+      "textPosition": "right",
+      "textAlignment": "center",
+      "imageUrl": "https://www.fine-food.ro/wp-content/uploads/2020/04/Raspberry.png",
+      "callToActionMode": "link",
+      "callToActionText": "Iaurt cu zmeură, natural live yoghurt",
+      "callToActionUrl": "/product/iaurt-cu-zmeura-natural-live-yoghurt-glenilen-farm-140-g/",
+      "blockClass": "info-card-moving-products"
+    }
+  }
+}

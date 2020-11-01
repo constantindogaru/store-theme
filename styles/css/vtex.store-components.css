@@ -6,17 +6,6 @@
   text-decoration: underline;
 }
 
-/* .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-  max-width: 100%;
-} */
-
-.infoCardContainer--info-card-home {
-  max-width: 1520px;
-  margin: 0 auto;
-  background-color: #e6f1e6;
-  padding: 0px;
-}
-
 .newsletter {
   max-width: 100%;
   margin: 0 auto;
@@ -90,14 +79,6 @@
     font-size: 40px;
   }
 
-  .infoCardContainer--info-card-home .infoCardTextContainer {
-    width: 30%;
-  }
-
-  .infoCardContainer--info-card-home .infoCardImageContainer {
-    width: 70%;
-  }
-
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
@@ -128,16 +109,9 @@
   font-size: 30px;
 }
 
-/* .searchBarContainer {
-  width: 200%;
-} */
-
 .autoCompleteOuterContainer {
   width: 225%;
 }
-/* .searchBarContainer {
-  width: 200%;
-} */
 
 .imageElement--imageSliderBrands {
   cursor: pointer;
@@ -153,4 +127,46 @@
   opacity: 1;
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
+}
+
+.infoCardImage--info-card-moving-products {
+  width: 50%;
+  margin-left: 35%;
+}
+
+.infoCardImage--info-card-moving-products:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.infoCardContainer--info-card-moving-products {
+  background-color: #800020;
+}
+
+.infoCardCallActionText--info-card-moving-products {
+  color:white;
+  font-family: Poppins;
+  font-size: 54px;
+  text-decoration: none;
+}
+
+.infoCardCallActionContainer--info-card-moving-products {
+  text-decoration: none;
 }

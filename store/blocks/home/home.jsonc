@@ -3,7 +3,8 @@
     "blocks": [
       "flex-layout.row#home-images",
       "flex-layout.row#recommended-categories-wrapper",
-      "flex-layout.row#recommended-products-wrapper"
+      "flex-layout.row#recommended-products-wrapper",
+      "slider-layout#moving-products"
       // "flex-layout.row#deals",
       // "flex-layout.row#shelf"
     ]
