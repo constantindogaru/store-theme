@@ -4,7 +4,7 @@
       "flex-layout.row#home-images",
       "flex-layout.row#recommended-categories-wrapper",
       "flex-layout.row#recommended-products-wrapper",
-      "slider-layout#moving-products",
+      "flex-layout.row#moving-products",
       "newsletter#home-page",
       "blog-latest-posts-preview.wordpress-latest-posts-preview"
       // "flex-layout.row#deals",
