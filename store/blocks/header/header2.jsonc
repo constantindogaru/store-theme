@@ -112,11 +112,6 @@
       "verticalAlign": "middle",
       "marginRight": 10
     },
-    "children": ["minicart"]
+    "children": ["minicart.v2"]
   }
-  // "minicart": {
-  //   "props": {
-  //     "openOnHover": true
-  //   }
-  // }
 }
