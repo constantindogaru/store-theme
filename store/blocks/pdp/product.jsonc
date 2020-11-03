@@ -83,32 +83,83 @@
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
-      "product-separator",
-      "product-identifier.product",
+      // "product-separator",
+      "rich-text#questions-and-suggestions",
+      // "product-identifier.product",
       "sku-selector",
-      "product-quantity",
+      "flex-layout.row#quantity-buy-button",
+      // "product-quantity",
       "product-assembly-options",
       "product-gifts",
-      "flex-layout.row#buy-button",
+      // "flex-layout.row#buy-button",
+      "rich-text#min-buy",
       "availability-subscriber",
-      "shipping-simulator",
+      // "shipping-simulator",
       "share#default"
     ]
   },
 
   "flex-layout.row#product-name": {
-    "props": {
-      "marginBottom": 3
-    },
     "children": [
       "vtex.store-components:product-name"
     ]
+  },
+
+  "vtex.store-components:product-name": {
+    "props": {
+      "blockClass": "productName"
+    }
+  },
+
+  "rich-text#questions-and-suggestions": {
+    "props": {
+      "blockClass": "productQuestionsAndSuggestions",
+      "text": "Telefon întrebări și sugestii: 0733 99 11 44 | De luni până vineri, între orele 10-18 | Email: program 24/7 vanzari@fine-food.ro"
+    }
   },
 
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true
+    }
+  },
+
+  "flex-layout.row#quantity-buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "productQuantityAndBuy"
+    },
+    "children": [
+      "flex-layout.col#product-quantity",
+      "flex-layout.col#add-to-cart-button"
+    ]
+  },
+  "flex-layout.col#product-quantity": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["product-quantity"]
+  },
+  "flex-layout.col#add-to-cart-button": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "addToCartButtonProductPageFlexCol"
+    },
+    "children": [
+      "add-to-cart-button#product-page"
+    ]
+  },
+  "product-quantity": {
+    "props": {
+      "blockClass": "productQuantity",
+      "showLabel": false
+    }
+  },
+  "add-to-cart-button#product-page": {
+    "props": {
+      "blockClass": "addToCartButtonProductPage"
     }
   },
 
@@ -120,12 +171,19 @@
     "children": ["add-to-cart-button"]
   },
 
+  "rich-text#min-buy": {
+    "props": {
+      "blockClass": "productMinBuy",
+      "text": "În această perioadă comanda minimă a coșului de cumpărături este de 300 lei!"
+    }
+  },
+
   "share#default": {
     "props": {
       "social": {
         "Facebook": true,
         "WhatsApp": true,
-        "Twitter": false,
+        "Twitter": true,
         "Pinterest": true
       }
     }

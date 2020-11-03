@@ -1,0 +1,51 @@
+.quantitySelectorContainer--productQuantity {
+  margin-bottom: 0 !important;
+  /* height: 100%; */
+}
+
+/* .quantitySelectorStepper--productQuantity
+  :global(.vtex-numeric-stepper__input) {
+  height: 100%;
+}
+
+.quantitySelectorStepper--productQuantity
+  :global(.vtex-numeric-stepper__plus-button-container) {
+  height: 100%;
+} */
+
+.quantitySelectorStepper--productQuantity
+  :global(.vtex-numeric-stepper__plus-button-container)
+  :global(.vtex-numeric-stepper__plus-button) {
+  border-radius: 0;
+  color: #777;
+}
+
+.quantitySelectorStepper--productQuantity
+  :global(.vtex-numeric-stepper__plus-button-container)
+  :global(.vtex-numeric-stepper__plus-button):hover {
+  border-radius: 0;
+  color: white;
+  background-color: #83b735;
+  border-color: #83b735;
+}
+
+.quantitySelectorStepper--productQuantity
+  :global(.vtex-numeric-stepper__minus-button-container)
+  :global(.vtex-numeric-stepper__minus-button) {
+  border-radius: 0;
+  color: #777;
+}
+
+.quantitySelectorStepper--productQuantity
+  :global(.vtex-numeric-stepper__minus-button-container)
+  :global(.vtex-numeric-stepper__minus-button):hover {
+  border-radius: 0;
+  color: white;
+  background-color: #83b735;
+  border-color: #83b735;
+}
+
+.quantitySelectorStepper--productQuantity
+  :global(.vtex-numeric-stepper__input) {
+  color: #777;
+}

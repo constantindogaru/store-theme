@@ -183,3 +183,25 @@
   padding-bottom: 20px;
   background: rgb(249, 249, 249);
 }
+
+.flexRowContent--productQuantityAndBuy {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.flexRowContent--productQuantityAndBuy
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: unset !important;
+}
+
+.flexColChild--addToCartButtonProductPageFlexCol :global(.vtex-button) {
+  background-color: #83b735;
+  border-color: #83b735;
+  border-radius: 0;
+}
+
+.flexColChild--addToCartButtonProductPageFlexCol :global(.vtex-button):hover {
+  background-color: #74a32f;
+  background-color: #74a32f;
+  border-radius: 0;
+}

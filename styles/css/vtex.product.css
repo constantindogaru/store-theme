@@ -1,0 +1,8 @@
+.productNameContainer--productName {
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 1.2;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: #2d2a2a;
+  margin-bottom: 20px;
+}

@@ -192,3 +192,17 @@
 :global(.vtex-input-prefix__group) {
   border-radius: 0px;
 }
+
+.paragraph--productQuestionsAndSuggestions {
+  font-weight: 600;
+  color: #777;
+  font-size: 14px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.paragraph--productMinBuy {
+  font-weight: 600;
+  color: #777;
+  font-size: 14px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
