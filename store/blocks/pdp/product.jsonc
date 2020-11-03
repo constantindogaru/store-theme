@@ -3,10 +3,24 @@
     "children": [
       "flex-layout.row#product-main",
       "flex-layout.row#description",
-      "shelf.relatedProducts",
       "product-reviews",
-      "product-questions-and-answers"
+      "product-questions-and-answers",
+      "shelf.relatedProducts"
     ]
+  },
+  "shelf.relatedProducts": {
+    "props": {
+      // TODO Modify this to similar or related products after we update database from admin panel.
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Produse similare",
+        "arrows": true,
+        "itemsPerPage": 4,
+        "gap": "ph3"
+      },
+      "blockClass": "relatedProductsProductPage"
+    },
+    "blocks": ["product-summary"]
   },
   "flex-layout.row#product-breadcrumb": {
     "props": {
