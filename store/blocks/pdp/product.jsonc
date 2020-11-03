@@ -2,12 +2,96 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-main",
-      "flex-layout.row#description",
-      "product-reviews",
-      "product-questions-and-answers",
+      // "flex-layout.row#description",
+      "flex-layout.row#product-tab",
+      // "product-reviews",
+      // "product-questions-and-answers",
       "shelf.relatedProducts"
     ]
   },
+
+  "flex-layout.row#product-tab": {
+    "props": {
+      "colGap": 0,
+      "rowGap": 0,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": [
+      "tab-layout#product-tab"
+    ]
+  },
+
+  "tab-layout#product-tab": {
+    "children": [
+      "tab-list#product-tab-list",
+      "tab-content#product-tab-content"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "product-description"
+    }
+  },
+  "tab-list#product-tab-list": {
+    "children": [
+      "tab-list.item#product-description",
+      "tab-list.item#product-reviews",
+      "tab-list.item#product-delivery"
+    ]
+  },
+  "tab-list.item#product-description": {
+    "props": {
+      "tabId": "product-description",
+      "label": "DESCRIERE",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#product-reviews": {
+    "props": {
+      "tabId": "product-reviews",
+      "label": "RECENZII"
+    }
+  },
+  "tab-list.item#product-delivery": {
+    "props": {
+      "tabId": "product-delivery",
+      "label": "INFORMATII DE LIVRARE"
+    }
+  },
+  "tab-content#product-tab-content": {
+    "children": [
+      "tab-content.item#product-description",
+      "tab-content.item#product-reviews",
+      "tab-content.item#product-delivery"
+    ]
+  },
+  "tab-content.item#product-description": {
+    "children": [
+      "product-description"
+    ],
+    "props": {
+      "tabId": "product-description"
+    }
+  },
+  "tab-content.item#product-reviews": {
+    "children": [
+      "product-reviews"
+    ],
+    "props": {
+      "tabId": "product-reviews"
+    }
+  },
+  "tab-content.item#product-delivery": {
+    "children": [
+      "rich-text#questions-and-suggestions"
+    ],
+    "props": {
+      "tabId": "product-delivery"
+    }
+  },
+
   "shelf.relatedProducts": {
     "props": {
       // TODO Modify this to similar or related products after we update database from admin panel.
@@ -20,8 +104,11 @@
       },
       "blockClass": "relatedProductsProductPage"
     },
-    "blocks": ["product-summary"]
+    "blocks": [
+      "product-summary"
+    ]
   },
+
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4
