@@ -4,7 +4,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -17,7 +18,8 @@
         // "hideUnavailableItems": true,
         // "maxItemsPerPage": 10,
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -27,7 +29,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -37,7 +40,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -47,7 +51,8 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
-        "simulationBehavior": "skip"
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -79,14 +84,17 @@
     "children": ["breadcrumb.search"],
     "props": {
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      // "fullWidth": true,
+      "blockClass": "flex-search-bread"
     }
   },
   "flex-layout.row#result": {
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
+      "marginBottom": 8,
       "preventHorizontalStretch": true,
-      "fullWidth": true
+      // "fullWidth": true,
+      "blockClass": "flex-search-results"
     }
   },
   "flex-layout.col#filter": {
@@ -108,7 +116,10 @@
     }
   },
   "flex-layout.row#searchinfo": {
-    "children": ["flex-layout.col#productCount", "flex-layout.col#orderby"]
+    "children": [
+      // "flex-layout.col#productCount",
+      "flex-layout.col#orderby"
+    ]
   },
   "flex-layout.col#productCount": {
     "children": ["total-products.v2"],

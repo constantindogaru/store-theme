@@ -165,6 +165,18 @@
   color: #3f3f40;
 }
 
+.flexRowContent--flex-search-bread {
+  margin-left: 31%;
+}
+
+.flexRowContent--flex-search-results {
+  margin-left: 14%;
+}
+
+.flexRow--flex-search-results {
+  margin-right: 22%;
+}
+
 .flexRowContent--contact :global(.vtex-input),
 .flexRowContent--contact :global(.vtex-textarea) {
   display: block;
