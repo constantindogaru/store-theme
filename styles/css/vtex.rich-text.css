@@ -200,9 +200,29 @@
   font-family: "Lato", Arial, Helvetica, sans-serif;
 }
 
+.link--productQuestionsAndSuggestions {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(119, 119, 119);
+  font-size: 14px;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.link--productQuestionsAndSuggestions:hover {
+  color: #3f3f3f;
+}
+
 .paragraph--productMinBuy {
   font-weight: 600;
   color: #777;
+  font-size: 14px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.paragraph--shareProductText {
+  color: #1b1919;
+  vertical-align: middle;
+  font-weight: 600;
   font-size: 14px;
   font-family: "Lato", Arial, Helvetica, sans-serif;
 }

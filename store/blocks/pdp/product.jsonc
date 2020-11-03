@@ -90,6 +90,7 @@
       "flex-layout.row#selling-price",
       "product-installments",
       // "product-separator",
+      "product-description#description-right",
       "rich-text#questions-and-suggestions",
       // "product-identifier.product",
       "sku-selector",
@@ -101,7 +102,8 @@
       "rich-text#min-buy",
       "availability-subscriber",
       // "shipping-simulator",
-      "share#default"
+      "flex-layout.row#share-product"
+      // "share#default"
     ]
   },
 
@@ -114,6 +116,12 @@
   "vtex.store-components:product-name": {
     "props": {
       "blockClass": "productName"
+    }
+  },
+
+  "product-description#description-right": {
+    "props": {
+      "blockClass": "productDescriptionRight"
     }
   },
 
@@ -184,6 +192,37 @@
     }
   },
 
+  "flex-layout.row#share-product": {
+    "props": {
+      "blockClass": "shareProduct"
+    },
+    "children": [
+      "flex-layout.col#share-product-rich-text",
+      "flex-layout.col#share-product-default"
+    ]
+  },
+  "flex-layout.col#share-product-rich-text": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#share-product-text"
+    ]
+  },
+  "flex-layout.col#share-product-default": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "share#default"
+    ]
+  },
+  "rich-text#share-product-text": {
+    "props": {
+      "blockClass": "shareProductText",
+      "text": "Share: "
+    }
+  },
   "share#default": {
     "props": {
       "social": {
@@ -191,6 +230,9 @@
         "WhatsApp": true,
         "Twitter": true,
         "Pinterest": true
+      },
+      "options": {
+        "size": 24
       }
     }
   }

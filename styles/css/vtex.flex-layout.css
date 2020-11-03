@@ -194,6 +194,12 @@
   width: unset !important;
 }
 
+.flexRowContent--shareProduct
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: unset !important;
+  padding-right: 5px;
+}
+
 .flexColChild--addToCartButtonProductPageFlexCol :global(.vtex-button) {
   background-color: #83b735;
   border-color: #83b735;
