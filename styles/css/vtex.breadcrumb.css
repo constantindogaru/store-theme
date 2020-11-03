@@ -1,0 +1,29 @@
+.link--breadCrumbProductPage {
+  color: #8e8e8e;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  font-size: 13px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.link--breadCrumbProductPage:hover {
+  color: #3f3f3f;
+}
+
+.term--breadCrumbProductPage {
+  color: #333333;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.arrow--breadCrumbProductPage {
+  color: #8e8e8e;
+}
+
+.termArrow--breadCrumbProductPage {
+  color: #8e8e8e;
+  padding-left: 0;
+}
