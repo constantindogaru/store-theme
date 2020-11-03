@@ -223,3 +223,25 @@
   border-color: #74a32f;
   border-radius: 0;
 }
+
+.flexColChild--summaryCartButton :global(.vtex-button) {
+  background-color: #83b735;
+  border-color: #83b735;
+  border-radius: 0;
+}
+
+.flexColChild--summaryCartButton :global(.vtex-button):hover {
+  background-color: #74a32f;
+  border-color: #74a32f;
+  border-radius: 0;
+}
+
+.flexColChild--summaryCartButton :global(.vtex-button__label) {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.flexColChild--summaryListButton :global(.vtex-button__label) {
+  padding-right: 0px;
+  padding-left: 0px;
+}

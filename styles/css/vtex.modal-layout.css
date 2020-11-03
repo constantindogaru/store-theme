@@ -64,7 +64,8 @@
 }
 
 .triggerContainer--quickview {
-  padding: .75rem;
+  /* padding: .75rem; */
+  padding: 0px;
 }
 
 .triggerContainer {
