@@ -208,6 +208,6 @@
 
 .flexColChild--addToCartButtonProductPageFlexCol :global(.vtex-button):hover {
   background-color: #74a32f;
-  background-color: #74a32f;
+  border-color: #74a32f;
   border-radius: 0;
 }
