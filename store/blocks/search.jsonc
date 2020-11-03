@@ -13,9 +13,9 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "orderByField": "OrderByReleaseDateDESC",
-        "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
+        // "orderByField": "OrderByReleaseDateDESC",
+        // "hideUnavailableItems": true,
+        // "maxItemsPerPage": 10,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -62,8 +62,8 @@
 
   "search-result-layout.desktop": {
     "children": [
+      "search-title.v2",
       "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
     "props": {
@@ -81,9 +81,6 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
-  },
-  "flex-layout.row#searchtitle": {
-    "children": ["search-title.v2"]
   },
   "flex-layout.row#result": {
     "children": ["flex-layout.col#filter", "flex-layout.col#content"],

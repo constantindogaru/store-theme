@@ -1,0 +1,19 @@
+.galleryTitle--layout::before {
+  content: "Search Results for: ";
+}
+
+.galleryTitle--layout {
+  font-family: "Poppins",Arial,Helvetica,sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-top: 0px;
+  background-image: url(https://www.fine-food.ro/wp-content/uploads/2017/06/dummy-wood-title.jpg);
+}
+
+.searchResultContainer {
+  padding-top: 0px;
+}
