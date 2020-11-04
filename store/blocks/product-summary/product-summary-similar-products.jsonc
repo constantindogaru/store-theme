@@ -1,0 +1,8 @@
+{
+  "product-summary.shelf#similar-products": {
+    "children": ["flex-layout.row#summary-shelf-row"]
+  },
+  "flex-layout.row#summary-shelf-row": {
+    "children": ["flex-layout.col#product-summary"]
+  }
+}
