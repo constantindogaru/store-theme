@@ -246,6 +246,10 @@
   padding-left: 0px;
 }
 
+.flexColChild--productDescriptionLabelCol {
+  height: auto !important;
+}
+
 .flexCol--productDescriptionLabelCol {
   margin-bottom: 32px;
 }
