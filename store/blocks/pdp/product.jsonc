@@ -60,7 +60,7 @@
   "tab-list.item#product-delivery": {
     "props": {
       "tabId": "product-delivery",
-      "label": "INFORMATII DE LIVRARE",
+      "label": "INFORMAȚII DE LIVRARE",
       "blockClass": "productTab"
     }
   },
