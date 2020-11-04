@@ -212,3 +212,13 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.productDescriptionTitle--productDescriptionLeftTabCol {
+  display: none;
+}
+
+.productDescriptionText--productDescriptionLeftTabCol {
+  color: #777777;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}

@@ -1,0 +1,130 @@
+{
+    "flex-layout.row#product-description-labels-row1": {
+        "props": {
+            "horizontalAlign": "center",
+            "marginBottom": 7
+        },
+        "children": [
+            "flex-layout.col#product-description-labels-row1-col1",
+            "flex-layout.col#product-description-labels-row1-col2"
+        ]
+    },
+    "flex-layout.col#product-description-labels-row1-col1": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "productDescriptionLabelCol"
+        },
+        "children": [
+            "menu-item#-product-description-clock",
+            "rich-text#title-1",
+            "rich-text#description-1"
+        ]
+    },
+    "flex-layout.col#product-description-labels-row1-col2": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "productDescriptionLabelCol"
+        },
+        "children": [
+            "menu-item#-product-description-clock",
+            "rich-text#title-2",
+            "rich-text#description-2"
+        ]
+    },
+    "rich-text#title-1": {
+        "props": {
+            "text": "#### PRODUS DE TOP",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "productDescriptionLabelTitle"
+        }
+    },
+    "rich-text#description-1": {
+        "props": {
+            "text": "Acest produs este apreciat și recunoscut la nivel internațional, în bucătării de renume.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "productDescriptionLabelText"
+        }
+    },
+    "rich-text#title-2": {
+        "props": {
+            "text": "#### PRODUS ONEST",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "productDescriptionLabelTitle"
+        }
+    },
+    "rich-text#description-2": {
+        "props": {
+            "text": "Știm cât este de important ca atunci când eticheta spune bio, produsul să fie într-adevăr bio.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "productDescriptionLabelText"
+        }
+    },
+
+    "flex-layout.row#product-description-labels-row2": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "flex-layout.col#product-description-labels-row2-col1",
+            "flex-layout.col#product-description-labels-row2-col2"
+        ]
+    },
+    "flex-layout.col#product-description-labels-row2-col1": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "productDescriptionLabelCol"
+        },
+        "children": [
+            "menu-item#-product-description-clock",
+            "rich-text#title-3",
+            "rich-text#description-3"
+        ]
+    },
+    "flex-layout.col#product-description-labels-row2-col2": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "productDescriptionLabelCol"
+        },
+        "children": [
+            "menu-item#-product-description-clock",
+            "rich-text#title-4",
+            "rich-text#description-4"
+        ]
+    },
+    "rich-text#title-3": {
+        "props": {
+            "text": "#### CALITATE GARANTATĂ",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "productDescriptionLabelTitle"
+        }
+    },
+    "rich-text#description-3": {
+        "props": {
+            "text": "Toți furnizorii noștri sunt companii cu tradiție recunoscută și care se bucură de un renume mondial.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "productDescriptionLabelText"
+        }
+    },
+    "rich-text#title-4": {
+        "props": {
+            "text": "#### PRIMEȘTI CEEA CE COMANZI",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "productDescriptionLabelTitle"
+        }
+    },
+    "rich-text#description-4": {
+        "props": {
+            "text": "Imaginile noastre sunt imaginile reale ale produselor. Noi nu utilizăm imagini “exemplificative”.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "productDescriptionLabelText"
+        }
+    }
+}

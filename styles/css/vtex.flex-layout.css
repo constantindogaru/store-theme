@@ -245,3 +245,7 @@
   padding-right: 0px;
   padding-left: 0px;
 }
+
+.flexCol--productDescriptionLabelCol {
+  margin-bottom: 32px;
+}

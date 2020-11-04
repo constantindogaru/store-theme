@@ -98,7 +98,8 @@
       "menu-item#81",
       "menu-item#82",
       "menu-item#83",
-      "menu-item#84"
+      "menu-item#84",
+      "menu-item#-product-description-clock"
     ]
   },
   "menu-item#0": {"props": {"itemProps": {"text": "bnd-logo"}, "iconProps": {"id": "bnd-logo"}}},
@@ -185,5 +186,6 @@
   "menu-item#81": {"props": {"itemProps": {"text": "sti-close--filled"}, "iconProps": {"id": "sti-close--filled"}}},
   "menu-item#82": {"props": {"itemProps": {"text": "sti-clock"}, "iconProps": {"id": "sti-clock"}}},
   "menu-item#83": {"props": {"itemProps": {"text": "sti-equals"}, "iconProps": {"id": "sti-equals"}}},
-  "menu-item#84": {"props": {"itemProps": {"text": "sti-discount"}, "iconProps": {"id": "sti-discount"}}}  
+  "menu-item#84": {"props": {"itemProps": {"text": "sti-discount"}, "iconProps": {"id": "sti-discount"}}},
+  "menu-item#-product-description-clock": {"props": {"iconProps": {"id": "sti-clock", "size": 50}}}
 }
