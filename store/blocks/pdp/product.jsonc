@@ -25,14 +25,14 @@
   },
 
   "tab-layout#product-tab": {
+    "props": {
+      "blockClass": "productTab",
+      "defaultActiveTabId": "product-description"
+    },
     "children": [
       "tab-list#product-tab-list",
       "tab-content#product-tab-content"
-    ],
-    "props": {
-      "blockClass": "home",
-      "defaultActiveTabId": "product-description"
-    }
+    ]
   },
   "tab-list#product-tab-list": {
     "children": [
@@ -45,22 +45,28 @@
     "props": {
       "tabId": "product-description",
       "label": "DESCRIERE",
-      "defaultActiveTab": true
+      "defaultActiveTab": true,
+      "blockClass": "productTab"
     }
   },
   "tab-list.item#product-reviews": {
     "props": {
       "tabId": "product-reviews",
-      "label": "RECENZII"
+      "label": "RECENZII",
+      "blockClass": "productTab"
     }
   },
   "tab-list.item#product-delivery": {
     "props": {
       "tabId": "product-delivery",
-      "label": "INFORMATII DE LIVRARE"
+      "label": "INFORMATII DE LIVRARE",
+      "blockClass": "productTab"
     }
   },
   "tab-content#product-tab-content": {
+    "props": {
+      "blockClass": "productTab"
+    },
     "children": [
       "tab-content.item#product-description",
       "tab-content.item#product-reviews",
@@ -68,28 +74,31 @@
     ]
   },
   "tab-content.item#product-description": {
+    "props": {
+      "tabId": "product-description",
+      "blockClass": "productTab"
+    },
     "children": [
       "flex-layout.row#tab-product-description-row"
-    ],
-    "props": {
-      "tabId": "product-description"
-    }
+    ]
   },
   "tab-content.item#product-reviews": {
+    "props": {
+      "tabId": "product-reviews",
+      "blockClass": "productTab"
+    },
     "children": [
       "product-reviews"
-    ],
-    "props": {
-      "tabId": "product-reviews"
-    }
+    ]
   },
   "tab-content.item#product-delivery": {
+    "props": {
+      "tabId": "product-delivery",
+      "blockClass": "productTab"
+    },
     "children": [
       "flex-layout.row#product-delivery-info"
-    ],
-    "props": {
-      "tabId": "product-delivery"
-    }
+    ]
   },
   "flex-layout.row#tab-product-description-row": {
     "props": {
