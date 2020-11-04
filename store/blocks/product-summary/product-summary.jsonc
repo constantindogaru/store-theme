@@ -13,6 +13,7 @@
   },
   "flex-layout.row#add-to-cart": {
     "props": {
+      "blockClass": "flex-add-to-cart",
       "colSizing": "auto"
     },
     "children": [

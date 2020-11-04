@@ -19,6 +19,13 @@
   margin-bottom: 15px;
 }
 
+.galleryItem:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #83b735;
+
+}
+
 .searchResultContainer {
   padding-top: 0px;
 }

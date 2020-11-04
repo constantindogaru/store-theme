@@ -116,6 +116,9 @@
     }
   },
   "flex-layout.row#searchinfo": {
+    "props": {
+      "marginBottom": 3
+    },
     "children": [
       // "flex-layout.col#productCount",
       "flex-layout.col#orderby"
