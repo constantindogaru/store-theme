@@ -250,9 +250,16 @@
   margin-bottom: 32px;
 }
 
+.flexRowContent--productMainFlexContainer {
+  max-width: 1222px;
+  margin: auto;
+}
+
 .flexRowContent--productTabFlexContainer {
   margin-top: 0;
   padding-top: 0;
+  max-width: 1222px;
+  margin: auto;
 }
 
 .flexRow--productTabFlexContainer {
