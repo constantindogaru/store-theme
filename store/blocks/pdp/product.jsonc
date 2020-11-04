@@ -85,7 +85,7 @@
   },
   "tab-content.item#product-delivery": {
     "children": [
-      "rich-text#questions-and-suggestions"
+      "flex-layout.row#product-delivery-info"
     ],
     "props": {
       "tabId": "product-delivery"

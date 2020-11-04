@@ -1,0 +1,21 @@
+{
+  // This should be used outside.
+  "flex-layout.row#product-delivery-info": {
+    "children": ["flex-layout.col#product-delivery-col"]
+  },
+  "flex-layout.col#product-delivery-col": {
+    "children": ["flex-layout.row#product-delivery-row-wrapper"]
+  },
+  "flex-layout.row#product-delivery-row-wrapper": {
+    "children": [
+      "flex-layout.col#product-delivery-images-col",
+      "flex-layout.col#product-delivery-text-col"
+    ]
+  },
+  "flex-layout.col#product-delivery-images-col": {
+    "children": []
+  },
+  "flex-layout.col#product-delivery-text-col": {
+    "children": []
+  }
+}
