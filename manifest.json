@@ -64,7 +64,8 @@
     "vtex.disclosure-layout": "1.x",
     "vtex.store-form": "0.x",
     "vtex.product-highlights": "2.x",
-    "vtex.tab-layout": "0.x"
+    "vtex.tab-layout": "0.x",
+    "vtex.iframe": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

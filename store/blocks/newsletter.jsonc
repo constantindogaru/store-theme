@@ -1,6 +1,40 @@
 {
   "store.custom#newsletter": {
-    "blocks": ["stack-layout#newsletter-banner"]
+    "props": {
+      "fullWidth": true
+    },
+    "blocks": ["flex-layout.row#newsletter"]
+  },
+  "flex-layout.row#newsletter": {
+    "children": ["flex-layout.col#newsletter"]
+  },
+  "flex-layout.col#newsletter": {
+    "children": [
+      "stack-layout#newsletter-banner",
+      "flex-layout.row#rich-text-newsletter",
+      "iframe#newsletter"
+    ]
+  },
+  "flex-layout.row#rich-text-newsletter": {
+    "props": {
+      "horizontalAlign": "center",
+      "marginTop": 9,
+      "preventHorizontalStretch": true
+    },
+    "children": ["rich-text#newsletter"]
+  },
+  "rich-text#newsletter": {
+    "props": {
+      "blockClass": "newsletter",
+      "text": "### NEWSLETTERE RECENTE"
+    }
+  },
+  "iframe#newsletter": {
+    "props": {
+      "width": 1920,
+      "height": 1080,
+      "src": "https://mailchi.mp/fine-food/oua-clarece-court"
+    }
   },
 
   "stack-layout#newsletter-banner": {
