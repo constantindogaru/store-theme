@@ -231,7 +231,7 @@
       "product-installments",
       // "product-separator",
       "product-description#description-right",
-      // "rich-text#questions-and-suggestions",
+      "rich-text#questions-and-suggestions",
       // "product-identifier.product",
       "sku-selector",
       "flex-layout.row#quantity-buy-button",
