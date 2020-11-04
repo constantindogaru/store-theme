@@ -1,3 +1,29 @@
+.relatedProducts--relatedProductsProductPage {
+  max-width: 1222px;
+  margin: auto;
+}
+
 .shelfContentContainer--relatedProductsProductPage {
   margin-bottom: 100px;
+}
+
+.title--relatedProductsProductPage {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  color: #2d2a2a;
+  line-height: 1.4;
+  justify-content: left;
+  position: relative;
+}
+
+.title--relatedProductsProductPage::after {
+  background-color: #83b735;
+  content: " ";
+  position: absolute;
+  top: calc(100% - 1rem);
+  left: 0;
+  width: 40px;
+  height: 2px;
 }
