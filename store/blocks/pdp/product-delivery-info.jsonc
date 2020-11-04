@@ -24,7 +24,9 @@
     "props": {
       "horizontalAlign": "center",
       "marginBottom": 5,
-      "paddingBottom": 5
+      "paddingBottom": 5,
+      "blockClass": "productDeliveryInfoRowColStretch",
+      "colGap": 10
     },
     "children": [
       "flex-layout.col#product-delivery-row-1-col-1",
@@ -50,7 +52,9 @@
     "props": {
       "horizontalAlign": "center",
       "marginBottom": 5,
-      "paddingBottom": 5
+      "paddingBottom": 5,
+      "blockClass": "productDeliveryInfoRowColStretch",
+      "colGap": 10
     },
     "children": [
       "flex-layout.col#product-delivery-row-2-col-1",
@@ -76,7 +80,9 @@
     "props": {
       "horizontalAlign": "center",
       "marginBottom": 5,
-      "paddingBottom": 5
+      "paddingBottom": 5,
+      "blockClass": "productDeliveryInfoRowColStretch",
+      "colGap": 10
     },
     "children": [
       "flex-layout.col#product-delivery-row-3-col-1",
@@ -106,7 +112,9 @@
     "props": {
       "horizontalAlign": "center",
       "marginBottom": 5,
-      "paddingBottom": 5
+      "paddingBottom": 5,
+      "blockClass": "productDeliveryInfoRowColStretch",
+      "colGap": 10
     },
     "children": [
       "flex-layout.col#product-delivery-row-4-col-1",
@@ -136,7 +144,9 @@
     "props": {
       "horizontalAlign": "center",
       "marginBottom": 5,
-      "paddingBottom": 5
+      "paddingBottom": 5,
+      "blockClass": "productDeliveryInfoRowColStretch",
+      "colGap": 10
     },
     "children": [
       "flex-layout.col#product-delivery-row-5-col-1",
@@ -166,7 +176,9 @@
     "props": {
       "horizontalAlign": "center",
       "marginBottom": 0,
-      "paddingBottom": 0
+      "paddingBottom": 0,
+      "blockClass": "productDeliveryInfoRowColStretch",
+      "colGap": 10
     },
     "children": [
       "flex-layout.col#product-delivery-row-6-col-1",

@@ -278,3 +278,12 @@
 .flexCol--flex-product-summary:hover :last-child {
   visibility: visible;
 }
+
+@media screen and (min-width: 640px) {
+  .flexRowContent--productDeliveryInfoRowColStretch
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto !important;
+    max-width: 50%;
+    min-width: 50px;
+  }
+}
