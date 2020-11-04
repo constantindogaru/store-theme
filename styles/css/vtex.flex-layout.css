@@ -270,3 +270,11 @@
   border-top: 1px solid rgba(129, 129, 129, 0.2);
   border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
+
+.flexColChild--flex-product-summary:last-child {
+  visibility: hidden;
+}
+
+.flexCol--flex-product-summary:hover :last-child {
+  visibility: visible;
+}

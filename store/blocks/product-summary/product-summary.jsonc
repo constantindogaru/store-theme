@@ -1,6 +1,22 @@
 {
   "product-summary.shelf": {
     "children": [
+      // "stack-layout#prodsum",
+      // "product-summary-name#summary",
+      // "product-rating-inline",
+      // "product-summary-space",
+      // "product-list-price#summary",
+      // "flex-layout.row#selling-price-savings",
+      // "product-installments#summary",
+      // "flex-layout.row#add-to-cart"
+      "flex-layout.col#product-summary"
+    ]
+  },
+  "flex-layout.col#product-summary": {
+    "props": {
+      "blockClass": "flex-product-summary"
+    },
+    "children": [
       "stack-layout#prodsum",
       "product-summary-name#summary",
       "product-rating-inline",
