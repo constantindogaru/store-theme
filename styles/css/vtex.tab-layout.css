@@ -2,10 +2,6 @@
   margin-top: 0;
 }
 
-.container--productTab {
-  border-top: 1px solid rgba(129, 129, 129, 0.2);
-}
-
 .listItem--productTab :global(.vtex-button) {
   background: transparent;
   color: #2d2a2a;

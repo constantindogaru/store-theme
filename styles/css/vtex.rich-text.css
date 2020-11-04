@@ -262,7 +262,7 @@
 
 .paragraph--productDeliveryThankYou {
   font-size: 14px;
-  margin-bottom: 32px;
+  margin: 0;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   color: #777777;
   font-weight: 400;
@@ -283,4 +283,5 @@
   font-family: "Lato", Arial, Helvetica, sans-serif;
   color: #777777;
   font-weight: 400;
+  margin-bottom: 0;
 }

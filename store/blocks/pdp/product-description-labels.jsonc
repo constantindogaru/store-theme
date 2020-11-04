@@ -2,7 +2,8 @@
     "flex-layout.row#product-description-labels-row1": {
         "props": {
             "horizontalAlign": "center",
-            "marginBottom": 7
+            "marginBottom": 7,
+            "colGap": 7
         },
         "children": [
             "flex-layout.col#product-description-labels-row1-col1",
@@ -66,7 +67,8 @@
 
     "flex-layout.row#product-description-labels-row2": {
         "props": {
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "colGap": 7
         },
         "children": [
             "flex-layout.col#product-description-labels-row2-col1",

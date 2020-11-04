@@ -165,8 +165,8 @@
   "flex-layout.row#product-delivery-row-6": {
     "props": {
       "horizontalAlign": "center",
-      "marginBottom": 5,
-      "paddingBottom": 5
+      "marginBottom": 0,
+      "paddingBottom": 0
     },
     "children": [
       "flex-layout.col#product-delivery-row-6-col-1",
