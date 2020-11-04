@@ -94,7 +94,9 @@
   "flex-layout.row#tab-product-description-row": {
     "props": {
       "marginTop": 5,
-      "paddingTop": 5
+      "paddingTop": 5,
+      "marginBottom": 5,
+      "paddingBottom": 5
     },
     "children": [
       "flex-layout.col#tab-product-description-col-left",

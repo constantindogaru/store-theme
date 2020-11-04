@@ -1,21 +1,270 @@
 {
   // This should be used outside.
   "flex-layout.row#product-delivery-info": {
+    "props": {
+      "marginTop": 5,
+      "paddingTop": 5,
+      "marginBottom": 5,
+      "paddingBottom": 5
+    },
     "children": ["flex-layout.col#product-delivery-col"]
   },
   "flex-layout.col#product-delivery-col": {
-    "children": ["flex-layout.row#product-delivery-row-wrapper"]
-  },
-  "flex-layout.row#product-delivery-row-wrapper": {
     "children": [
-      "flex-layout.col#product-delivery-images-col",
-      "flex-layout.col#product-delivery-text-col"
+      "flex-layout.row#product-delivery-row-1",
+      "flex-layout.row#product-delivery-row-2",
+      "flex-layout.row#product-delivery-row-3",
+      "flex-layout.row#product-delivery-row-4",
+      "flex-layout.row#product-delivery-row-5",
+      "flex-layout.row#product-delivery-row-6"
     ]
   },
-  "flex-layout.col#product-delivery-images-col": {
+
+  "flex-layout.row#product-delivery-row-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "marginBottom": 5,
+      "paddingBottom": 5
+    },
+    "children": [
+      "flex-layout.col#product-delivery-row-1-col-1",
+      "flex-layout.col#product-delivery-row-1-col-2"
+    ]
+  },
+  "flex-layout.col#product-delivery-row-1-col-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
     "children": []
   },
-  "flex-layout.col#product-delivery-text-col": {
+  "flex-layout.col#product-delivery-row-1-col-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#product-delivery-dear-client-text"]
+  },
+
+  "flex-layout.row#product-delivery-row-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "marginBottom": 5,
+      "paddingBottom": 5
+    },
+    "children": [
+      "flex-layout.col#product-delivery-row-2-col-1",
+      "flex-layout.col#product-delivery-row-2-col-2"
+    ]
+  },
+  "flex-layout.col#product-delivery-row-2-col-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": ["image#product-delivery-info-image-1"]
+  },
+  "flex-layout.col#product-delivery-row-2-col-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#product-delivery-info-text-1"]
+  },
+
+  "flex-layout.row#product-delivery-row-3": {
+    "props": {
+      "horizontalAlign": "center",
+      "marginBottom": 5,
+      "paddingBottom": 5
+    },
+    "children": [
+      "flex-layout.col#product-delivery-row-3-col-1",
+      "flex-layout.col#product-delivery-row-3-col-2"
+    ]
+  },
+  "flex-layout.col#product-delivery-row-3-col-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#product-delivery-info-image-2"
+    ]
+  },
+  "flex-layout.col#product-delivery-row-3-col-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#product-delivery-info-text-2"
+    ]
+  },
+
+  "flex-layout.row#product-delivery-row-4": {
+    "props": {
+      "horizontalAlign": "center",
+      "marginBottom": 5,
+      "paddingBottom": 5
+    },
+    "children": [
+      "flex-layout.col#product-delivery-row-4-col-1",
+      "flex-layout.col#product-delivery-row-4-col-2"
+    ]
+  },
+  "flex-layout.col#product-delivery-row-4-col-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#product-delivery-info-image-3"
+    ]
+  },
+  "flex-layout.col#product-delivery-row-4-col-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#product-delivery-info-text-3"
+    ]
+  },
+
+  "flex-layout.row#product-delivery-row-5": {
+    "props": {
+      "horizontalAlign": "center",
+      "marginBottom": 5,
+      "paddingBottom": 5
+    },
+    "children": [
+      "flex-layout.col#product-delivery-row-5-col-1",
+      "flex-layout.col#product-delivery-row-5-col-2"
+    ]
+  },
+  "flex-layout.col#product-delivery-row-5-col-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#product-delivery-info-image-4"
+    ]
+  },
+  "flex-layout.col#product-delivery-row-5-col-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#product-delivery-info-text-4"
+    ]
+  },
+
+  "flex-layout.row#product-delivery-row-6": {
+    "props": {
+      "horizontalAlign": "center",
+      "marginBottom": 5,
+      "paddingBottom": 5
+    },
+    "children": [
+      "flex-layout.col#product-delivery-row-6-col-1",
+      "flex-layout.col#product-delivery-row-6-col-2"
+    ]
+  },
+  "flex-layout.col#product-delivery-row-6-col-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
     "children": []
+  },
+  "flex-layout.col#product-delivery-row-6-col-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#product-delivery-thank-you-text"
+    ]
+  },
+
+  "image#product-delivery-info-image-1": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/1-50x50.png",
+      "maxWidth": "50px",
+      "maxHeight": "50px"
+    }
+  },
+  "image#product-delivery-info-image-2": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/4-50x50.png",
+      "maxWidth": "50px",
+      "maxHeight": "50px"
+    }
+  },
+  "image#product-delivery-info-image-3": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/3-50x50.png",
+      "maxWidth": "50px",
+      "maxHeight": "50px"
+    }
+  },
+  "image#product-delivery-info-image-4": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/2-50x50.png",
+      "maxWidth": "50px",
+      "maxHeight": "50px"
+    }
+  },
+
+  "rich-text#product-delivery-dear-client-text": {
+    "props": {
+      "text": "Dragă client,",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "productDeliveryDearClient"
+    }
+  },
+  "rich-text#product-delivery-info-text-1": {
+    "props": {
+      "text": "În această perioadă, livrările pot si onorate doar în București, cu vehicule și angajați proprii, în condiții maxime de siguranță și igienă. Comenzile vor fi livrate în decurs de 48 de ore din momentul plasării comenzii și confirmării acesteia.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "productDeliveryInfoText"
+    }
+  },
+  "rich-text#product-delivery-info-text-2": {
+    "props": {
+      "text": "Vă rugăm să luați în considerare că după lasnsarea comenzii veți fi contactate telefonic / whatsapp de către unul dintre operatorii Fine Food, pentru detalii suplimentare și confirmare.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "productDeliveryInfoText"
+    }
+  },
+  "rich-text#product-delivery-info-text-3": {
+    "props": {
+      "text": "În cazul în care comanda nu se ridică la așteptările dumneavoastră sau în cazul nefericit în care oricare dintre produse prezintă urme de deteriorare, vă rugăm să ne contactați imediat la numărul de telefon 0733 99 11 77",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "productDeliveryInfoText"
+    }
+  },
+  "rich-text#product-delivery-info-text-4": {
+    "props": {
+      "text": "În acest caz, este important pentru noi să netrimiteți o fotografie cu produsele primite. Vă rugăm să nu aruncați aceste produse înainte de a fi contactat echipa noastră de servicii clienți.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "productDeliveryInfoText"
+    }
+  },
+  "rich-text#product-delivery-thank-you-text": {
+    "props": {
+      "text": "Vă mulțumim!\n## ECHIPA FINE FOOD\nwww.fine-food.ro",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "productDeliveryThankYou"
+    }
   }
 }
