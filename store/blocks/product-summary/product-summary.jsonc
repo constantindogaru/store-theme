@@ -13,7 +13,7 @@
       // "product-summary-space",
       "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
+      // "product-installments#summary",
       "flex-layout.row#add-to-cart"
     ]
   },

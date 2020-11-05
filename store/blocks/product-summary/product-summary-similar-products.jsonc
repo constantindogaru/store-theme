@@ -3,6 +3,9 @@
     "children": ["flex-layout.row#summary-shelf-row"]
   },
   "flex-layout.row#summary-shelf-row": {
+    "props": {
+      "blockClass": "summaryShelfRow"
+    },
     "children": ["flex-layout.col#product-summary"]
   }
 }
