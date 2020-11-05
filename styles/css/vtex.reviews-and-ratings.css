@@ -1,12 +1,41 @@
 .inlineContainer {
-  margin-left: 0rem ;
+  margin-left: 0rem;
   margin-bottom: 3rem;
 }
 
 .star--filled {
-  color: #FFB100;
+  color: #ffb100;
 }
 
 .star--empty {
-  color: #FFB100;
+  color: #ffb100;
+}
+
+.reviewsHeading {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  color: #2d2a2a;
+  font-weight: 600;
+  line-height: 1.4;
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+}
+
+.loginLink {
+  text-decoration: none;
+  font-weight: 500;
+  color: #777;
+  font-size: 14px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.reviewCommentsContainer {
+  color: #2d2a2a;
+  font-size: 14px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
 }
