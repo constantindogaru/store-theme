@@ -3,7 +3,7 @@
 }
 
 .galleryTitle--layout {
-  font-family: "Poppins",Arial,Helvetica,sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 50px;
   text-align: center;
   font-weight: 600;
@@ -15,15 +15,8 @@
 }
 
 .galleryItem {
-  margin-right: 50px;
-  margin-bottom: 15px;
-}
-
-.galleryItem:hover {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #83b735;
-
+  margin: 0;
+  min-width: 33%;
 }
 
 .searchResultContainer {

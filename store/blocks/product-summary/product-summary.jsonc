@@ -1,5 +1,8 @@
 {
   "product-summary.shelf": {
+    "props": {
+      "blockClass": "productSummaryShelf"
+    },
     "children": ["flex-layout.col#product-summary"]
   },
   "flex-layout.col#product-summary": {
@@ -20,7 +23,8 @@
   "flex-layout.row#add-to-cart": {
     "props": {
       "blockClass": "flex-add-to-cart",
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "colGap": 4
     },
     "children": [
       "flex-layout.col#list-button",

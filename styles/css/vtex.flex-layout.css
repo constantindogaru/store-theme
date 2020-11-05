@@ -279,6 +279,10 @@
   visibility: visible;
 }
 
+.flexCol--flex-product-summary {
+  padding: 15px;
+}
+
 @media screen and (min-width: 640px) {
   .flexRowContent--productDeliveryInfoRowColStretch
     :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -288,11 +292,7 @@
   }
 }
 
-.flexRowContent--summaryShelfRow {
-  padding: 15px;
-}
-
-.flexRowContent--summaryShelfRow:hover {
+.flexCol--flex-product-summary:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease-in-out;
 }
