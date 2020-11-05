@@ -1,3 +1,7 @@
 .expandIcon {
-  color: red;
+  color: #333;
+}
+
+.expandIcon:hover {
+  color: #83b735;
 }
