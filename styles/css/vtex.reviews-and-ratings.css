@@ -39,3 +39,59 @@
   font-size: 14px;
   font-family: "Lato", Arial, Helvetica, sans-serif;
 }
+
+.formContainer {
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.formContainer :global(.vtex-card) {
+  padding-top: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.formContainer :global(.vtex-card) :global(.vtex-input__label) {
+  color: #464646;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.formContainer :global(.vtex-card) :global(.vtex-textarea__label) {
+  color: #464646;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.formContainer :global(.vtex-card) :global(.vtex-button) {
+  background-color: #83b735;
+  border-color: #83b735;
+  border-radius: 0;
+}
+
+.formContainer :global(.vtex-card) :global(.vtex-button):hover {
+  background-color: #74a32f;
+  border-color: #74a32f;
+  border-radius: 0;
+}
+
+.formContainer :global(.vtex-card) :global(.vtex-button__label) {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.formContainer :global(.vtex-card) :global(.vtex-styleguide-8-x-input) {
+  font-size: 14px;
+  color: #777;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.formContainer :global(.vtex-card) :global(.vtex-styleguide-9-x-input) {
+  font-size: 14px;
+  color: #777;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
