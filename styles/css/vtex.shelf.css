@@ -32,3 +32,11 @@
   padding-left: 35px;
   padding-right: 35px;
 }
+
+.arrowLeft--relatedProductsProductPage {
+  outline: none;
+}
+
+.arrowRight--relatedProductsProductPage {
+  outline: none;
+}
