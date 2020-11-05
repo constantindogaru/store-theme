@@ -27,3 +27,8 @@
   width: 40px;
   height: 2px;
 }
+
+.sliderContainer--relatedProductsProductPage {
+  padding-left: 35px;
+  padding-right: 35px;
+}
