@@ -1,0 +1,32 @@
+.productPriceContainer--productPriceMiniCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productPrice--productPriceMiniCart {
+  color: #83b735;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.deleteIcon--productRemoveFromMiniCart {
+  color: #777;
+}
+
+.deleteIcon--productRemoveFromMiniCart:hover {
+  color: #2d2a2a;
+}
+
+.quantityInputContainer--quantitySelectorMiniCart
+  :global(.vtex-styleguide-8-x-input) {
+  color: #777;
+  font-size: 14px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.unitPricePerUnitCurrency--unitPriceMiniCart {
+  color: #83b735;
+  font-weight: 600;
+}

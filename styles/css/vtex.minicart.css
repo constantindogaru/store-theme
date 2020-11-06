@@ -1,3 +1,20 @@
 .container {
   width: 150%;
 }
+
+.minicartCheckoutButton :global(.vtex-button) {
+  border-radius: 0;
+  background-color: #83b735;
+  border-color: #83b735;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover {
+  border-radius: 0;
+  background-color: #74a32f;
+  border-color: #74a32f;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+  color: white;
+  font-size: 13px;
+}
