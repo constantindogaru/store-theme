@@ -1,0 +1,13 @@
+:global(.vtex-dropdown__container) {
+  border: 2px solid #e3e4e6;
+  border-radius: 0;
+}
+
+:global(.vtex-dropdown__caption) {
+  color: #777;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+:global(.vtex-dropdown__arrow) {
+  color: #777;
+}
