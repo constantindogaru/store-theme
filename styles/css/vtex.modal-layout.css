@@ -5,7 +5,7 @@
   }
 
   .actionsContainer--quickview {
-    padding: 0 2rem 2rem 2rem;
+    padding: 2rem;
   }
 }
 
@@ -16,7 +16,6 @@
   }
 }
 
-
 @media screen and (min-width: 75em) {
   .paper--quickview {
     width: calc(100% - 4rem);
@@ -26,13 +25,13 @@
 
 @media screen and (min-width: 82em) {
   .actionsContainer--quickview {
-    padding: 0 2.5rem 2.5rem 2.5rem;
+    padding: 2.5rem;
   }
 }
 
 .paper--quickview {
   min-width: 320px;
-  max-width: 96rem;
+  max-width: 1222px;
 }
 
 .headerContainer--quickview {
@@ -44,22 +43,17 @@
 .actionsContainer--quickview {
   height: 100%;
   width: 100%;
-  transition: box-shadow 150ms ease-in-out, border-top 150ms ease-in-out;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: transparent;
-  box-shadow: -4px 0px 27px -12px transparent;
 }
 
 .actionsContentWrapper {
-  border-top-width: 1px;
+  border-top-width: 2px;
   border-top-style: solid;
-  border-top-color: #aaa;
+  border-top-color: #e3e4e6;
   padding-top: 1.5rem;
 }
 
 .contentContainer--quickviewContent {
-  padding: 2.5rem 0 2.5rem 2rem;
+  padding: 2.5rem 2rem 2.5rem 2rem;
   overflow-x: hidden;
 }
 
@@ -70,15 +64,6 @@
 
 .triggerContainer {
   outline: none;
-}
-
-.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) {
-  border-top-color: rgb(238, 238, 238);
-  box-shadow: -4px 0px 27px -12px rgba(0,0,0,0.64);
-}
-
-.actionsContainer--quickview:not(.actionsContainerEndOfContent--quickview) .actionsContentWrapper {
-  border-top-color: transparent;
 }
 
 .closeButton {

@@ -1,0 +1,13 @@
+.link--quickviewMoreDetails {
+  background: #83b735;
+}
+
+.link--quickviewMoreDetails:hover {
+  background: #74a32f;
+}
+
+.label--quickviewMoreDetails {
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}

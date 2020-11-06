@@ -24,3 +24,8 @@
 .wishlistIconContainer--addToWishlistProductPage :global(.vtex-button):hover {
   background: transparent;
 }
+
+.wishlistIconContainer--addToWishlistProductPage :global(.vtex-button__label) {
+  background: transparent;
+  padding: 0;
+}
