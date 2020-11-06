@@ -300,3 +300,12 @@
 .flexColChild--summaryListButton :global(.vtex-button):hover {
   background: transparent;
 }
+
+.flexRow--titleWishlist {
+  background: #0a0a0a;
+}
+
+.flexRowContent--wishlistContent {
+  max-width: 1222px;
+  margin: auto;
+}

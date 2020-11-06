@@ -36,3 +36,7 @@
   margin-bottom: 50px;
   padding-bottom: 25px;
 }
+
+.slideChildrenContainer--shelf {
+  justify-content: flex-start;
+}

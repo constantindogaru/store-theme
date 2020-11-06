@@ -11,7 +11,7 @@
   "store.custom#newsletter": {
     "path": "/newsletter"
   },
-  "store.custom#wishlist": {
+  "store.wishlist": {
     "path": "/wishlist"
   },
   "store.blog-home": {

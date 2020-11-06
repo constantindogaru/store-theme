@@ -1,14 +1,75 @@
 {
-  "store.custom#wishlist": {
+  "store.wishlist": {
     "blocks": [
-      "rich-text#wishlist"
+      "flex-layout.row#top-wishlist",
+      "flex-layout.row#wishlist-content"
     ]
   },
-
-  "rich-text#wishlist": {
+  "flex-layout.row#top-wishlist": {
     "props": {
-      "text": "WISHLIST TEST",
-      "blockClass": "wishlist"
+      "blockClass": "titleWishlist"
+    },
+    "children": [
+      "flex-layout.col#title-wishlist"
+    ]
+  },
+  "flex-layout.col#title-wishlist": {
+    "props": {
+      "blockClass": "titleWishlist",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#title-wishlist"
+    ]
+  },
+  "rich-text#title-wishlist": {
+    "props": {
+      "text": "# Wishlist",
+      "blockClass": "titleWishlist"
+    }
+  },
+
+  "flex-layout.row#wishlist-content": {
+    "props": {
+      "blockClass": "wishlistContent"
+    },
+    "children": [
+      "flex-layout.col#wishlist-content"
+    ]
+  },
+  "flex-layout.col#wishlist-content": {
+    "children": [
+      "rich-text#subtitle-wishlist",
+      "list-context.wishlist"
+    ]
+  },
+  "rich-text#subtitle-wishlist": {
+    "props": {
+      "blockClass": "wishlistSubtitle",
+      "text": "#### Produsele din wishlist-ul tau"
+    }
+  },
+  "list-context.wishlist": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#wishlist"
+    ]
+  },
+  "slider-layout#wishlist": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "infinite": false,
+      "fullWidth": true,
+      "blockClass": "shelf"
+      // "centerMode": "to-the-left"
     }
   }
 }

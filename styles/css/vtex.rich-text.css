@@ -290,3 +290,27 @@
   font-weight: 400;
   margin-bottom: 0;
 }
+
+.container--titleWishlist {
+  justify-content: center;
+  background: #0a0a0a;
+}
+
+.headingLevel1--titleWishlist {
+  color: white;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.headingLevel4--wishlistSubtitle {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  color: #2d2a2a;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.container--wishlistSubtitle {
+  border-bottom: 1px solid rgba(129, 129, 129, 0.2);
+  margin-bottom: 10px;
+}
