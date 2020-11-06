@@ -60,16 +60,15 @@
   "slider-layout#wishlist": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
+        "desktop": 3,
+        "tablet": 2,
         "phone": 1
       },
       "showNavigationArrows": "desktopOnly",
       "showPaginationDots": "always",
-      "infinite": false,
+      "infinite": true,
       "fullWidth": true,
       "blockClass": "shelf"
-      // "centerMode": "to-the-left"
     }
   }
 }

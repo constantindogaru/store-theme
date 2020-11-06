@@ -309,3 +309,8 @@
   max-width: 1222px;
   margin: auto;
 }
+
+.flexRow--wishlistContent {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
