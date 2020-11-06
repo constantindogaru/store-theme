@@ -18,3 +18,11 @@
   color: white;
   font-size: 13px;
 }
+
+.closeIconButton {
+  color: #777;
+}
+
+.closeIconButton:hover {
+  color: #2a2d2d;
+}
