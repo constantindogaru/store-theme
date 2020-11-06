@@ -13,7 +13,7 @@
 
 .reviewsHeading {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
   color: #2d2a2a;
@@ -103,4 +103,9 @@
 .writeReviewContainer {
   font-size: 16px;
   font-weight: 600;
+}
+
+.reviewCommentsContainer :global(.vtex-button) {
+  border-radius: 0;
+  color: #777;
 }
