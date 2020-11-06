@@ -70,6 +70,14 @@
   padding-right: 1rem;
 }
 
+.closeIcon {
+  color: #777;
+}
+
+.closeIcon:hover {
+  color: #2e2e2e;
+}
+
 .paper--product-gifts {
   padding: 1.5rem;
 }
