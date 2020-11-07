@@ -11,3 +11,7 @@
 :global(.vtex-dropdown__arrow) {
   color: #777;
 }
+
+:global(.vtex-button) {
+  outline: none !important;
+}
