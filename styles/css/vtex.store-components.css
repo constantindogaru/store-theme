@@ -239,3 +239,7 @@
   color: #333;
   margin-top: 0;
 }
+
+.searchBarIcon--external-search {
+  outline: none;
+}
