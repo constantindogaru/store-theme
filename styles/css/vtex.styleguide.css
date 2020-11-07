@@ -15,3 +15,7 @@
 :global(.vtex-button) {
   outline: none !important;
 }
+
+:global(.vtex-menu-2-x-styledLinkContent):hover {
+  color: #83b735;
+}
