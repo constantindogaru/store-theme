@@ -76,13 +76,20 @@
   font-size: 13px;
 }
 .styledLinkContainer--headermenu {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.menuItem--headermenu {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 12px;
+
   border-right-style: solid;
   border-color: #D3D3D3;
   border-width: 1px;
+}
+.menuItem--headermenu {
   padding-top: 3px;
 }
 /* ------------------ */
