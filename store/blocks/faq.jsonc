@@ -16,13 +16,19 @@
 
   "flex-layout.col#faq": {
     "children": [
+      "rich-text#before-faq",
       "rich-text#faq",
       "disclosure-layout-group#group"
     ]
   },
+  "rich-text#before-faq": {
+    "props": {
+      "text": "Raspunsurile noastre la cele mai comune probleme ridicate de clienți."
+    }
+  },
   "rich-text#faq": {
     "props": {
-      "text": "## FAQ"
+      "text": "### ÎNTREBĂRI FRECVENTE"
     }
   },
 
@@ -31,7 +37,8 @@
       "disclosure-layout#first",
       "disclosure-layout#second",
       "disclosure-layout#third",
-      "disclosure-layout#fourth"
+      "disclosure-layout#fourth",
+      "disclosure-layout#fifth"
     ]
   },
 
@@ -56,12 +63,12 @@
   },
   "rich-text#question1": {
     "props": {
-      "text": "How can I change my shipping address?"
+      "text": "Urmeaza sa primesc acelasi produs cu cel din imagine?"
     }
   },
   "rich-text#answer1": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234."
+      "text": "Produsele din imagini sunt reproduse fotografic in mare parte dupa produsele reale. Pentru produsele care se pot gasi la mai multi producatori ( de regula legume, fructe, produse similare ) fotografiile sunt doar reprezentative pentru produs."
     }
   },
 
@@ -86,12 +93,12 @@
   },
   "rich-text#question2": {
     "props": {
-      "text": "How can I track my order?"
+      "text": "Unde pot gasi factura?"
     }
   },
   "rich-text#answer2": {
     "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
+      "text": "In functie de modul in care sunteti inregistrat in Fine Food Club, veti primi factura o data cu produsele, sau doar prin e mail, incercand prin acest mod sa folosim cat mai putina hartie, pentru sanatatea planetei, chiar si cu pasi mici, mici..."
     }
   },
 
@@ -117,12 +124,12 @@
   },
   "rich-text#question3": {
     "props": {
-      "text": "How can I change my shipping address?"
+      "text": "Cum pot returna un produs?"
     }
   },
   "rich-text#answer3": {
     "props": {
-      "text": "Call us at the number (212) 1234-1234."
+      "text": "Modalitatea de returnare a produselor comandate o puteti regasi in Politicile Comerciale, care respecta normele comerciale ale CEE."
     }
   },
 
@@ -144,16 +151,46 @@
     "props": {
       "blockClass": "answer"
     },
-    "children": ["rich-text#answer2"]
+    "children": ["rich-text#answer4"]
   },
   "rich-text#question4": {
     "props": {
-      "text": "How can I track my order?"
+      "text": "Veti mai aproviziona magazinul cu acele produse care figureaza “lipsa stoc”?"
     }
   },
   "rich-text#answer4": {
     "props": {
-      "text": "After logging into your account, you can find this info at the link Orders."
+      "text": "Aprovizionam constant cu produsele de sezon, si cu siguranta chiar si produsele care la un moment dat apar out of stock, vor aparea disponibile pe site. De regula aceste info le veti primi si prin News Letter."
+    }
+  },
+
+  "disclosure-layout#fifth": {
+    "props": {
+      "animated": true
+    },
+    "children": ["disclosure-trigger#fifth", "disclosure-content#fifth"]
+  },
+  "disclosure-trigger#fifth": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": ["disclosure-state-indicator", "rich-text#question5"]
+  },
+  "disclosure-content#fifth": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": ["rich-text#answer5"]
+  },
+  "rich-text#question5": {
+    "props": {
+      "text": "Unde poate fi livrata comanda?"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "text": "In aceasta perioada, comenzile de pot livra cu delegatii Fine Food Expert, in conditii maxime de siguranta si igiena, doar in Bucuresti, Ploiesti, Brasov. In conditii speciale si in functie de comenzi, putem livra cu logistica prorie si in alte localitati."
     }
   },
 
