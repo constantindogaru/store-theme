@@ -1,4 +1,7 @@
 {
+  "store.custom#oferte-speciale": {
+    "path": "/oferte-speciale"
+  },
   "store.custom#about-us": {
     "path": "/about-us"
   },

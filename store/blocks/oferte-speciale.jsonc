@@ -1,0 +1,12 @@
+{
+  "store.custom#oferte-speciale": {
+    "blocks": [
+      "rich-text#oferte-speciale"
+    ]
+  },
+  "rich-text#oferte-speciale": {
+    "props": {
+      "text": "OFERTE SPECIALE test page"
+    }
+  }
+}
