@@ -50,6 +50,7 @@
 }
 .styledLinkContainer--browse-categories {
   margin-left: 0px;
+  padding-top: 19px;
 }
 .menuItem--browse-categories {
   width: 20%;
@@ -72,6 +73,7 @@
   border-right-style: solid;
   border-color: #D3D3D3;
   border-width: 1px;
+  padding-top: 3px;
 }
 /* ------------------ */
 
