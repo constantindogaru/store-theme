@@ -1,11 +1,14 @@
 {
   "flex-layout.row#header-3-desktop": {
     "props": {
-      "blockClass": "categories-menu"
+      "blockClass": "categories-menu",
+      "colSizing": "auto"
     },
     "children": [
       "flex-layout.col#spacer12",
-      "flex-layout.col#category-menu"
+      "flex-layout.col#category-menu",
+      "flex-layout.col#oferte-speciale",
+      "flex-layout.col#spacer12"
     ]
   },
 
@@ -13,7 +16,8 @@
   // CATEGORY MENU
   "flex-layout.col#category-menu": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "width": "65%"
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
@@ -25,8 +29,7 @@
       "menu-item#browse-categories",
       "menu-item#about-us",
       "menu-item#blog",
-      "menu-item#contact-us",
-      "menu-item#oferte-speciale"
+      "menu-item#contact-us"
     ]
   },
   // BROWSE CATEGORIES
@@ -343,6 +346,21 @@
     }
   },
   // OFERTE SPECIALE
+  "flex-layout.col#oferte-speciale": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "11%"
+    },
+    "children": ["vtex.menu@2.x:menu#oferte-speciale"]
+  },
+  "vtex.menu@2.x:menu#oferte-speciale": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#oferte-speciale"
+    ]
+  },
   "menu-item#oferte-speciale": {
     "props": {
       "blockClass": "headermenu-oferte-speciale",
