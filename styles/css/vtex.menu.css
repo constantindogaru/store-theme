@@ -4,17 +4,27 @@
 
 /* styles for header1 */
 /* ------------------ */
-.styledLinkContent--topmenu {
+.styledLinkContent--topmenu-newsletter, .styledLinkContent--topmenu-faq {
   color: #333;
   font-weight: 400;
   font-size: 12px;
   font-family: "Lato",Arial,Helvetica,sans-serif;
 }
-.styledLinkContainer--topmenu {
-  margin-right: 20px;
+.styledLinkContainer--topmenu-newsletter, .styledLinkContainer--topmenu-faq {
+  margin-right: 0px;
+  padding-right: 18px;
   margin-left: 0px;
   margin-top: 3px;
 }
+
+.styledLinkContainer--topmenu-faq {
+  border-right-style: solid;
+  border-color: #d3d3d3;
+  border-width: 1px;
+  padding-bottom: 10px;
+  padding-right: 14px;
+}
+
 /* ------------------ */
 
 

@@ -4,12 +4,9 @@
       "blockClass": "header-1-desktop"
     },
     "children": [
-      "flex-layout.col#spacer11",
       "flex-layout.col#premium-food",
-      "flex-layout.col#spacer20",
       "flex-layout.col#social-networks",
-      "flex-layout.col#top-menu",
-      "flex-layout.col#spacer21"
+      "flex-layout.col#top-menu"
     ]
   },
 
@@ -17,6 +14,8 @@
   // TOP LEFT TEXT
   "flex-layout.col#premium-food": {
     "props": {
+      "blockClass": "flex-premium-food",
+      "width": "50%",
       "verticalAlign": "middle"
     },
     "children": ["rich-text#premium-food"]
@@ -32,6 +31,8 @@
   // SOCIAL NETWORKS
   "flex-layout.col#social-networks": {
     "props": {
+      "blockClass": "flex-social-networks",
+      "width": "15%",
       "verticalAlign": "middle"
     },
     "children": ["social-networks"]
@@ -77,7 +78,7 @@
   // NEWSLETTER
   "menu-item#newsletter": {
     "props": {
-      "blockClass": "topmenu",
+      "blockClass": "topmenu-newsletter",
       "id": "menu-item-newsletter",
       "type": "custom",
       "highlight": false,
@@ -96,7 +97,7 @@
   // FAQ
   "menu-item#faq": {
     "props": {
-      "blockClass": "topmenu",
+      "blockClass": "topmenu-faq",
       "id": "menu-item-faq",
       "type": "custom",
       "iconId": null,
