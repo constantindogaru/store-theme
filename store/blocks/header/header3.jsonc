@@ -25,7 +25,8 @@
       "menu-item#browse-categories",
       "menu-item#about-us",
       "menu-item#blog",
-      "menu-item#contact-us"
+      "menu-item#contact-us",
+      "menu-item#oferte-speciale"
     ]
   },
   // BROWSE CATEGORIES
@@ -338,6 +339,23 @@
         "noFollow": true,
         "tagTitle": "CONTACT US",
         "text": "CONTACT"
+      }
+    }
+  },
+  // OFERTE SPECIALE
+  "menu-item#oferte-speciale": {
+    "props": {
+      "blockClass": "headermenu-oferte-speciale",
+      "id": "menu-item-oferte-speciale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oferte-speciale",
+        "noFollow": true,
+        "tagTitle": "OFERTE SPECIALE",
+        "text": "OFERTE SPECIALE"
       }
     }
   }
