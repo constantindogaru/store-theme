@@ -314,3 +314,7 @@
   margin-top: 20px;
   margin-bottom: 50px;
 }
+
+.flexColChild--flex-logo {
+  margin-left: 33%;
+}

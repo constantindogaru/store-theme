@@ -20,11 +20,18 @@
 
 /* styles for header2 */
 /* ------------------ */
-.styledLinkContent--wishlist {
+/* .styledLinkContent--wishlist {
   margin-left: 0px;
-}
+} */
 .styledLinkContainer--wishlist {
-  margin-left: 0px;
+  margin: 0px;
+  padding-left: 12px;
+  padding-right: 24px;
+  padding-top: 4px;
+  padding-bottom: 5.12px;
+}
+.styledLinkContainer--wishlist:hover {
+  background-color: #eef7ee;
 }
 .styledLinkIcon--wishlist {
   color: #979899;

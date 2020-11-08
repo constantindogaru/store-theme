@@ -9,12 +9,12 @@
       "colSizing": "auto"
     },
     "children": [
-      "flex-layout.col#spacer8",
       "flex-layout.col#logo",
       "flex-layout.col#search-bar",
-      "flex-layout.col#spacer22",
-      "flex-layout.col#login-menu",
-      "flex-layout.col#spacer3"
+      "flex-layout.col#login",
+      "flex-layout.col#wishlist",
+      "flex-layout.col#minicart",
+      "flex-layout.col#spacer17"
     ]
   },
 
@@ -22,8 +22,9 @@
   // LOGO
   "flex-layout.col#logo": {
     "props": {
+      "blockClass": "flex-logo",
       "verticalAlign": "middle",
-      "marginLeft": 3
+      "width": "28%"
     },
     "children": ["logo"]
   },
@@ -39,7 +40,9 @@
   // SEARCH BAR
   "flex-layout.col#search-bar": {
     "props": {
-      "verticalAlign": "middle"
+      "blockClass": "flex-search-bar",
+      "verticalAlign": "middle",
+      "width": "42%"
     },
     "children": ["search-bar"]
   },
@@ -52,40 +55,27 @@
   },
 
 
-  // LOGIN MENU
-  "flex-layout.col#login-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["flex-layout.row#login-menu"]
-  },
-  "flex-layout.row#login-menu": {
-    "props": {
-      "preventHorizontalStretch": true
-    },
-    "children": [
-      "flex-layout.col#login",
-      "flex-layout.col#wishlist",
-      "flex-layout.col#minicart"
-    ]
-  },
   // LOGIN
   "flex-layout.col#login": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "width": "5%"
     },
     "children": ["login"]
   },
   "login": {
     "props": {
-      "iconLabel": "LOGIN / REGISTER",
-      "verticalAlign": "middle"
+      // "iconLabel": "LOGIN / REGISTER",
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "iconSize": 24
     }
   },
   // WISHLIST
   "flex-layout.col#wishlist": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "width": "4%"
     },
     "children": ["menu-item#wishlist"]
   },
@@ -102,7 +92,8 @@
         "tagTitle": "wishlist"
       },
       "iconProps": {
-        "id": "mpa-heart"
+        "id": "mpa-heart",
+        "size": "28"
       }
     }
   },
@@ -110,7 +101,7 @@
   "flex-layout.col#minicart": {
     "props": {
       "verticalAlign": "middle",
-      "marginRight": 10
+      "width": "4%"
     },
     "children": ["minicart.v2"]
   }
