@@ -75,6 +75,7 @@
   "flex-layout.col#wishlist": {
     "props": {
       "verticalAlign": "middle",
+      "horizontalAlign": "right",
       "width": "4%"
     },
     "children": ["menu-item#wishlist"]
