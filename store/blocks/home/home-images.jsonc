@@ -1,41 +1,4 @@
 {
-  "flex-layout.row#home-images": {
-    "props": {
-      "blockClass": "home-images",
-      "horizontalAlign": "center"
-    },
-    "children": ["flex-layout.col#home-images"]
-  },
-  "flex-layout.col#home-images": {
-    "props": {
-      "width": "80%"
-    },
-    "children": ["list-context.image-list#home-images"]
-  },
-  "list-context.image-list#home-images": {
-    "props": {
-      "height": 650,
-      "images": [
-        {
-          "image": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-13.jpg",
-          "mobileImage": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-13.jpg"
-        },
-        {
-          "image": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-19.jpg",
-          "mobileImage": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-19.jpg"
-        },
-        {
-          "image": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-3.jpg",
-          "mobileImage": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-3.jpg"
-        },
-        {
-          "image": "https://www.fine-food.ro/wp-content/uploads/2020/05/Slider-fructe-de-mare.jpg",
-          "mobileImage": "https://www.fine-food.ro/wp-content/uploads/2020/05/Slider-fructe-de-mare.jpg"
-        }
-      ]
-    },
-    "children": ["slider-layout#home-images"]
-  },
   "slider-layout#home-images": {
     "props": {
       "itemsPerPage": {
@@ -55,6 +18,67 @@
         "stopOnHover": true
       },
       "blockClass": "carousel"
+    },
+    "children": [
+      "info-card#image1",
+      "info-card#image2",
+      "info-card#image3",
+      "info-card#image4"
+    ]
+  },
+  "info-card#image1": {
+    "props": {
+      "blockClass": "home-slider",
+      "textPosition": "right",
+      "textAlignment": "right",
+      "headline": "Cartofi noi",
+      "subhead": "Origine Austria",
+      "imageUrl": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-13.jpg",
+      "callToActionMode": "link",
+      "callToActionText": "20 lei/Kg",
+      "callToActionUrl": "/product/cartofi-noi-mini-origine-austria/",
+      "isFullModeStyle": true
+    }
+  },
+  "info-card#image2": {
+    "props": {
+      "blockClass": "home-slider",
+      "textPosition": "right",
+      "textAlignment": "right",
+      "headline": "Unt vrac",
+      "subhead": "82% Grasime",
+      "imageUrl": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-19.jpg",
+      "callToActionMode": "link",
+      "callToActionText": "14 lei/200g",
+      "callToActionUrl": "/product/unt-vrac-82-pachet-aproximativ-200g/",
+      "isFullModeStyle": true
+    }
+  },
+  "info-card#image3": {
+    "props": {
+      "blockClass": "home-slider",
+      "textPosition": "right",
+      "textAlignment": "right",
+      "headline": "Pecorino cu trufe",
+      "subhead": "Specialitate italiana",
+      "imageUrl": "https://www.fine-food.ro/wp-content/uploads/2020/03/fine-food-slider-3.jpg",
+      "callToActionMode": "link",
+      "callToActionText": "30 lei/200g",
+      "callToActionUrl": "/product/specialitate-branza-vaca-cu-trufe/",
+      "isFullModeStyle": true
+    }
+  },
+  "info-card#image4": {
+    "props": {
+      "blockClass": "home-slider",
+      "textPosition": "right",
+      "textAlignment": "right",
+      "headline": "Fructe de mare \"ready to eat\" Werner Lauenroth - Hamburg",
+      "subhead": "Viziteaza sectiunea",
+      "imageUrl": "https://www.fine-food.ro/wp-content/uploads/2020/05/Slider-fructe-de-mare.jpg",
+      "callToActionMode": "link",
+      "callToActionUrl": "/product-category/peste-fructe-de-mare-caviar/",
+      "isFullModeStyle": true
     }
   }
 }

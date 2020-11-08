@@ -40,3 +40,11 @@
 .slideChildrenContainer--shelf {
   justify-content: flex-start;
 }
+
+.slideChildrenContainer--carousel {
+  background-color: whitesmoke;
+}
+
+.sliderLayoutContainer--carousel {
+  background-color: whitesmoke;
+}
