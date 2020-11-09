@@ -29,6 +29,15 @@
   font-size: 18px;
 }
 
+.buttonContainer--newsletter-home-page :global(.vtex-button) {
+  border-radius: 0;
+}
+
+.buttonContainer--newsletter-home-page :global(.vtex-button__label) {
+  font-size: 13px;
+  font-weight: 600;
+}
+
 .inputGroup {
   padding-bottom: 4px;
   display: flex;

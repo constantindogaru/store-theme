@@ -355,3 +355,23 @@
     transform: translateX(0);
   }
 }
+
+.container--newsletterPrivacyPolicyText {
+  justify-content: center;
+}
+
+.paragraph--newsletterPrivacyPolicyText {
+  color: #777;
+  text-align: center;
+}
+
+.link--newsletterPrivacyPolicyText {
+  text-decoration: none;
+  cursor: pointer;
+  color: #2d2a2a;
+  font-weight: 600;
+}
+
+.link--newsletterPrivacyPolicyText:hover {
+  color: #83b735;
+}

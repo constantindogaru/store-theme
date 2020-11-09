@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#newsletter-homepage": {
+    "children": ["flex-layout.col#newsletter-homepage"]
+  },
+  "flex-layout.col#newsletter-homepage": {
+    "children": [
+      "newsletter#home-page",
+      "rich-text#newsletter-policy"
+    ]
+  },
+  "newsletter#home-page": {
+    "props": {
+      "label": "ABONAȚI-VĂ LA NEWSLETTERUL NOSTRU",
+      "placeholder": "Adresa dvs. de email",
+      "submit": "SIGN UP",
+      "blockClass": "newsletter-home-page"
+    }
+  },
+  "rich-text#newsletter-policy": {
+    "props": {
+      "text": "Will be used in accordance with our [Privacy Policy](https://www.fine-food.ro/#)",
+      "blockClass": "newsletterPrivacyPolicyText"
+    }
+  }
+}
