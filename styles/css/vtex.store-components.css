@@ -209,6 +209,16 @@
   font-size: 56px;
 }
 
+.infoCardTextContainer--home-slider {
+  padding-right: 45px;
+}
+
+@media screen and (min-width: 40em) {
+  .infoCardTextContainer--home-slider {
+    width: 75%;
+  }
+}
+
 .infoCardSubhead--home-slider {
   color: rgb(255, 255, 255);
   line-height: 26px;

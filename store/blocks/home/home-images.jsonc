@@ -7,7 +7,7 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "never",
+      "showNavigationArrows": "desktopOnly",
       "slideTransition": {
         "speed": 0,
         "delay": 0,
@@ -20,13 +20,13 @@
       "blockClass": "carousel"
     },
     "children": [
-      "info-card#image1",
-      "info-card#image2",
-      "info-card#image3",
-      "info-card#image4"
+      "info-card#home-slider-image1",
+      "info-card#home-slider-image2",
+      "info-card#home-slider-image3",
+      "info-card#home-slider-image4"
     ]
   },
-  "info-card#image1": {
+  "info-card#home-slider-image1": {
     "props": {
       "blockClass": "home-slider",
       "textPosition": "right",
@@ -40,7 +40,7 @@
       "isFullModeStyle": true
     }
   },
-  "info-card#image2": {
+  "info-card#home-slider-image2": {
     "props": {
       "blockClass": "home-slider",
       "textPosition": "right",
@@ -54,7 +54,7 @@
       "isFullModeStyle": true
     }
   },
-  "info-card#image3": {
+  "info-card#home-slider-image3": {
     "props": {
       "blockClass": "home-slider",
       "textPosition": "right",
@@ -68,7 +68,7 @@
       "isFullModeStyle": true
     }
   },
-  "info-card#image4": {
+  "info-card#home-slider-image4": {
     "props": {
       "blockClass": "home-slider",
       "textPosition": "right",

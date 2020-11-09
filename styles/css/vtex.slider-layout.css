@@ -48,3 +48,22 @@
 .sliderLayoutContainer--carousel {
   background-color: whitesmoke;
 }
+
+.sliderRightArrow--carousel {
+  background: #ffffff !important;
+  width: 45px;
+  height: 45px;
+  right: 15px;
+}
+
+.sliderLeftArrow--carousel {
+  background: #ffffff !important;
+  width: 45px;
+  height: 45px;
+  left: 15px;
+}
+
+.caretIcon--carousel {
+  width: 15px;
+  height: 15px;
+}
