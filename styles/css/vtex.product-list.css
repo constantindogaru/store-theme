@@ -30,3 +30,7 @@
   color: #83b735;
   font-weight: 600;
 }
+
+.removeButton {
+  outline: none;
+}
