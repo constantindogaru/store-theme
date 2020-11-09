@@ -18,6 +18,7 @@
       "flex-layout.row#header-1-desktop",
       "flex-layout.row#header-2-desktop",
       "flex-layout.row#header-3-desktop"
+      // "sticky-layout#header-4-desktop"
     ]
   },
   "header-layout.mobile": {

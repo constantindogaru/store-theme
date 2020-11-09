@@ -22,13 +22,15 @@
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
 }
 
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -317,6 +319,12 @@
 
 .flexColChild--flex-logo {
   margin-left: 33%;
+}
+
+.flexColChild--sticky-logo-desktop {
+  margin-left: 35%;
+  margin-top: 5px;
+  margin-bottom: 3px;
 }
 
 .flexColChild--flex-premium-food {

@@ -1,0 +1,48 @@
+{
+  "sticky-layout#header-4-desktop": {
+    "children": ["flex-layout.row#header-4-desktop"]
+  },
+  "flex-layout.row#header-4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      // "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#sticky-logo-desktop",
+      "flex-layout.col#sticky-search-bar",
+      "flex-layout.col#login",
+      "flex-layout.col#wishlist",
+      "flex-layout.col#minicart",
+      "flex-layout.col#spacer18"
+    ]
+  },
+
+  "flex-layout.col#sticky-logo-desktop": {
+    "props": {
+      "blockClass": "sticky-logo-desktop",
+      "verticalAlign": "middle",
+      "width": "29%"
+    },
+    "children": ["logo#sticky-desktop"]
+  },
+  "logo#sticky-desktop": {
+    "props": {
+      "href": "/",
+      "url": "https://www.fine-food.ro/wp-content/uploads/2020/03/Logo-fine-food-transparent-1300.png",
+      "width": "100"
+    }
+  },
+
+  "flex-layout.col#sticky-search-bar": {
+    "props": {
+      "blockClass": "flex-search-bar",
+      "verticalAlign": "middle",
+      "width": "40%"
+    },
+    "children": ["search-bar"]
+  }
+}
