@@ -1,101 +1,101 @@
 {
-    "flex-layout.row#recommended-products-wrapper": {
-        "props": {
-            "marginTop": 8,
-            "fullWidth": true
-        },
-        "children": [
-            "flex-layout.col#recommended-products-wrapper"
-        ]
+  "flex-layout.row#recommended-products-wrapper": {
+    "props": {
+      "marginTop": 8,
+      "fullWidth": true
     },
-    "flex-layout.col#recommended-products-wrapper": {
-        "props": {
-            "width": "100%",
-            "horizontalAlign": "center",
-            "colGap": 7,
-            "blockClass": "recommendedSectionInfoHeader"
-        },
-        "children": [
-            "rich-text#recommended-products-title-1",
-            "flex-layout.row#recommended-products-middle-title-row",
-            "rich-text#recommended-products-title-3",
-            "flex-layout.row#recommended-products"
-        ]
+    "children": [
+      "flex-layout.col#recommended-products-wrapper"
+    ]
+  },
+  "flex-layout.col#recommended-products-wrapper": {
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "colGap": 7,
+      "blockClass": "recommendedSectionInfoHeader"
     },
-    "rich-text#recommended-products-title-1": {
-        "props": {
-            "text": "PRODUSE EXCLUSIVISTE",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
-        }
-    },
-    "flex-layout.row#recommended-products-middle-title-row": {
-        "props": {
-            "fullWidth": true,
-            "verticalAlignment": "center"
-        },
-        "children": [
-            "flex-layout.col#vertical-middle-divider",
-            "flex-layout.col#recommended-products-title-middle-col",
-            "flex-layout.col#vertical-middle-divider"
-        ]
-    },
-    "flex-layout.col#recommended-products-title-middle-col": {
-        "props": {
-            "width": "100%"
-        },
-        "children": ["rich-text#recommended-products-title-2"]
-    },
-    "rich-text#recommended-products-title-2": {
-        "props": {
-            "text": "### PRODUSE RECOMADATE",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "blockClass": "recommendedTitleHeader"
-        }
-    },
-    "rich-text#recommended-products-title-3": {
-        "props": {
-            "text": "Gama noastră de produse de top",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
-        }
-    },
-    "flex-layout.col#vertical-middle-divider": {
-        "props": {
-            "width": "100%",
-            "blockClass": "verticalMiddleDivider"
-        }
-    },
-
-    "flex-layout.row#recommended-products": {
-        "children": ["list-context.product-list#recommended-products"]
-    },
-    "list-context.product-list#recommended-products": {
-        "blocks": ["product-summary.shelf"],
-        "props": {
-            "orderBy": "OrderByTopSaleDESC"
-        },
-        "children": ["slider-layout#demo-products"]
-    },
-    "product-summary.shelf#recommended-products": {
-        "children": [
-            "stack-layout#prodsum", // the product image
-            "product-summary-name", // the product name
-            "product-summary-space", // new line
-            "product-summary-price", // the product price
-            "add-to-cart-button" // the "add to cart" button
-        ]
-    },
-    "slider-layout#demo-products": {
-        "props": {
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 3,
-                "phone": 1
-            },
-            "infinite": true,
-            "blockClass": "shelf"
-        }
+    "children": [
+      "rich-text#recommended-products-title-1",
+      "flex-layout.row#recommended-products-middle-title-row",
+      "rich-text#recommended-products-title-3",
+      "flex-layout.row#recommended-products"
+    ]
+  },
+  "rich-text#recommended-products-title-1": {
+    "props": {
+      "text": "PRODUSE EXCLUSIVISTE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
+  },
+  "flex-layout.row#recommended-products-middle-title-row": {
+    "props": {
+      "fullWidth": true,
+      "verticalAlignment": "center"
+    },
+    "children": [
+      "flex-layout.col#vertical-middle-divider",
+      "flex-layout.col#recommended-products-title-middle-col",
+      "flex-layout.col#vertical-middle-divider"
+    ]
+  },
+  "flex-layout.col#recommended-products-title-middle-col": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["rich-text#recommended-products-title-2"]
+  },
+  "rich-text#recommended-products-title-2": {
+    "props": {
+      "text": "### PRODUSE RECOMADATE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "recommendedTitleHeader"
+    }
+  },
+  "rich-text#recommended-products-title-3": {
+    "props": {
+      "text": "Gama noastră de produse de top",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#vertical-middle-divider": {
+    "props": {
+      "width": "100%",
+      "blockClass": "verticalMiddleDivider"
+    }
+  },
+
+  "flex-layout.row#recommended-products": {
+    "children": ["list-context.product-list#recommended-products"]
+  },
+  "list-context.product-list#recommended-products": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    },
+    "children": ["slider-layout#demo-products"]
+  },
+  "product-summary.shelf#recommended-products": {
+    "children": [
+      "stack-layout#prodsum", // the product image
+      "product-summary-name", // the product name
+      "product-summary-space", // new line
+      "product-summary-price", // the product price
+      "add-to-cart-button" // the "add to cart" button
+    ]
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "blockClass": "shelf"
+    }
+  }
 }
