@@ -1,0 +1,25 @@
+.accessCodeOptionBtn :global(.vtex-button) {
+  border-radius: 0;
+}
+
+.accessCodeOptionBtn :global(.vtex-button__label) {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button) {
+  border-radius: 0;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button__label) {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.formTitle {
+  color: #777;
+}
+
+.sendButton :global(.vtex-button) {
+  border-radius: 0;
+}
