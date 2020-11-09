@@ -24,6 +24,8 @@
 
 .link--movingProdText {
   text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .label--movingProdText {
