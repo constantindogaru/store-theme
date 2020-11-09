@@ -6,7 +6,7 @@
       "flex-layout.row#recommended-products-wrapper",
       "flex-layout.row#moving-products",
       "flex-layout.row#newsletter-homepage",
-      "blog-latest-posts-preview.wordpress-latest-posts-preview"
+      "flex-layout.row#home-blog-wrapper"
     ]
   }
 }

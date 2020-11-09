@@ -1,0 +1,85 @@
+{
+  "flex-layout.row#home-blog-wrapper": {
+    "props": {
+      "marginTop": 8,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#home-blog-wrapper"
+    ]
+  },
+  "flex-layout.col#home-blog-wrapper": {
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "colGap": 7,
+      "blockClass": "recommendedSectionInfoHeader"
+    },
+    "children": [
+      "rich-text#home-blog-title-1",
+      "flex-layout.row#home-blog-middle-title-row",
+      "rich-text#home-blog-title-3",
+      "flex-layout.row#home-blog"
+    ]
+  },
+  "rich-text#home-blog-title-1": {
+    "props": {
+      "text": "DIN BLOGUL NOSTRU",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#home-blog-middle-title-row": {
+    "props": {
+      "fullWidth": true,
+      "verticalAlignment": "center"
+    },
+    "children": [
+      "flex-layout.col#vertical-middle-divider",
+      "flex-layout.col#home-blog-title-middle-col",
+      "flex-layout.col#vertical-middle-divider"
+    ]
+  },
+  "flex-layout.col#home-blog-title-middle-col": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "rich-text#home-blog-title-2"
+    ]
+  },
+  "rich-text#home-blog-title-2": {
+    "props": {
+      "text": "### ULTIMELE NOUTĂȚI",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "recommendedTitleHeader"
+    }
+  },
+  "rich-text#home-blog-title-3": {
+    "props": {
+      "text": "Știri diverse",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#home-blog": {
+    "children": [
+      "flex-layout.col#home-blog"
+    ]
+  },
+  "flex-layout.col#home-blog": {
+    "children": [
+      "blog-latest-posts-preview.wordpress-latest-posts-preview#home-blog"
+    ]
+  },
+  "blog-latest-posts-preview.wordpress-latest-posts-preview#home-blog": {
+    "props": {
+      "useTextOverlays": false,
+      "customDomainSlug": "blog",
+      "showAuthors": true,
+      "showExcerpts": true,
+      "blockClass": "detailedBlogPost"
+    }
+  }
+}
