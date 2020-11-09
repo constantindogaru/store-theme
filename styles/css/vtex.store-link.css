@@ -26,10 +26,20 @@
   text-decoration: none;
   text-align: center;
   margin-bottom: 20px;
+  animation: slideIn-bottom 0.5s;
 }
 
 .label--movingProdText {
   color: white;
   font-size: 54px;
   font-weight: 600;
+}
+
+@keyframes slideIn-bottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

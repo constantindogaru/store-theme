@@ -344,4 +344,14 @@
   max-width: 100%;
   overflow: hidden;
   align-self: center;
+  animation: slideIn-right 1s;
+}
+
+@keyframes slideIn-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
