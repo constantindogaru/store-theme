@@ -48,7 +48,7 @@
   },
   "rich-text#moving-prod-top-products-text": {
     "props": {
-      "text": "# TOP PRODUSE",
+      "text": "# TOP PRODUCT",
       "blockClass": "movingProdTopProductsText"
     }
   },
