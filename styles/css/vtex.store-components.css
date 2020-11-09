@@ -181,16 +181,6 @@
   }
 }
 
-.infoCardContainer--info-card-moving-products {
-  background-color: #800020;
-}
-
-.infoCardCallActionText--info-card-moving-products {
-  color: white;
-  font-size: 54px;
-  text-decoration: none;
-}
-
 .infoCardCallActionContainer--info-card-moving-products {
   text-decoration: none;
 }

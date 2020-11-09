@@ -322,3 +322,17 @@
 .flexColChild--flex-premium-food {
   margin-left: 22%;
 }
+
+.flexColChild--movingProdTextCol {
+  display: flex;
+  align-items: center;
+}
+
+.flexColChild--movingProdImageCol {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRow--movingProdSliderRowItem {
+  max-width: 1222px;
+}

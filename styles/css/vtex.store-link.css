@@ -21,3 +21,13 @@
   font-weight: 600;
   color: white;
 }
+
+.link--movingProdText {
+  text-decoration: none;
+}
+
+.label--movingProdText {
+  color: white;
+  font-size: 54px;
+  font-weight: 600;
+}
