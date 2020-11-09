@@ -322,3 +322,26 @@
   font-weight: 600;
   margin-bottom: 0;
 }
+
+.container--movingProdTopProductsText {
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper--movingProdTopProductsText {
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  max-width: 100%;
+}
+
+.headingLevel1--movingProdTopProductsText {
+  font-size: 250px;
+  white-space: nowrap;
+  color: #ffffff0f;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  overflow: hidden;
+  align-self: center;
+}

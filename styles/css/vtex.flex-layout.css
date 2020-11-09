@@ -335,4 +335,5 @@
 
 .flexRow--movingProdSliderRowItem {
   max-width: 1222px;
+  margin: auto;
 }

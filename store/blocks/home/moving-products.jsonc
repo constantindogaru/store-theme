@@ -14,15 +14,45 @@
         "tablet": 1,
         "phone": 1
       },
+      // "autoplay": {
+      //   "timeout": 5000,
+      //   "stopOnHover": true
+      // },
       "fullWidth": true,
       "showNavigationArrows": "never",
-      "blockClass": "movingProductSlider"
+      "blockClass": "movingProductSlider",
+      "infinite": "true"
+    },
+    "children": [
+      "stack-layout#slider-item-1",
+      "stack-layout#slider-item-2"
+    ]
+  },
+  "stack-layout#slider-item-1": {
+    "props": {
+      "blockClass": "stackMovingProd"
     },
     "children": [
       "flex-layout.row#slider-item-1",
-      "flex-layout.row#slider-item-2"
+      "rich-text#moving-prod-top-products-text"
     ]
   },
+  "stack-layout#slider-item-2": {
+    "props": {
+      "blockClass": "stackMovingProd"
+    },
+    "children": [
+      "flex-layout.row#slider-item-2",
+      "rich-text#moving-prod-top-products-text"
+    ]
+  },
+  "rich-text#moving-prod-top-products-text": {
+    "props": {
+      "text": "# TOP PRODUSE",
+      "blockClass": "movingProdTopProductsText"
+    }
+  },
+
   "flex-layout.row#slider-item-1": {
     "props": {
       "blockClass": "movingProdSliderRowItem"

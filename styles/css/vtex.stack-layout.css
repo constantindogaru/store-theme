@@ -23,3 +23,19 @@
   display: flex;
   justify-content: center;
 }
+
+.stackContainer--stackMovingProd {
+  width: 100%;
+}
+
+.stackItem--stackMovingProd--first {
+  z-index: 100 !important;
+  position: relative;
+}
+
+/* This is the text behind the moving product */
+.stackItem--stackMovingProd {
+  height: 100%;
+  display: flex;
+  width: 100%;
+}
