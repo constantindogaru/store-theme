@@ -35,3 +35,8 @@
 .overlay--visible {
   background-color: rgb(0, 0, 0, 0.7);
 }
+
+.minicartEmptyStateContainer {
+  justify-content: flex-start;
+  padding-top: 30px;
+}

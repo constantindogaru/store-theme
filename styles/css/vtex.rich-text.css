@@ -314,3 +314,11 @@
   border-bottom: 1px solid rgba(129, 129, 129, 0.2);
   margin-bottom: 10px;
 }
+
+.paragraph--minicartEmptyStateText {
+  color: #2d2a2a;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0;
+}

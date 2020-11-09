@@ -83,7 +83,8 @@
   "flex-layout.col#empty-state": {
     "children": [
       "icon-cart#minicart-empty-state",
-      "rich-text#minicart-default-empty-state"
+      "rich-text#minicart-default-empty-state",
+      "link#back-to-shop"
     ],
     "props": {
       "horizontalAlign": "center",
@@ -99,8 +100,16 @@
   },
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "Your cart is empty."
+      "text": "NICIUN PRODUS ÎN COȘ.",
+      "blockClass": "minicartEmptyStateText"
+    }
+  },
+  "link#back-to-shop": {
+    "props": {
+      "href": "/shop",
+      "label": "ÎNAPOI LA MAGAZIN",
+      "displayMode": "button",
+      "blockClass": "backToShopMiniCart"
     }
   }
-
 }

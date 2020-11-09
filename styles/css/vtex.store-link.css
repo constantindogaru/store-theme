@@ -11,3 +11,13 @@
   font-weight: 600;
   color: white;
 }
+
+.link--backToShopMiniCart {
+  border-radius: 0;
+}
+
+.label--backToShopMiniCart {
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}

@@ -5,3 +5,7 @@
 .expandIcon:hover {
   color: #83b735;
 }
+
+.cartIcon--minicart-empty-state {
+  color: rgba(135, 135, 135, 0.15);
+}
