@@ -1,6 +1,7 @@
 {
   "slider-layout#home-images": {
     "props": {
+      "fullWidth": false,
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
@@ -8,11 +9,11 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "slideTransition": {
-        "speed": 0,
-        "delay": 0,
-        "timing": ""
-      },
+      // "slideTransition": {
+      //   "speed": 0,
+      //   "delay": 0,
+      //   "timing": ""
+      // },
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": true
