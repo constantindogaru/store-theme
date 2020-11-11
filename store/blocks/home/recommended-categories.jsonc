@@ -62,6 +62,7 @@
   },
   "flex-layout.row#recommended-categories-row": {
     "props": {
+      "width": "90%",
       "marginTop": 5,
       "paddingBottom": 5,
       "border": "bottom",
@@ -69,8 +70,10 @@
       "borderWidth": 2
     },
     "children": [
+      "flex-layout.col#spacer5",
       "flex-layout.col#recommended-category-highlight-1",
-      "flex-layout.col#recommended-categories-highlights-2"
+      "flex-layout.col#recommended-categories-highlights-2",
+      "flex-layout.col#spacer5"
     ]
   },
   "flex-layout.col#recommended-category-highlight-1": {
