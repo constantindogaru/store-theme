@@ -31,8 +31,8 @@
   },
   "flex-layout.row#recommended-products-middle-title-row": {
     "props": {
-      "fullWidth": true,
-      "verticalAlignment": "center"
+      // "fullWidth": true,
+      "horizontalAlign": "center"
     },
     "children": [
       "flex-layout.col#vertical-middle-divider",
@@ -42,7 +42,7 @@
   },
   "flex-layout.col#recommended-products-title-middle-col": {
     "props": {
-      "width": "100%"
+      "width": "20%"
     },
     "children": ["rich-text#recommended-products-title-2"]
   },
@@ -63,7 +63,7 @@
   },
   "flex-layout.col#vertical-middle-divider": {
     "props": {
-      "width": "100%",
+      "width": "29%",
       "blockClass": "verticalMiddleDivider"
     }
   },

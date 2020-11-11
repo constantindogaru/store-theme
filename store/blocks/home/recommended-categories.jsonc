@@ -28,8 +28,8 @@
   },
   "flex-layout.row#recommended-categories-middle-title-row": {
     "props": {
-      "fullWidth": true,
-      "verticalAlignment": "center"
+      // "fullWidth": true,
+      "horizontalAlign": "center"
     },
     "children": [
       "flex-layout.col#vertical-middle-divider",
@@ -39,7 +39,7 @@
   },
   "flex-layout.col#recommended-categories-title-middle-col": {
     "props": {
-      "width": "100%"
+      "width": "20%"
     },
     "children": [
       "rich-text#recommended-categories-title-2"
