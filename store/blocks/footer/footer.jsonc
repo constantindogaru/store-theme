@@ -5,14 +5,15 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
+      // "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
-    "children": ["slider-layout#brands"],
+    "children": ["flex-layout.col#spacer8", "slider-layout#brands", "flex-layout.col#spacer8"],
     "props": {
-      "blockClass": "sliderBrands"
+      "blockClass": "sliderBrands",
+      "marginBottom": 9
     }
   },
 
@@ -36,7 +37,7 @@
   "rich-text#footer": {
     "props": {
       "text": "Copyright 2020 @Fine Food Masterpiece Gourmet. Toate drepturile rezervate",
-      "blockClass": "footer"
+      "blockClass": "text-credits"
     }
   },
 
@@ -56,7 +57,7 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "social-networks",
+      // "social-networks",
       "rich-text#footer-mobile"
     ],
     "props": {
@@ -69,7 +70,7 @@
   "rich-text#footer-mobile": {
     "props": {
       "text": "Copyright 2020 @Fine Food Masterpiece Gourmet. Toate drepturile rezervate",
-      "blockClass": "footer"
+      "blockClass": "text-credits"
     }
   }
 }

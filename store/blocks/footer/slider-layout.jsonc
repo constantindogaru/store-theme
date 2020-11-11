@@ -11,18 +11,26 @@
       "image#brand8"
     ],
     "props": {
+      "fullWidth": false,
       "showPaginationDots": "never",
-      "showNavigationArrows": "never",
-      "autoplay": {
-        "timeout": 5000,
-        "stopOnHover": false
-      }
+      "showNavigationArrows": "always",
+      "itemsPerPage": { 
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 1
+      },
+      "slideTransition": {
+        "speed": 400,
+        "delay": 0,
+        "timing": ""
+      },
+      "blockClass": "slider-brands"
     }
   },
   "image#brand1": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-almdudler-s.png",
-      "maxHeight": 50,
+      "maxHeight": 60,
       "blockClass": "imageSliderBrands"
       // TODO Need to add links to these images. They should filter the products based on these brands.
     }
@@ -30,49 +38,49 @@
   "image#brand2": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-carpe-diem-s.png",
-      "maxHeight": 50,
+      "maxHeight": 60,
       "blockClass": "imageSliderBrands"
     }
   },
   "image#brand3": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/07/Clarence-Court-EPS-Logo-1.5MB-8.8.2017.png",
-      "maxHeight": 50,
+      "maxHeight": 60,
       "blockClass": "imageSliderBrands"
     }
   },
   "image#brand4": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/Screen-Shot-2017-03-21-at-10.46.34.png",
-      "maxHeight": 50,
+      "maxHeight": 60,
       "blockClass": "imageSliderBrands"
     }
   },
   "image#brand5": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/brand-oetker.png",
-      "maxHeight": 50,
+      "maxHeight": 60,
       "blockClass": "imageSliderBrands"
     }
   },
   "image#brand6": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-finefood-negru-s.png",
-      "maxHeight": 50,
+      "maxHeight": 60,
       "blockClass": "imageSliderBrands"
     }
   },
   "image#brand7": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-finefood-albastru-s.png",
-      "maxHeight": 50,
+      "maxHeight": 60,
       "blockClass": "imageSliderBrands"
     }
   },
   "image#brand8": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-finefood-portocaliu-s.png",
-      "maxHeight": 50,
+      "maxHeight": 60,
       "blockClass": "imageSliderBrands"
     }
   }

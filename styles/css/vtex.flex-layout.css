@@ -361,3 +361,11 @@
   max-width: 1222px;
   margin: auto;
 }
+
+.flexRow--credits {
+  border-top: 1px solid #ebebeb;
+}
+
+.flexRow--sliderBrands {
+  background-color: white;
+}

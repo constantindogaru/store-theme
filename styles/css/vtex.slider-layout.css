@@ -77,3 +77,11 @@
   width: 15px;
   height: 15px;
 }
+
+.caretIcon--slider-brands {
+  display: none;
+}
+
+.sliderLayoutContainer--slider-brands:hover .caretIcon--slider-brands {
+  display: block;
+}
