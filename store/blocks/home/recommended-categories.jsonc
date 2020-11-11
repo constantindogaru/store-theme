@@ -15,8 +15,21 @@
       "flex-layout.row#recommended-categories-middle-title-row",
       "rich-text#recommended-categories-title-3",
       "flex-layout.row#recommended-categories-row",
+      "flex-layout.row#vertical-middle-divider-red",
       "slider-layout#all-categories"
     ]
+  },
+  "flex-layout.row#vertical-middle-divider-red": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["flex-layout.col#vertical-middle-divider-red"]
+  },
+  "flex-layout.col#vertical-middle-divider-red": {
+    "props": {
+      "width": "35%",
+      "blockClass": "verticalMiddleDividerRed"
+    }
   },
   "rich-text#recommended-categories-title-1": {
     "props": {
@@ -64,10 +77,10 @@
     "props": {
       "width": "90%",
       "marginTop": 5,
-      "paddingBottom": 5,
-      "border": "bottom",
-      "borderColor": "red",
-      "borderWidth": 2
+      "paddingBottom": 5
+      // "border": "bottom",
+      // "borderColor": "red",
+      // "borderWidth": 2
     },
     "children": [
       "flex-layout.col#spacer5",
