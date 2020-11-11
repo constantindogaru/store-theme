@@ -19,7 +19,7 @@
 
 .styledLinkContainer--topmenu-faq {
   border-right-style: solid;
-  border-color: #ebebeb;
+  border-color: rgba(129, 129, 129, 0.2);
   border-width: 1px;
   padding-bottom: 10px;
   padding-right: 14px;
@@ -86,7 +86,7 @@
   margin-top: 11px;
 
   border-right-style: solid;
-  border-color: #ebebeb;
+  border-color: rgba(129, 129, 129, 0.2);
   border-width: 1px;
 }
 .menuItem--headermenu {
