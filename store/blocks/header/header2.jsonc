@@ -10,11 +10,12 @@
     },
     "children": [
       "flex-layout.col#logo",
+      "flex-layout.col#spacer-grow",
       "flex-layout.col#search-bar",
+      "flex-layout.col#spacer-grow",
       "flex-layout.col#login",
       "flex-layout.col#wishlist",
-      "flex-layout.col#minicart",
-      "flex-layout.col#spacer17"
+      "flex-layout.col#minicart"
     ]
   },
 
@@ -23,8 +24,7 @@
   "flex-layout.col#logo": {
     "props": {
       "blockClass": "flex-logo",
-      "verticalAlign": "middle",
-      "width": "28%"
+      "verticalAlign": "middle"
     },
     "children": ["logo"]
   },
@@ -34,8 +34,6 @@
       "url": "https://www.fine-food.ro/wp-content/uploads/2020/11/logob.png",
       "width": 200,
       "height": 200,
-      "mobileWidth": 80,
-      "mobileHeight": 80,
       "title": "Fine Food"
     }
   },

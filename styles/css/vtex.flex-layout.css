@@ -317,10 +317,6 @@
   margin-bottom: 50px;
 }
 
-.flexColChild--flex-logo {
-  margin-left: 33%;
-}
-
 .flexColChild--sticky-logo-desktop {
   margin-left: 35%;
   margin-top: 5px;
@@ -352,6 +348,11 @@
 }
 
 .flexRow--movingProdSliderRowItem {
+  max-width: 1222px;
+  margin: auto;
+}
+
+.flexRowContent--logo-header {
   max-width: 1222px;
   margin: auto;
 }
