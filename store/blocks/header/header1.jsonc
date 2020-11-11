@@ -1,11 +1,14 @@
 {
   "flex-layout.row#header-1-desktop": {
     "props": {
-      "blockClass": "header-1-desktop"
+      "blockClass": "header-1-desktop",
+      "colSizing": "auto"
     },
     "children": [
       "flex-layout.col#premium-food",
+      "flex-layout.col#spacer-grow",
       "flex-layout.col#social-networks",
+      "flex-layout.col#spacer-grow",
       "flex-layout.col#top-menu"
     ]
   },
@@ -13,11 +16,6 @@
 
   // TOP LEFT TEXT
   "flex-layout.col#premium-food": {
-    "props": {
-      "blockClass": "flex-premium-food",
-      "width": "50%",
-      "verticalAlign": "middle"
-    },
     "children": ["rich-text#premium-food"]
   },
   "rich-text#premium-food": {
@@ -31,8 +29,6 @@
   // SOCIAL NETWORKS
   "flex-layout.col#social-networks": {
     "props": {
-      "blockClass": "flex-social-networks",
-      "width": "15%",
       "verticalAlign": "middle"
     },
     "children": ["social-networks"]
