@@ -129,6 +129,8 @@
 .flexColChild--categorySliderInfoTitle {
   height: auto !important;
   overflow: hidden;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 .flexColChild--recommendedSectionInfoHeader {
