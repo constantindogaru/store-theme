@@ -409,3 +409,8 @@
   .headingLevel4--faqQuestion {
   color: #333333;
 }
+
+.paragraph--faqAnswer {
+  margin-top: 0;
+  color: #777;
+}

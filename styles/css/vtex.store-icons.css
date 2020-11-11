@@ -9,3 +9,9 @@
 .cartIcon--minicart-empty-state {
   color: rgba(135, 135, 135, 0.15);
 }
+
+.caretIcon--faq {
+  color: #333;
+  width: 12px;
+  height: 12px;
+}

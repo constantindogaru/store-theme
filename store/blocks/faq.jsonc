@@ -23,7 +23,7 @@
   },
   "rich-text#before-faq": {
     "props": {
-      "text": "Raspunsurile noastre pentru cele mai comune probleme ridicate de clienți.",
+      "text": "Răspunsurile noastre pentru cele mai comune probleme ridicate de clienți.",
       "blockClass": "faqDescriptionText"
     }
   },
@@ -66,12 +66,13 @@
   "rich-text#question1": {
     "props": {
       "blockClass": "faqQuestion",
-      "text": "#### Urmeaza sa primesc acelasi produs cu cel din imagine?"
+      "text": "#### Urmează să primesc același produs cu cel din imagine?"
     }
   },
   "rich-text#answer1": {
     "props": {
-      "text": "Produsele din imagini sunt reproduse fotografic in mare parte dupa produsele reale. Pentru produsele care se pot gasi la mai multi producatori ( de regula legume, fructe, produse similare ) fotografiile sunt doar reprezentative pentru produs."
+      "blockClass": "faqAnswer",
+      "text": "Produsele din imagini sunt reproduse fotografic în mare parte dupa produsele reale. Pentru produsele care se pot găsi la mai mulți producători (de regulă legume, fructe, produse similare) fotografiile sunt doar reprezentative pentru produs."
     }
   },
 
@@ -97,12 +98,13 @@
   "rich-text#question2": {
     "props": {
       "blockClass": "faqQuestion",
-      "text": "#### Unde pot gasi factura?"
+      "text": "#### Unde pot găsi factura?"
     }
   },
   "rich-text#answer2": {
     "props": {
-      "text": "In functie de modul in care sunteti inregistrat in Fine Food Club, veti primi factura o data cu produsele, sau doar prin e mail, incercand prin acest mod sa folosim cat mai putina hartie, pentru sanatatea planetei, chiar si cu pasi mici, mici..."
+      "blockClass": "faqAnswer",
+      "text": "În funcție de modul în care sunteți înregistrat în Fine Food Club, veți primi factura o data cu produsele, sau doar prin e mail, încercând prin acest mod să folosim cât mai puțină hartie, pentru sănătatea planetei, chiar și cu pași mici, mici..."
     }
   },
 
@@ -134,7 +136,8 @@
   },
   "rich-text#answer3": {
     "props": {
-      "text": "Modalitatea de returnare a produselor comandate o puteti regasi in Politicile Comerciale, care respecta normele comerciale ale CEE."
+      "blockClass": "faqAnswer",
+      "text": "Modalitatea de returnare a produselor comandate o puteți regăsi în Politicile Comerciale, care respectă normele comerciale ale CEE."
     }
   },
 
@@ -161,12 +164,13 @@
   "rich-text#question4": {
     "props": {
       "blockClass": "faqQuestion",
-      "text": "#### Veti mai aproviziona magazinul cu acele produse care figureaza “lipsa stoc”?"
+      "text": "#### Veți mai aproviziona magazinul cu acele produse care figurează \"lipsă stoc\"?"
     }
   },
   "rich-text#answer4": {
     "props": {
-      "text": "Aprovizionam constant cu produsele de sezon, si cu siguranta chiar si produsele care la un moment dat apar out of stock, vor aparea disponibile pe site. De regula aceste info le veti primi si prin News Letter."
+      "blockClass": "faqAnswer",
+      "text": "Aprovizionăm constant cu produsele de sezon, și cu siguranță chiar și produsele care la un moment dat apar \"lipsă stoc\", vor apărea disponibile pe site. De regulă, aceste informații le veți primi și prin News Letter."
     }
   },
 
@@ -192,12 +196,13 @@
   "rich-text#question5": {
     "props": {
       "blockClass": "faqQuestion",
-      "text": "#### Unde poate fi livrata comanda?"
+      "text": "#### Unde poate fi livrată comanda?"
     }
   },
   "rich-text#answer5": {
     "props": {
-      "text": "In aceasta perioada, comenzile de pot livra cu delegatii Fine Food Expert, in conditii maxime de siguranta si igiena, doar in Bucuresti, Ploiesti, Brasov. In conditii speciale si in functie de comenzi, putem livra cu logistica prorie si in alte localitati."
+      "blockClass": "faqAnswer",
+      "text": "În această perioadă, comenzile se pot livra cu delegații Fine Food Expert, în condiții maxime de siguranță și igienă, doar în București, Ploiești, Brașov. În condiții speciale și în funcție de comenzi, putem livra cu logistică proprie și în alte localități."
     }
   },
 
