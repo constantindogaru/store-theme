@@ -23,12 +23,14 @@
   },
   "rich-text#before-faq": {
     "props": {
-      "text": "Raspunsurile noastre la cele mai comune probleme ridicate de clienți."
+      "text": "Raspunsurile noastre pentru cele mai comune probleme ridicate de clienți.",
+      "blockClass": "faqDescriptionText"
     }
   },
   "rich-text#faq": {
     "props": {
-      "text": "### ÎNTREBĂRI FRECVENTE"
+      "text": "#### ÎNTREBĂRI FRECVENTE",
+      "blockClass": "faqTitleText"
     }
   },
 
@@ -53,7 +55,7 @@
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question1"]
+    "children": ["rich-text#question1", "disclosure-state-indicator"]
   },
   "disclosure-content#first": {
     "props": {
@@ -83,7 +85,7 @@
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question2"]
+    "children": ["rich-text#question2", "disclosure-state-indicator"]
   },
   "disclosure-content#second": {
     "props": {
@@ -114,7 +116,7 @@
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question3"]
+    "children": ["rich-text#question3", "disclosure-state-indicator"]
   },
   "disclosure-content#third": {
     "props": {
@@ -145,7 +147,7 @@
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question4"]
+    "children": ["rich-text#question4", "disclosure-state-indicator"]
   },
   "disclosure-content#fourth": {
     "props": {
@@ -175,7 +177,7 @@
       "blockClass": "question",
       "as": "div"
     },
-    "children": ["disclosure-state-indicator", "rich-text#question5"]
+    "children": ["rich-text#question5", "disclosure-state-indicator"]
   },
   "disclosure-content#fifth": {
     "props": {
@@ -193,7 +195,6 @@
       "text": "In aceasta perioada, comenzile de pot livra cu delegatii Fine Food Expert, in conditii maxime de siguranta si igiena, doar in Bucuresti, Ploiesti, Brasov. In conditii speciale si in functie de comenzi, putem livra cu logistica prorie si in alte localitati."
     }
   },
-
 
   "disclosure-state-indicator": {
     "props": {

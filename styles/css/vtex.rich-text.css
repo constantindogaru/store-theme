@@ -375,3 +375,22 @@
 .link--newsletterPrivacyPolicyText:hover {
   color: #83b735;
 }
+
+.paragraph--faqDescriptionText {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.headingLevel4--faqTitleText {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: #2d2a2a;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.container--faqTitleText {
+  border-bottom: 2px solid rgba(129, 129, 129, 0.2);
+}
