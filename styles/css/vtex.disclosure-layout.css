@@ -1,0 +1,12 @@
+.trigger--question {
+  justify-content: space-between;
+  border-top: 2px solid rgba(129, 129, 129, 0.2);
+}
+
+/* .trigger--question--hidden {
+  border-bottom: 2px solid rgba(129, 129, 129, 0.2);
+}
+
+.trigger--question--visible {
+  border-bottom: none;
+} */

@@ -65,7 +65,8 @@
   },
   "rich-text#question1": {
     "props": {
-      "text": "Urmeaza sa primesc acelasi produs cu cel din imagine?"
+      "blockClass": "faqQuestion",
+      "text": "#### Urmeaza sa primesc acelasi produs cu cel din imagine?"
     }
   },
   "rich-text#answer1": {
@@ -95,7 +96,8 @@
   },
   "rich-text#question2": {
     "props": {
-      "text": "Unde pot gasi factura?"
+      "blockClass": "faqQuestion",
+      "text": "#### Unde pot gasi factura?"
     }
   },
   "rich-text#answer2": {
@@ -126,7 +128,8 @@
   },
   "rich-text#question3": {
     "props": {
-      "text": "Cum pot returna un produs?"
+      "blockClass": "faqQuestion",
+      "text": "#### Cum pot returna un produs?"
     }
   },
   "rich-text#answer3": {
@@ -157,7 +160,8 @@
   },
   "rich-text#question4": {
     "props": {
-      "text": "Veti mai aproviziona magazinul cu acele produse care figureaza “lipsa stoc”?"
+      "blockClass": "faqQuestion",
+      "text": "#### Veti mai aproviziona magazinul cu acele produse care figureaza “lipsa stoc”?"
     }
   },
   "rich-text#answer4": {
@@ -187,7 +191,8 @@
   },
   "rich-text#question5": {
     "props": {
-      "text": "Unde poate fi livrata comanda?"
+      "blockClass": "faqQuestion",
+      "text": "#### Unde poate fi livrata comanda?"
     }
   },
   "rich-text#answer5": {
@@ -204,11 +209,13 @@
   },
   "icon-caret#down": {
     "props": {
+      "blockClass": "faq",
       "orientation": "down"
     }
   },
   "icon-caret#up": {
     "props": {
+      "blockClass": "faq",
       "orientation": "up"
     }
   }
