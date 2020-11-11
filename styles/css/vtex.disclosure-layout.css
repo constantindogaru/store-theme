@@ -1,12 +1,32 @@
 .trigger--question {
+  outline: none;
   justify-content: space-between;
   border-top: 2px solid rgba(129, 129, 129, 0.2);
 }
 
-/* .trigger--question--hidden {
+.trigger--questionLast {
+  outline: none;
+  justify-content: space-between;
+  border-top: 2px solid rgba(129, 129, 129, 0.2);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.trigger--questionLast--hidden {
   border-bottom: 2px solid rgba(129, 129, 129, 0.2);
 }
 
-.trigger--question--visible {
+.trigger--questionLast--visible {
   border-bottom: none;
-} */
+}
+
+.content--answerLast--hidden {
+  border-bottom: none;
+  display: none;
+}
+
+.content--answerLast--visible {
+  display: block;
+  border-bottom: 2px solid rgba(129, 129, 129, 0.2);
+}

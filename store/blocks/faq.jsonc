@@ -182,14 +182,15 @@
   },
   "disclosure-trigger#fifth": {
     "props": {
-      "blockClass": "question",
+      // In case this isn't the last question anymore, we need to update this class to normal question or answer
+      "blockClass": "questionLast",
       "as": "div"
     },
     "children": ["rich-text#question5", "disclosure-state-indicator"]
   },
   "disclosure-content#fifth": {
     "props": {
-      "blockClass": "answer"
+      "blockClass": "answerLast"
     },
     "children": ["rich-text#answer5"]
   },
