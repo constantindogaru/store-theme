@@ -32,8 +32,9 @@
   "logo#sticky-desktop": {
     "props": {
       "href": "/",
-      "url": "https://www.fine-food.ro/wp-content/uploads/2020/03/Logo-fine-food-transparent-1300.png",
-      "width": "100"
+      "url": "https://www.fine-food.ro/wp-content/uploads/2020/11/logob.png",
+      "width": 100,
+      "title": "Fine Food"
     }
   },
 

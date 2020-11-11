@@ -11,6 +11,8 @@
     },
     "children": [
       "drawer",
+      // Center the logo on mobile.
+      "flex-layout.col#spacer-grow",
       "logo#mobile",
       "flex-layout.col#spacer-grow",
       "login",
@@ -30,10 +32,10 @@
   },
   "logo#mobile": {
     "props": {
-      "title": "Logo",
+      "title": "Fine Food",
       "href": "/",
-      "url": "https://www.fine-food.ro/wp-content/uploads/2020/03/Logo-fine-food-transparent-1300.png",
-      "width": "70"
+      "url": "https://www.fine-food.ro/wp-content/uploads/2020/11/logob.png",
+      "width": 70
     }
   }
 }
