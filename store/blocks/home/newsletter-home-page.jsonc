@@ -2,7 +2,7 @@
   "flex-layout.row#newsletter-homepage": {
     "props": {
       "blockClass": "newsletter-homepage",
-      "marginBottom": 8
+      "marginBottom": 7
     },
     "children": ["flex-layout.col#newsletter-homepage"]
   },

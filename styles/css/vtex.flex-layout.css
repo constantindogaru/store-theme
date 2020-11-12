@@ -343,21 +343,21 @@
 .flexColChild--movingProdImageCol {
   display: flex;
   justify-content: center;
-  animation: slideIn-left 1s;
-}
-
-@keyframes slideIn-left {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
 }
 
 .flexRow--movingProdSliderRowItem {
   max-width: 1222px;
   margin: auto;
+  animation: slideIn-bottom 6s infinite;
+}
+
+@keyframes slideIn-bottom {
+  0% {
+    transform: translateY(100%);
+  }
+  20%, 100% {
+    transform: translateY(0);
+  }
 }
 
 .flexRowContent--logo-header {

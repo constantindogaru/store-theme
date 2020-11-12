@@ -27,7 +27,6 @@
   text-align: left;
   margin-bottom: 20px;
   width: 80%;
-  animation: slideIn-bottom 0.5s;
 }
 
 .label--movingProdText {
@@ -36,13 +35,4 @@
   font-weight: 600;
   font-family: Poppins;
   white-space: normal;
-}
-
-@keyframes slideIn-bottom {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
 }

@@ -346,15 +346,15 @@
   max-width: 100%;
   overflow: hidden;
   align-self: center;
-  animation: slideIn-right 1s;
+  animation: slideIn-top 6s infinite;
 }
 
-@keyframes slideIn-right {
+@keyframes slideIn-top {
   0% {
-    transform: translateX(100%);
+    transform: translateY(-100%);
   }
-  100% {
-    transform: translateX(0);
+  20%, 100% {
+    transform: translateY(0);
   }
 }
 
