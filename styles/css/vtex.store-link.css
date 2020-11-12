@@ -24,8 +24,9 @@
 
 .link--movingProdText {
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
+  width: 80%;
   animation: slideIn-bottom 0.5s;
 }
 
@@ -33,6 +34,8 @@
   color: white;
   font-size: 54px;
   font-weight: 600;
+  font-family: Poppins;
+  white-space: normal;
 }
 
 @keyframes slideIn-bottom {
