@@ -78,11 +78,12 @@
   height: 15px;
 }
 
-.caretIcon--slider-brands, .caretIcon--sliderAllCategories {
+.caretIcon--slider-brands, .caretIcon--sliderAllCategories, .caretIcon--shelf {
   visibility: hidden;
 }
 
 .sliderLayoutContainer--slider-brands:hover .caretIcon--slider-brands,
-.sliderLayoutContainer--sliderAllCategories:hover .caretIcon--sliderAllCategories {
+.sliderLayoutContainer--sliderAllCategories:hover .caretIcon--sliderAllCategories,
+.sliderLayoutContainer--shelf:hover .caretIcon--shelf {
   visibility: visible;
 }

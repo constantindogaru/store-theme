@@ -69,6 +69,16 @@
   },
 
   "flex-layout.row#recommended-products": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["flex-layout.col#recommended-products-slider"]
+  },
+  "flex-layout.col#recommended-products-slider": {
+    "props": {
+      "width": "90%"
+      // "preventHorizontalStretch": true
+    },
     "children": ["list-context.product-list#recommended-products"]
   },
   "list-context.product-list#recommended-products": {
@@ -90,11 +100,13 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
+        "desktop": 4,
+        "tablet": 2,
         "phone": 1
       },
+      "fullWidth": false,
       "infinite": true,
+      "showPaginationDots": "never",
       "blockClass": "shelf"
     }
   }
