@@ -78,10 +78,11 @@
   height: 15px;
 }
 
-.caretIcon--slider-brands {
-  display: none;
+.caretIcon--slider-brands, .caretIcon--sliderAllCategories {
+  visibility: hidden;
 }
 
-.sliderLayoutContainer--slider-brands:hover .caretIcon--slider-brands {
-  display: block;
+.sliderLayoutContainer--slider-brands:hover .caretIcon--slider-brands,
+.sliderLayoutContainer--sliderAllCategories:hover .caretIcon--sliderAllCategories {
+  visibility: visible;
 }
