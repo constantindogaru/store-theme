@@ -80,12 +80,6 @@
       "textPosition": "CENTER"
     }
   },
-  "flex-layout.col#vertical-middle-divider": {
-    "props": {
-      "width": "29%",
-      "blockClass": "verticalMiddleDivider"
-    }
-  },
 
   "list-context.product-list#special-offers": {
     "blocks": ["product-summary.shelf"],
