@@ -35,9 +35,8 @@
     "children": [
       "rich-text#special-offers-title-1",
       "flex-layout.row#special-offers-middle-title-row",
-      "rich-text#special-offers-title-3",
+      "rich-text#special-offers-title-3"
 
-      "rich-text#subtitle-special-offers"
       // "list-context.special-offers"
     ]
   },
@@ -87,14 +86,8 @@
       "width": "29%",
       "blockClass": "verticalMiddleDivider"
     }
-  },
-
-  "rich-text#subtitle-special-offers": {
-    "props": {
-      "blockClass": "wishlistSubtitle",
-      "text": "#### Produsele din wishlist-ul tau"
-    }
   }
+
   // "list-context.special-offers": {
   //   "blocks": ["product-summary.shelf"],
   //   "children": ["slider-layout#special-offers"]
