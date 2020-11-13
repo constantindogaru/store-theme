@@ -353,7 +353,8 @@
   0% {
     transform: translateY(-100%);
   }
-  20%, 100% {
+  20%,
+  100% {
     transform: translateY(0);
   }
 }
@@ -419,4 +420,8 @@
 
 .wrapper--text-credits {
   margin-left: 11%;
+}
+
+.paragraph--specialOffersTitle1 {
+  color: #83b735;
 }

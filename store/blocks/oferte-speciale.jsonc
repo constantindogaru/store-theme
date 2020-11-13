@@ -1,12 +1,116 @@
 {
   "store.custom#oferte-speciale": {
     "blocks": [
-      "rich-text#oferte-speciale"
+      "flex-layout.row#top-special-offers",
+      "flex-layout.row#special-offers-content"
     ]
   },
-  "rich-text#oferte-speciale": {
+  "flex-layout.row#top-special-offers": {
     "props": {
-      "text": "OFERTE SPECIALE test page"
+      "blockClass": "titleWishlist"
+    },
+    "children": ["flex-layout.col#title-special-offers"]
+  },
+  "flex-layout.col#title-special-offers": {
+    "props": {
+      "blockClass": "titleWishlist",
+      "preventVerticalStretch": true
+    },
+    "children": ["rich-text#title-special-offers"]
+  },
+  "rich-text#title-special-offers": {
+    "props": {
+      "text": "# Oferte Speciale",
+      "blockClass": "titleWishlist"
+    }
+  },
+
+  "flex-layout.row#special-offers-content": {
+    "props": {
+      "blockClass": "wishlistContent"
+    },
+    "children": ["flex-layout.col#special-offers-content"]
+  },
+  "flex-layout.col#special-offers-content": {
+    "children": [
+      "rich-text#special-offers-title-1",
+      "flex-layout.row#special-offers-middle-title-row",
+      "rich-text#special-offers-title-3",
+
+      "rich-text#subtitle-special-offers"
+      // "list-context.special-offers"
+    ]
+  },
+
+  "rich-text#special-offers-title-1": {
+    "props": {
+      "text": "PRODUSE EXCLUSIVISTE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "specialOffersTitle1"
+    }
+  },
+  "flex-layout.row#special-offers-middle-title-row": {
+    "props": {
+      // "fullWidth": true,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.col#vertical-middle-divider",
+      "flex-layout.col#special-offers-title-middle-col",
+      "flex-layout.col#vertical-middle-divider"
+    ]
+  },
+  "flex-layout.col#special-offers-title-middle-col": {
+    "props": {
+      "width": "20%"
+    },
+    "children": ["rich-text#special-offers-title-2"]
+  },
+  "rich-text#special-offers-title-2": {
+    "props": {
+      "text": "### OFERTE SPECIALE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "recommendedTitleHeader"
+    }
+  },
+  "rich-text#special-offers-title-3": {
+    "props": {
+      "text": "Gama noastră de produse de top",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#vertical-middle-divider": {
+    "props": {
+      "width": "29%",
+      "blockClass": "verticalMiddleDivider"
+    }
+  },
+
+  "rich-text#subtitle-special-offers": {
+    "props": {
+      "blockClass": "wishlistSubtitle",
+      "text": "#### Produsele din wishlist-ul tau"
     }
   }
+  // "list-context.special-offers": {
+  //   "blocks": ["product-summary.shelf"],
+  //   "children": ["slider-layout#special-offers"]
+  // },
+  // "slider-layout#special-offers": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 3,
+  //       "tablet": 2,
+  //       "phone": 1
+  //     },
+  //     "showNavigationArrows": "desktopOnly",
+  //     "showPaginationDots": "always",
+  //     "infinite": true,
+  //     "fullWidth": true,
+  //     "blockClass": "shelf"
+  //   }
+  // }
 }
