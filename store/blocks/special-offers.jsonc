@@ -90,7 +90,7 @@
   "list-context.product-list#special-offers": {
     "blocks": ["product-summary.shelf"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByBestDiscountDESC"
     },
     "children": ["slider-layout#special-offers-products"]
   },
