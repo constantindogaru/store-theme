@@ -23,3 +23,17 @@
 .sendButton :global(.vtex-button) {
   border-radius: 0;
 }
+
+.inputContainerAccessCode :global(.vtex-styleguide-9-x-input) {
+  color: #777;
+  font-size: 14px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+.button {
+  outline: none;
+}
+
+.accountOptions :global(.vtex-button) {
+  outline: none;
+}
