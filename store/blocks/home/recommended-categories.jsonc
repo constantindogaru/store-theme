@@ -110,7 +110,10 @@
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-kids-600x600.jpg",
       "maxHeight": 600,
-      "blockClass": "zoomIn"
+      "blockClass": "zoomIn",
+      "link": {
+        "url": "product-category/produse-copii/"
+      }
     }
   },
   "rich-text#recommended-category-highlight-1": {
@@ -205,8 +208,10 @@
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/vegan-300x300.jpg",
       "maxHeight": 300,
-      "blockClass": "zoomIn"
-      // TODO: Add Link to images to navigate to specified category
+      "blockClass": "zoomIn",
+      "link": {
+        "url": "product-category/produse-vegane/"
+      }
     }
   },
   "rich-text#recommended-category-highlight-2": {
@@ -229,8 +234,10 @@
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-cheese-300x300.jpg",
       "maxHeight": 300,
-      "blockClass": "zoomIn"
-      // TODO: Add Link to images to navigate to specified category
+      "blockClass": "zoomIn",
+      "link": {
+        "url": "product-category/lactate-unt-iaurturi-branzeturi/branzeturi/"
+      }
     }
   },
   "rich-text#recommended-category-highlight-3": {
@@ -253,8 +260,10 @@
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-produse-carne-300x300.jpg",
       "maxHeight": 300,
-      "blockClass": "zoomIn"
-      // TODO: Add Link to images to navigate to specified category
+      "blockClass": "zoomIn",
+      "link": {
+        "url": "product-category/produse-din-carne/"
+      }
     }
   },
   "rich-text#recommended-category-highlight-4": {

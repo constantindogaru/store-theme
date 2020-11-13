@@ -45,7 +45,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-legume-fructe-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/fructe/"
+            }
         }
     },
     "rich-text#category-1": {
@@ -79,7 +82,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-low-fat-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/mezeluri-low-calories-fitness/"
+            }
         }
     },
     "rich-text#category-2": {
@@ -113,7 +119,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-drinks-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/apa-bauturi-racoritoare/"
+            }
         }
     },
     "rich-text#category-3": {
@@ -147,7 +156,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-condimente-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/sare-condimente-si-sosuri/"
+            }
         }
     },
     "rich-text#category-4": {
@@ -181,7 +193,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-panificatie-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/patiserie-si-panificatie/"
+            }
         }
     },
     "rich-text#category-5": {
@@ -215,7 +230,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-miere-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/miere/"
+            }
         }
     },
     "rich-text#category-6": {
@@ -249,7 +267,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/cat-paste-300x300.png",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/paste/"
+            }
         }
     },
     "rich-text#category-7": {
@@ -283,7 +304,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-peste-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/peste/"
+            }
         }
     },
     "rich-text#category-8": {
@@ -317,7 +341,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/cat-bio-300x300.png",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/produse-bio/"
+            }
         }
     },
     "rich-text#category-9": {
@@ -351,7 +378,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-fitness-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/semipreparate/"
+            }
         }
     },
     "rich-text#category-10": {
@@ -385,7 +415,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-trufe-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/trufe/"
+            }
         }
     },
     "rich-text#category-11": {
@@ -419,7 +452,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/cat-vanta-300x300.png",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/carne-vanat-specialitati/vanat/"
+            }
         }
     },
     "rich-text#category-12": {
@@ -453,7 +489,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-sampanie-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/vinuri/"
+            }
         }
     },
     "rich-text#category-13": {
@@ -487,7 +526,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-bere-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/bere-cidru/"
+            }
         }
     },
     "rich-text#category-14": {
@@ -521,7 +563,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-conserve-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/conserve/"
+            }
         }
     },
     "rich-text#category-15": {
@@ -555,7 +600,10 @@
         "props": {
             "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/cat-dulciuri-300x300.jpg",
             "maxHeight": 300,
-            "blockClass": "zoomIn"
+            "blockClass": "zoomIn",
+            "link": {
+                "url": "product-category/dulciuri/"
+            }
         }
     },
     "rich-text#category-16": {
