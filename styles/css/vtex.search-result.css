@@ -26,3 +26,12 @@
 /* .orderByButton {
   padding-right: 140px;
 } */
+
+:global(.vtex-search-result-3-x-filter__container--departament) .filterTitle {
+  visibility: hidden;
+}
+
+:global(.vtex-search-result-3-x-filter__container--departament) .filterTitle::before {
+  visibility: visible;
+  content: "Category";
+}
