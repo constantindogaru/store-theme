@@ -176,15 +176,16 @@
 }
 
 .flexRowContent--flex-search-bread {
-  margin-left: 31%;
+  padding-left: 30%;
 }
 
-.flexRowContent--flex-search-results {
-  margin-left: 14%;
-}
+/* .flexRowContent--flex-search-results {
+  padding-left: 15%;
+} */
 
 .flexRow--flex-search-results {
-  margin-right: 15%;
+  max-width: 1222px;
+  margin: auto;
 }
 
 .flexRowContent--contact :global(.vtex-input),
@@ -355,7 +356,8 @@
   0% {
     transform: translateY(100%);
   }
-  20%, 100% {
+  20%,
+  100% {
     transform: translateY(0);
   }
 }
