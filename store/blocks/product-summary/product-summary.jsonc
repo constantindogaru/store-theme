@@ -28,7 +28,10 @@
     },
     "children": [
       "flex-layout.col#list-button",
+      // Allow a small gap between buttons, to avoid them overlap.
+      "flex-layout.col#spacer8",
       "flex-layout.col#cart-button",
+      "flex-layout.col#spacer8",
       "flex-layout.col#quick-button"
     ]
   },
@@ -128,9 +131,7 @@
   },
   "product-price-savings#summary": {
     "props": {
-      "markers": [
-        "discount"
-      ],
+      "markers": ["discount"],
       "blockClass": "summary"
     }
   }

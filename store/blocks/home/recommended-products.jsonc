@@ -4,9 +4,7 @@
       "marginTop": 8,
       "fullWidth": true
     },
-    "children": [
-      "flex-layout.col#recommended-products-wrapper"
-    ]
+    "children": ["flex-layout.col#recommended-products-wrapper"]
   },
   "flex-layout.col#recommended-products-wrapper": {
     "props": {
