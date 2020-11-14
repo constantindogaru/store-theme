@@ -13,7 +13,7 @@
     "children": ["flex-layout.col#spacer8", "slider-layout#brands", "flex-layout.col#spacer8"],
     "props": {
       "blockClass": "sliderBrands",
-      "marginBottom": 9
+      "marginBottom": 5
     }
   },
 
