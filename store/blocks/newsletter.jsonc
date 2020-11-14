@@ -12,7 +12,8 @@
     "children": [
       "stack-layout#newsletter-banner",
       "flex-layout.row#rich-text-newsletter",
-      "iframe#newsletter"
+      "iframe#newsletter",
+      "flex-layout.row#verticalSpacer"
     ]
   },
   "flex-layout.row#rich-text-newsletter": {

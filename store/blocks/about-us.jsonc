@@ -9,11 +9,6 @@
       // "flex-layout.row#about-us-recommended-categories-row"
     ]
   },
-  "flex-layout.row#verticalSpacer": {
-    "props": {
-      "marginBottom": 9
-    }
-  },
   "stack-layout#about-us-top-banner": {
     "children": [
       "image#about-us-top-banner",
