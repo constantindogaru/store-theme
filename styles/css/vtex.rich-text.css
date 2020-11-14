@@ -421,3 +421,11 @@
 .paragraph--specialOffersTitle1 {
   color: #83b735;
 }
+
+.paragraph--blog-title {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 68px;
+  color: #2d2a2a;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

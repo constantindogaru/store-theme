@@ -1,8 +1,28 @@
 {
   "store.blog-home": {
     "blocks": [
+      "flex-layout.row#blog-title",
       "blog-all-posts.wordpress-all-posts"
     ]
+  },
+  "flex-layout.row#blog-title": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#blog-title"]
+  },
+  "flex-layout.col#blog-title": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "blog-title"
+    },
+    "children": ["rich-text#blog-title"]
+  },
+  "rich-text#blog-title": {
+    "props": {
+      "text": "**Blog**",
+      "blockClass": "blog-title"
+    }
   },
   "blog-all-posts.wordpress-all-posts": {
     "props": {
