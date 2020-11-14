@@ -135,5 +135,10 @@
     "props": {
       "marginBottom": 9
     }
+  },
+  "flex-layout.row#verticalSpacer8": {
+    "props": {
+      "marginBottom": 8
+    }
   }
 }

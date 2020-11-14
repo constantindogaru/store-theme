@@ -1,7 +1,8 @@
 {
   "store.custom#faq": {
     "children": [
-      "flex-layout.row#faq"
+      "flex-layout.row#faq",
+      "flex-layout.row#verticalSpacer8"
     ]
   },
 
