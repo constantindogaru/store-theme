@@ -12,7 +12,6 @@
     ]
   },
 
-
   // CATEGORY MENU
   "flex-layout.col#category-menu": {
     "props": {
@@ -27,6 +26,8 @@
     },
     "children": [
       "menu-item#browse-categories",
+      "menu-item#home",
+      "menu-item#shop",
       "menu-item#about-us",
       "menu-item#blog",
       "menu-item#contact-us"
@@ -50,17 +51,13 @@
         "id": "hpa-hamburguer-menu"
       }
     },
-    "blocks": [
-      "vtex.menu@2.x:submenu#browse-categories"
-    ]
+    "blocks": ["vtex.menu@2.x:submenu#browse-categories"]
   },
   "vtex.menu@2.x:submenu#browse-categories": {
     "props": {
       "blockClass": "submenu-browse-categories"
     },
-    "children": [
-      "flex-layout.col#category-wrapper"
-    ]
+    "children": ["flex-layout.col#category-wrapper"]
   },
   "flex-layout.col#category-wrapper": {
     "props": {
@@ -191,9 +188,7 @@
     "props": {
       "blockClass": "submenu-subcategories"
     },
-    "children": [
-      "flex-layout.col#carne-vanat-specialitati"
-    ]
+    "children": ["flex-layout.col#carne-vanat-specialitati"]
   },
   "flex-layout.col#carne-vanat-specialitati": {
     "children": [
@@ -294,6 +289,40 @@
       }
     }
   },
+  // HOME
+  "menu-item#home": {
+    "props": {
+      "blockClass": "headermenu",
+      "id": "menu-item-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Home",
+        "text": "ACASĂ"
+      }
+    }
+  },
+  // SHOP
+  "menu-item#shop": {
+    "props": {
+      "blockClass": "headermenu",
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/shop",
+        "noFollow": true,
+        "tagTitle": "MAGAZIN",
+        "text": "MAGAZIN"
+      }
+    }
+  },
   // ABOUT US
   "menu-item#about-us": {
     "props": {
@@ -357,9 +386,7 @@
     "props": {
       "experimentalOptimizeRendering": true
     },
-    "children": [
-      "menu-item#oferte-speciale"
-    ]
+    "children": ["menu-item#oferte-speciale"]
   },
   "menu-item#oferte-speciale": {
     "props": {
