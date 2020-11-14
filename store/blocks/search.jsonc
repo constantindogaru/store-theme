@@ -73,7 +73,7 @@
     ],
     "props": {
       "pagination": "show-more",
-      "preventRouteChange": false,
+      "preventRouteChange": true,
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"
@@ -219,7 +219,7 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["search-title.v2", "flex-layout.row#notfound", "flex-layout.row#verticalSpacer5"]
+    "children": ["search-title.v2", "flex-layout.row#notfound", "flex-layout.row#verticalSpacer8"]
   },
 
   "flex-layout.row#notfound": {
