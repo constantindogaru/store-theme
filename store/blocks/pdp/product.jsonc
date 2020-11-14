@@ -283,7 +283,8 @@
     "props": {
       "marginTop": 4,
       "marginBottom": 7,
-      "blockClass": "productQuantityAndBuy"
+      "blockClass": "productQuantityAndBuy",
+      "preventHorizontalStretch": true
     },
     "children": [
       "flex-layout.col#product-quantity",
@@ -315,6 +316,7 @@
   "product-quantity": {
     "props": {
       "blockClass": "productQuantity",
+      "size": "regular",
       "showLabel": false
     }
   },

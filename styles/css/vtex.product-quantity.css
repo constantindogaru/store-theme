@@ -16,6 +16,7 @@
 .quantitySelectorStepper--productQuantity
   :global(.vtex-numeric-stepper__plus-button-container)
   :global(.vtex-numeric-stepper__plus-button) {
+  outline: none;
   border-radius: 0;
   color: #777;
 }
@@ -32,6 +33,7 @@
 .quantitySelectorStepper--productQuantity
   :global(.vtex-numeric-stepper__minus-button-container)
   :global(.vtex-numeric-stepper__minus-button) {
+  outline: none;
   border-radius: 0;
   color: #777;
 }
@@ -48,4 +50,8 @@
 .quantitySelectorStepper--productQuantity
   :global(.vtex-numeric-stepper__input) {
   color: #777;
+}
+
+:global(.vtex-numeric-stepper__input) {
+  outline-color: #83b735;
 }
