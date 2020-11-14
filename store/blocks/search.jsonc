@@ -219,7 +219,7 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": ["search-title.v2", "flex-layout.row#notfound", "flex-layout.row#verticalSpacer5"]
   },
 
   "flex-layout.row#notfound": {
