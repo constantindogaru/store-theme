@@ -29,10 +29,16 @@
   },
 
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": ["flex-layout.col#rich-text-footer"],
     "props": {
       "blockClass": "credits"
     }
+  },
+  "flex-layout.col#rich-text-footer": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["rich-text#footer"]
   },
   "rich-text#footer": {
     "props": {
