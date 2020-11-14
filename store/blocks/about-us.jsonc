@@ -4,9 +4,15 @@
       "stack-layout#about-us-top-banner",
       "flex-layout.row#about-us-description",
       "flex-layout.row#social-network-about-us",
-      "flex-layout.row#about-us-contact-block"
+      "flex-layout.row#about-us-contact-block",
+      "flex-layout.row#verticalSpacer"
       // "flex-layout.row#about-us-recommended-categories-row"
     ]
+  },
+  "flex-layout.row#verticalSpacer": {
+    "props": {
+      "marginBottom": 9
+    }
   },
   "stack-layout#about-us-top-banner": {
     "children": [
