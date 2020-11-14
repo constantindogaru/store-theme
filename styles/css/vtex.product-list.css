@@ -34,3 +34,20 @@
 .removeButton {
   outline: none;
 }
+
+.productBrandName {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  display: none;
+  /* visibility: hidden; */
+}
+
+.productName {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 0;
+}

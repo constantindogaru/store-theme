@@ -260,21 +260,6 @@
   font-size: 14px;
 }
 
-.productBrand--productNameMiniCart {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: #333;
-}
-
-.productNameContainer--productNameMiniCart {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  color: #333;
-  margin-top: 0;
-}
-
 .searchBarIcon--external-search {
   outline: none;
 }
