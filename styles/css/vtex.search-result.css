@@ -35,7 +35,7 @@
   padding-right: 140px;
 } */
 
-:global(.vtex-search-result-3-x-filter__container--departament) .filterTitle {
+/* :global(.vtex-search-result-3-x-filter__container--departament) .filterTitle {
   visibility: hidden;
 }
 
@@ -43,4 +43,4 @@
   .filterTitle::before {
   visibility: visible;
   content: "Category";
-}
+} */
