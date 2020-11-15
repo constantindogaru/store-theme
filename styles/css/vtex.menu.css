@@ -110,12 +110,12 @@
 .styledLinkContent--headermenu-oferte-speciale {
   color: #ff0000;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 }
-.menuItem--headermenu-oferte-speciale {
-  /* margin-left: 33%; */
+/* .menuItem--headermenu-oferte-speciale {
+  margin-left: 33%;
   margin-top: 2px;
-}
+} */
 
 /* ------------------ */
 
