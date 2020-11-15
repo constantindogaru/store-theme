@@ -5,6 +5,7 @@
       "colSizing": "auto"
     },
     "children": [
+      "flex-layout.col#spacer1",
       "flex-layout.col#premium-food",
       "flex-layout.col#spacer-grow",
       "flex-layout.col#social-networks",
