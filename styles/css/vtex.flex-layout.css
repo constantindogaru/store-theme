@@ -391,3 +391,8 @@
 .flexCol--blog-title {
   background-color: #0a0a0a;
 }
+
+.flexColChild--flexLoginCartWish {
+  display: flex;
+  align-items: center;
+}

@@ -13,12 +13,9 @@
       "flex-layout.col#spacer-grow",
       "flex-layout.col#search-bar",
       "flex-layout.col#spacer-grow",
-      "flex-layout.col#login",
-      "flex-layout.col#wishlist",
-      "flex-layout.col#minicart"
+      "flex-layout.col#login-cart-wish"
     ]
   },
-
 
   // LOGO
   "flex-layout.col#logo": {
@@ -38,13 +35,12 @@
     }
   },
 
-
   // SEARCH BAR
   "flex-layout.col#search-bar": {
     "props": {
       "blockClass": "flex-search-bar",
       "verticalAlign": "middle",
-      "width": "42%"
+      "width": "45%"
     },
     "children": ["search-bar"]
   },
@@ -56,19 +52,35 @@
     }
   },
 
-
+  "flex-layout.col#login-cart-wish": {
+    "props": {
+      "blockClass": "flexLoginCartWish"
+    },
+    "children": ["flex-layout.row#login-cart-wish"]
+  },
+  "flex-layout.row#login-cart-wish": {
+    "props": {
+      "colGap": 0,
+      "colSizing": "auto",
+      "blockClass": "flexLoginCartWish"
+    },
+    "children": [
+      "flex-layout.col#login",
+      "flex-layout.col#wishlist",
+      "flex-layout.col#minicart"
+    ]
+  },
   // LOGIN
   "flex-layout.col#login": {
     "props": {
-      "verticalAlign": "middle",
-      "width": "5%"
+      "verticalAlign": "middle"
     },
     "children": ["login"]
   },
   "login": {
     "props": {
-      // "iconLabel": "LOGIN / REGISTER",
-      "hideIconLabel": true,
+      "iconLabel": "LOGIN / REGISTER",
+      "hideIconLabel": false,
       "showIconProfile": true,
       "iconSize": 24
     }
@@ -77,8 +89,7 @@
   "flex-layout.col#wishlist": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "right",
-      "width": "4%"
+      "horizontalAlign": "right"
     },
     "children": ["menu-item#wishlist"]
   },
@@ -96,15 +107,14 @@
       },
       "iconProps": {
         "id": "mpa-heart",
-        "size": "28"
+        "size": 24
       }
     }
   },
   // MINICART
   "flex-layout.col#minicart": {
     "props": {
-      "verticalAlign": "middle",
-      "width": "4%"
+      "verticalAlign": "middle"
     },
     "children": ["minicart.v2"]
   }
