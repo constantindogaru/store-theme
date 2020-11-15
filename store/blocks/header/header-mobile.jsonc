@@ -75,8 +75,8 @@
     "children": [
       "stack-layout#category-menu",
       "menu-item#home-mobile",
-      "menu-item#shop-mobile",
       "menu-item#about-us-mobile",
+      "menu-item#shop-mobile",
       "menu-item#blog-mobile",
       "menu-item#contact-us-mobile"
     ]
