@@ -10,7 +10,11 @@
     ]
   },
   "flex-layout.row#footer-1-desktop": {
-    "children": ["flex-layout.col#spacer8", "slider-layout#brands", "flex-layout.col#spacer8"],
+    "children": [
+      "flex-layout.col#spacer8",
+      "slider-layout#brands",
+      "flex-layout.col#spacer8"
+    ],
     "props": {
       "blockClass": "sliderBrands",
       "marginBottom": 5
@@ -18,9 +22,7 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
-    "children": [
-      "social-networks"
-    ],
+    "children": ["social-networks"],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
@@ -49,9 +51,7 @@
 
   // TODO: imbunatateste partea de mobile
   "footer-layout.mobile": {
-    "children": [
-      "flex-layout.row#2-footer-mobile"
-    ]
+    "children": ["flex-layout.row#2-footer-mobile"]
   },
   "flex-layout.row#2-footer-mobile": {
     "children": ["flex-layout.col#footer-1-mobile"],
