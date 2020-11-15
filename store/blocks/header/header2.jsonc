@@ -81,7 +81,7 @@
     "props": {
       "iconLabel": "LOGIN / REGISTER",
       "hideIconLabel": false,
-      "showIconProfile": true,
+      "showIconProfile": false,
       "iconSize": 24,
       "blockClass": "loginHeader"
     }
