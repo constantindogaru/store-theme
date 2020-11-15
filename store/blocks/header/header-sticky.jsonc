@@ -14,9 +14,7 @@
     "children": [
       "flex-layout.col#sticky-logo-desktop",
       "flex-layout.col#sticky-search-bar",
-      "flex-layout.col#login",
-      "flex-layout.col#wishlist",
-      "flex-layout.col#minicart",
+      "flex-layout.col#login-cart-wish",
       "flex-layout.col#spacer18"
     ]
   },
