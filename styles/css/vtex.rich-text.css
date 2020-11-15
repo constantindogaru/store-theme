@@ -417,7 +417,7 @@
   color: #83b735;
 }
 
-.paragraph--blog-title, .headingLevel1--titleWishlist {
+.paragraph--blog-title, .paragraph--titleWishlist {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 68px;
   color: #2d2a2a;
