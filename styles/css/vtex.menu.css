@@ -59,22 +59,23 @@
 /* styles for header3 */
 /* ------------------ */
 .styledLinkContent--browse-categories {
-  width: 72%;
+  width: 100%;
   color: #333;
   font-weight: 700;
   font-size: 13px;
   font-family: "Lato", Arial, Helvetica, sans-serif;
+  align-items: center;
 }
 .styledLinkContainer--browse-categories {
   margin-left: 0px;
-  padding-top: 19px;
+  /* padding-top: 19px; */
 }
-.menuItem--browse-categories {
+/* .menuItem--browse-categories {
   width: 20%;
   margin-right: 30px;
-}
+} */
 .styledLinkIcon--browse-categories {
-  margin-top: -2px;
+  margin-right: 10px;
 }
 
 .styledLinkContent--headermenu {
@@ -83,22 +84,28 @@
   font-size: 13px;
 }
 .styledLinkContainer--headermenu {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
+  /* padding-bottom: 5px;
+  padding-top: 5px; */
 
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 11px;
+  /* margin-top: 11px; */
 
-  border-right-style: solid;
-  border-color: rgba(129, 129, 129, 0.2);
-  border-width: 1px;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
-.menuItem--headermenu {
+.styledLink--headermenu {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(129, 129, 129, 0.2);
+}
+/* .menuItem--headermenu {
   padding-top: 3px;
-}
+} */
 
 .styledLinkContent--headermenu-oferte-speciale {
   color: #ff0000;
@@ -115,13 +122,14 @@
 /* styles for menu drop down */
 /* ------------------------- */
 .submenuWrapper--submenu-browse-categories {
-  margin-top: -12px;
+  /* margin-top: -12px; */
   padding-bottom: 0px;
+  border-bottom: unset;
 }
 .styledLinkContent--primary-category {
   white-space: initial;
   word-break: normal;
-  width: 105%;
+  width: 100%;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -151,7 +159,8 @@
   color: #777;
 }
 .submenuWrapper--submenu-subcategories {
-  margin-top: -61px;
-  margin-left: 197px;
+  margin-top: -52px;
+  /* This should be recalculated in case we change the width of the parent. */
+  margin-left: 201px;
 }
 /* ---------------------------- */
