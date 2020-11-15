@@ -27,8 +27,8 @@
     "children": [
       "menu-item#browse-categories",
       "menu-item#home",
-      "menu-item#shop",
       "menu-item#about-us",
+      "menu-item#shop",
       "menu-item#blog",
       "menu-item#contact-us"
     ]

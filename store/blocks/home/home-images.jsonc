@@ -75,9 +75,10 @@
       "textPosition": "right",
       "textAlignment": "right",
       "headline": "Fructe de mare \"ready to eat\" Werner Lauenroth - Hamburg",
-      "subhead": "Viziteaza sectiunea",
+      // "subhead": "Viziteaza sectiunea",
       "imageUrl": "https://www.fine-food.ro/wp-content/uploads/2020/05/Slider-fructe-de-mare.jpg",
       "callToActionMode": "link",
+      "callToActionText": "Viziteaza sectiunea",
       "callToActionUrl": "/product-category/peste-fructe-de-mare-caviar/",
       "isFullModeStyle": true
     }

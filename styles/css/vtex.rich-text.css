@@ -298,11 +298,6 @@
   background: #0a0a0a;
 }
 
-.headingLevel1--titleWishlist {
-  color: white;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-}
-
 .headingLevel4--wishlistSubtitle {
   text-transform: uppercase;
   font-weight: 600;
@@ -422,7 +417,7 @@
   color: #83b735;
 }
 
-.paragraph--blog-title {
+.paragraph--blog-title, .paragraph--titleWishlist {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 68px;
   color: #2d2a2a;
