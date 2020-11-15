@@ -73,13 +73,35 @@
       "orientation": "vertical"
     },
     "children": [
-      "category-menu",
+      "stack-layout#category-menu",
       "menu-item#home-mobile",
       "menu-item#shop-mobile",
       "menu-item#about-us-mobile",
       "menu-item#blog-mobile",
       "menu-item#contact-us-mobile"
     ]
+  },
+  "stack-layout#category-menu": {
+    "children": [
+      "menu-item#browse-categories-mobile",
+      "category-menu"
+    ]
+  },
+  "menu-item#browse-categories-mobile": {
+    "props": {
+      "blockClass": "headermenuMobile",
+      "id": "menu-item-browse-categories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "BROWSE CATEGORIES",
+        "text": "BROWSE CATEGORIES"
+      }
+    }
   },
   "logo#mobile": {
     "props": {

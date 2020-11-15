@@ -2,10 +2,20 @@
   background-color: rgb(0, 0, 0, 0.7);
 }
 
-.sidebarContainer {
+/* .sidebarContainer {
   border-bottom: 1px solid rgba(129, 129, 129, 0.2);
-}
+} */
 
 .menuIcon--categoryMenuMobile {
   padding-left: 0.75rem;
+  visibility: hidden;
+}
+
+:global(.vtex-stack-layout-0-x-stackItem--categoryMenuMobile) {
+  width: 100%;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
