@@ -196,6 +196,17 @@
   letter-spacing: 0px;
   font-weight: 600;
   font-size: 56px;
+  animation: slideIn-bottom 5s infinite;
+}
+
+@keyframes slideIn-bottom {
+  0% {
+    transform: translateY(100%);
+  }
+  20%,
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .infoCardTextContainer--home-slider {
@@ -215,6 +226,7 @@
   letter-spacing: 0px;
   font-weight: 400;
   font-size: 16px;
+  animation: slideIn-bottom 5s infinite;
 }
 
 .infoCardCallActionText--home-slider {
@@ -225,6 +237,7 @@
   font-weight: 400;
   font-size: 32px;
   text-decoration: none;
+  animation: slideIn-bottom 5s infinite;
 }
 
 .infoCardCallActionContainer--home-slider {
