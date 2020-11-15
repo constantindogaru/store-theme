@@ -192,3 +192,7 @@
   font-family: "Lato", Arial, Helvetica, sans-serif;
   color: #2d2a2a;
 }
+
+.styledLinkContainer--browse-categories {
+  pointer-events: none;
+}

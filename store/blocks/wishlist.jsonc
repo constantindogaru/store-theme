@@ -24,7 +24,7 @@
   },
   "rich-text#title-wishlist": {
     "props": {
-      "text": "# Wishlist",
+      "text": "**Wishlist**",
       "blockClass": "titleWishlist"
     }
   },
