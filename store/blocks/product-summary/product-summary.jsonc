@@ -24,7 +24,8 @@
     "props": {
       "blockClass": "flex-add-to-cart",
       "colSizing": "auto",
-      "colGap": 4
+      "colGap": 4,
+      "preserveLayoutOnMobile": true
     },
     "children": [
       "flex-layout.col#list-button",
