@@ -24,7 +24,8 @@
   }
 }
 
-:global(.vtex-sticky-layout-0-x-container) {
+:global(.vtex-sticky-layout-0-x-container)
+:global(.vtex-flex-layout-0-x-flexRow--main-header) {
   height: 0.1px;
 }
 
