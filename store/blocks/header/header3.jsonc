@@ -74,10 +74,15 @@
       "menu-item#primary-burger",
       "menu-item#primary-conserve",
       "menu-item#primary-dulciuri",
+      "menu-item#primary-lactate-unt-iaurturi",
+      "menu-item#primary-legume-fructe-salate",
       "menu-item#primary-mezeluri",
       "menu-item#primary-miere",
+      "menu-item#primary-oua",
+      "menu-item#primary-patiserie-si-panificatie",
       "menu-item#primary-paste",
       "menu-item#primary-bio",
+      "menu-item#primary-copii",
       "menu-item#primary-vegan",
       "menu-item#primary-semipreparate",
       "menu-item#primary-trufe",
@@ -525,6 +530,345 @@
         "href": "product-category/ulei-de-masline-uleiuri-diverse/",
         "noFollow": false,
         "text": "Ulei de masline, uleiuri diverse"
+      }
+    }
+  },
+  "menu-item#primary-lactate-unt-iaurturi": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-lactate-unt-iaurturi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/lactate-unt-iurturi-branzeturi/",
+        "noFollow": false,
+        "text": "Lactate, Unt, Iaurturi, Branzeturi"
+      },
+      "iconProps": {
+        "id": "mpa-angle--up"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#lactate-unt-iaurturi"]
+  },
+  "vtex.menu@2.x:submenu#lactate-unt-iaurturi": {
+    "props": {
+      "blockClass": "submenu-subcategories"
+    },
+    "children": ["flex-layout.col#lactate-unt-iaurturi"]
+  },
+  "flex-layout.col#lactate-unt-iaurturi": {
+    "children": [
+      "menu-item#secondary-unt",
+      "menu-item#secondary-iaurturi",
+      "menu-item#secondary-branzeturi"
+    ]
+  },
+  "menu-item#secondary-unt": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-unt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/lactate-unt-iurturi-branzeturi/unt/",
+        "noFollow": false,
+        "text": "Unt"
+      }
+    }
+  },
+  "menu-item#secondary-iaurturi": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-iaurturi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/lactate-unt-iurturi-branzeturi/ianurturi-probiotice-iaurturi/",
+        "noFollow": false,
+        "text": "Iaurturi probiotice, iaurturi"
+      }
+    }
+  },
+  "menu-item#secondary-branzeturi": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-branzeturi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/lactate-unt-iurturi-branzeturi/branzeturi/",
+        "noFollow": false,
+        "text": "Branzeturi"
+      }
+    }
+  },
+  "menu-item#primary-legume-fructe-salate": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-legume-fructe-salate",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/legume-salate/",
+        "noFollow": false,
+        "text": "Legume, Fructe, Salate"
+      },
+      "iconProps": {
+        "id": "mpa-angle--up"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#legume-fructe-salate"]
+  },
+  "vtex.menu@2.x:submenu#legume-fructe-salate": {
+    "props": {
+      "blockClass": "submenu-subcategories"
+    },
+    "children": ["flex-layout.col#legume-fructe-salate"]
+  },
+  "flex-layout.col#legume-fructe-salate": {
+    "children": [
+      "menu-item#secondary-legume",
+      "menu-item#secondary-fructe",
+      "menu-item#secondary-salate"
+    ]
+  },
+  "menu-item#secondary-legume": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-legume",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/legume-salate/legume/",
+        "noFollow": false,
+        "text": "Legume"
+      }
+    }
+  },
+  "menu-item#secondary-fructe": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-fructe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/fructe/",
+        "noFollow": false,
+        "text": "Fructe"
+      }
+    }
+  },
+  "menu-item#secondary-salate": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-salate",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/legume-salate/legume/",
+        "noFollow": false,
+        "text": "Salate"
+      }
+    }
+  },
+  "menu-item#primary-oua": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-oua",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/oua/",
+        "noFollow": false,
+        "text": "Oua"
+      },
+      "iconProps": {
+        "id": "mpa-angle--up"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#oua"]
+  },
+  "vtex.menu@2.x:submenu#oua": {
+    "props": {
+      "blockClass": "submenu-subcategories"
+    },
+    "children": ["flex-layout.col#oua"]
+  },
+  "flex-layout.col#oua": {
+    "children": [
+      "menu-item#secondary-oua-premium",
+      "menu-item#secondary-oua-speciale"
+    ]
+  },
+  "menu-item#secondary-oua-premium": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-oua-premium",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/oua/oua-premium/",
+        "noFollow": false,
+        "text": "Oua premium"
+      }
+    }
+  },
+  "menu-item#secondary-oua-speciale": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-oua-speciale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/oua/oua-speciale/",
+        "noFollow": false,
+        "text": "Oua speciale"
+      }
+    }
+  },
+  "menu-item#primary-patiserie-si-panificatie": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-patiserie-si-panificatie",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/patiserie-si-panificatie/",
+        "noFollow": false,
+        "text": "Patiserie, Panificatie"
+      },
+      "iconProps": {
+        "id": "mpa-angle--up"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#patiserie-si-panificatie"]
+  },
+  "vtex.menu@2.x:submenu#patiserie-si-panificatie": {
+    "props": {
+      "blockClass": "submenu-subcategories"
+    },
+    "children": ["flex-layout.col#patiserie-si-panificatie"]
+  },
+  "flex-layout.col#patiserie-si-panificatie": {
+    "children": [
+      "menu-item#secondary-patiserie-cu-gluten",
+      "menu-item#secondary-patiserie-fara-gluten"
+    ]
+  },
+  "menu-item#secondary-patiserie-cu-gluten": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-patiserie-cu-gluten",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/patiserie-si-panificatie/cu-gluten/",
+        "noFollow": false,
+        "text": "Cu gluten"
+      }
+    }
+  },
+  "menu-item#secondary-patiserie-fara-gluten": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-patiserie-fara-gluten",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/patiserie-si-panificatie/fara-gluten/",
+        "noFollow": false,
+        "text": "Fara gluten"
+      }
+    }
+  },
+  "menu-item#primary-copii": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-copii",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/produse-copii/",
+        "noFollow": false,
+        "text": "Produse copii"
+      },
+      "iconProps": {
+        "id": "mpa-angle--up"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#copii"]
+  },
+  "vtex.menu@2.x:submenu#copii": {
+    "props": {
+      "blockClass": "submenu-subcategories"
+    },
+    "children": ["flex-layout.col#copii"]
+  },
+  "flex-layout.col#copii": {
+    "children": ["menu-item#secondary-copii", "menu-item#secondary-pachetel"]
+  },
+  "menu-item#secondary-copii": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-copii",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/produse-copii/produse-pentru-copii/",
+        "noFollow": false,
+        "text": "Produse pentru copii"
+      }
+    }
+  },
+  "menu-item#secondary-pachetel": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-pachetel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/produse-copii/pachetel-de-scoala/",
+        "noFollow": false,
+        "text": "Pachetel de scoala"
       }
     }
   },
