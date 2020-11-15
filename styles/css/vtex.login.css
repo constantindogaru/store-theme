@@ -37,3 +37,21 @@
 .accountOptions :global(.vtex-button) {
   outline: none;
 }
+
+.label {
+  font-size: 13px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: #333;
+  font-weight: 600;
+  max-width: 125px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: inline-block;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  padding-left: 5px;
+}
+
+.profileIcon--loginHeader {
+  color: #333;
+}

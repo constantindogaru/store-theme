@@ -82,7 +82,8 @@
       "iconLabel": "LOGIN / REGISTER",
       "hideIconLabel": false,
       "showIconProfile": true,
-      "iconSize": 24
+      "iconSize": 24,
+      "blockClass": "loginHeader"
     }
   },
   // WISHLIST
