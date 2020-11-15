@@ -36,19 +36,19 @@
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.fine-food.ro/"
+          "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.fine-food.ro/product-category/ciuperci/"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/share?url=https://www.fine-food.ro/"
+          "url": "https://twitter.com/share?url=https://www.fine-food.ro/product-category/ciuperci/"
         },
         {
           "name": "Pinterest",
-          "url": "https://pinterest.com/pin/create/button/?url=https://www.fine-food.ro/&amp;media=https://www.fine-food.ro/wp-includes/images/media/default.png&amp;description=Home+base-rtl/"
+          "url": "https://pinterest.com/pin/create/button/?url=https://www.fine-food.ro/product-category/ciuperci/&media=https://www.fine-food.ro/wp-content/uploads/2020/07/Trufe-negre.jpg&description=Trufe+negre+proaspete%2C+Tube+Aestivum%2C+calibrul+5%2F10g+%28pret+per+gram%29"
         },
         {
           "name": "LinkedIn",
-          "url": "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.fine-food.ro/"
+          "url": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.fine-food.ro/product-category/ciuperci/"
         }
       ]
     }
