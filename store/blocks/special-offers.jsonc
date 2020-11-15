@@ -20,7 +20,7 @@
   },
   "rich-text#title-special-offers": {
     "props": {
-      "text": "# Oferte Speciale",
+      "text": "**Oferte Speciale**",
       "blockClass": "titleWishlist"
     }
   },
