@@ -55,7 +55,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#browse-categories",
+      "category-menu",
       "menu-item#home-mobile",
       "menu-item#shop-mobile",
       "menu-item#about-us-mobile",
@@ -69,6 +69,15 @@
       "href": "/",
       "url": "https://www.fine-food.ro/wp-content/uploads/2020/11/logob.png",
       "width": 70
+    }
+  },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "mobileMode": true,
+      "blockClass": "categoryMenuMobile"
     }
   },
 
