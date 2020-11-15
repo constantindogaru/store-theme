@@ -284,7 +284,9 @@
       "marginTop": 4,
       "marginBottom": 7,
       "blockClass": "productQuantityAndBuy",
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "colGap": 2
     },
     "children": [
       "flex-layout.col#product-quantity",
