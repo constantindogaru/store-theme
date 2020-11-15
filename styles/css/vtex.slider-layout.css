@@ -16,7 +16,7 @@
 }
 
 .sliderLayoutContainer--movingProductSlider {
-  background-color: rgb(131,1,1);
+  background-color: rgb(131, 1, 1);
 }
 
 .paginationDotsContainer {
@@ -45,6 +45,8 @@
   margin-top: 50px;
   margin-bottom: 50px;
   padding-bottom: 25px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .slideChildrenContainer--shelf {
@@ -56,6 +58,7 @@
 }
 
 .sliderLayoutContainer--carousel {
+  padding: 0 !important;
   background-color: whitesmoke;
 }
 
@@ -78,12 +81,15 @@
   height: 15px;
 }
 
-.caretIcon--slider-brands, .caretIcon--sliderAllCategories, .caretIcon--shelf {
+.caretIcon--slider-brands,
+.caretIcon--sliderAllCategories,
+.caretIcon--shelf {
   visibility: hidden;
 }
 
 .sliderLayoutContainer--slider-brands:hover .caretIcon--slider-brands,
-.sliderLayoutContainer--sliderAllCategories:hover .caretIcon--sliderAllCategories,
+.sliderLayoutContainer--sliderAllCategories:hover
+  .caretIcon--sliderAllCategories,
 .sliderLayoutContainer--shelf:hover .caretIcon--shelf {
   visibility: visible;
 }
