@@ -301,7 +301,7 @@
         "type": "internal",
         "href": "/",
         "noFollow": true,
-        "tagTitle": "Home",
+        "tagTitle": "ACASĂ",
         "text": "ACASĂ"
       }
     }
@@ -335,7 +335,7 @@
         "type": "internal",
         "href": "/about-us",
         "noFollow": true,
-        "tagTitle": "ABOUT US",
+        "tagTitle": "DESPRE NOI",
         "text": "DESPRE NOI"
       }
     }
@@ -369,7 +369,7 @@
         "type": "internal",
         "href": "/contact-us",
         "noFollow": true,
-        "tagTitle": "CONTACT US",
+        "tagTitle": "CONTACT",
         "text": "CONTACT"
       }
     }

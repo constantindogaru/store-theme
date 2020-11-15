@@ -13,7 +13,6 @@
     ]
   },
 
-
   // TOP LEFT TEXT
   "flex-layout.col#premium-food": {
     "children": ["rich-text#premium-food"]
@@ -24,7 +23,6 @@
       "blockClass": "premiumfood"
     }
   },
-
 
   // SOCIAL NETWORKS
   "flex-layout.col#social-networks": {
@@ -56,7 +54,6 @@
     }
   },
 
-  
   // TOP MENU
   "flex-layout.col#top-menu": {
     "props": {
@@ -65,11 +62,7 @@
     "children": ["vtex.menu@2.x:menu#top-menu"]
   },
   "vtex.menu@2.x:menu#top-menu": {
-    "children": [
-      "menu-item#newsletter",
-      "menu-item#faq",
-      "locale-switcher"
-    ]
+    "children": ["menu-item#newsletter", "menu-item#faq", "locale-switcher"]
   },
   // NEWSLETTER
   "menu-item#newsletter": {
@@ -82,7 +75,7 @@
         "type": "internal",
         "href": "/newsletter",
         "noFollow": false,
-        "tagTitle": "newsletter",
+        "tagTitle": "NEWSLETTER",
         "text": "NEWSLETTER"
       },
       "iconProps": {
@@ -102,9 +95,9 @@
         "type": "internal",
         "href": "/faq",
         "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "INTREBARI FRECVENTE"
+        "tagTitle": "ÎNTREBĂRI FRECVENTE",
+        "text": "ÎNTREBĂRI FRECVENTE"
       }
     }
-  } 
+  }
 }
