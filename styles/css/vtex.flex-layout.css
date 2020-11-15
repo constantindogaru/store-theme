@@ -399,3 +399,7 @@
   display: flex;
   align-items: center;
 }
+
+.flexRow--drawerWrapper {
+  width: 100%;
+}

@@ -164,3 +164,31 @@
   margin-left: 201px;
 }
 /* ---------------------------- */
+
+.menuContainerNav {
+  width: 100%;
+}
+
+.styledLinkContainer--headermenuMobile {
+  margin: 0;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-height: 50px;
+  border-bottom: 1px solid rgba(129, 129, 129, 0.2);
+  color: #2d2a2a;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.styledLinkContent--headermenuMobile {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: #2d2a2a;
+}

@@ -15,19 +15,52 @@
       "flex-layout.col#spacer-grow",
       "logo#mobile",
       "flex-layout.col#spacer-grow",
-      "login",
+      "login#mobile",
+      "flex-layout.col#wishlist",
       "minicart.v2"
     ]
   },
   "drawer": {
+    "children": ["flex-layout.row#header-mobile-row-wrapper"]
+  },
+  "flex-layout.row#header-mobile-row-wrapper": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "drawerWrapper"
+    },
+    "children": ["flex-layout.col#header-mobile-col-wrapper"]
+  },
+  "flex-layout.col#header-mobile-col-wrapper": {
+    "children": ["flex-layout.row#header-mobile-row-1"]
+  },
+  "flex-layout.row#header-mobile-row-1": {
+    "children": ["flex-layout.col#header-mobile-row-1"]
+  },
+  "flex-layout.col#header-mobile-row-1": {
     "children": ["menu#drawer"]
   },
+
+  "login#mobile": {
+    "props": {
+      "iconLabel": "LOGIN / REGISTER",
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "iconSize": 24,
+      "blockClass": "loginHeaderMobile"
+    }
+  },
+
   "menu#drawer": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#browse-categories"
+      "menu-item#browse-categories",
+      "menu-item#home-mobile",
+      "menu-item#shop-mobile",
+      "menu-item#about-us-mobile",
+      "menu-item#blog-mobile",
+      "menu-item#contact-us-mobile"
     ]
   },
   "logo#mobile": {
@@ -36,6 +69,92 @@
       "href": "/",
       "url": "https://www.fine-food.ro/wp-content/uploads/2020/11/logob.png",
       "width": 70
+    }
+  },
+
+  // HOME
+  "menu-item#home-mobile": {
+    "props": {
+      "blockClass": "headermenuMobile",
+      "id": "menu-item-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "ACASĂ",
+        "text": "ACASĂ"
+      }
+    }
+  },
+  // SHOP
+  "menu-item#shop-mobile": {
+    "props": {
+      "blockClass": "headermenuMobile",
+      "id": "menu-item-shop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/shop",
+        "noFollow": true,
+        "tagTitle": "MAGAZIN",
+        "text": "MAGAZIN"
+      }
+    }
+  },
+  // ABOUT US
+  "menu-item#about-us-mobile": {
+    "props": {
+      "blockClass": "headermenuMobile",
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "DESPRE NOI",
+        "text": "DESPRE NOI"
+      }
+    }
+  },
+  // BLOG
+  "menu-item#blog-mobile": {
+    "props": {
+      "blockClass": "headermenuMobile",
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog",
+        "noFollow": true,
+        "tagTitle": "BLOG",
+        "text": "BLOG"
+      }
+    }
+  },
+  // CONTACT US
+  "menu-item#contact-us-mobile": {
+    "props": {
+      "blockClass": "headermenuMobile",
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "CONTACT",
+        "text": "CONTACT"
+      }
     }
   }
 }

@@ -55,6 +55,9 @@
 .profileIcon--loginHeader {
   color: #333;
 }
+.profileIcon--loginHeaderMobile {
+  color: #333;
+}
 
 .profile {
   font-size: 13px;
@@ -62,4 +65,5 @@
   font-weight: 600;
   padding-left: 5px;
   color: #83b735;
+  display: unset !important;
 }
