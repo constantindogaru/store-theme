@@ -21,7 +21,9 @@
 }
 
 .searchResultContainer {
-  padding-top: 0px;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
 }
 
 /* .orderByButton {
@@ -32,7 +34,8 @@
   visibility: hidden;
 }
 
-:global(.vtex-search-result-3-x-filter__container--departament) .filterTitle::before {
+:global(.vtex-search-result-3-x-filter__container--departament)
+  .filterTitle::before {
   visibility: visible;
   content: "Category";
 }
