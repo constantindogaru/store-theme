@@ -122,8 +122,26 @@
   margin-top: 20px;
 }
 
-.autoCompleteOuterContainer {
-  /* width: 225%; */
+.autoCompleteOuterContainer--searchBarMobile {
+  border-bottom: 1px solid rgba(129, 129, 129, 0.2);
+  border-top: 1px solid rgba(129, 129, 129, 0.2);
+}
+
+.autoCompleteOuterContainer--searchBarMobile
+  :global(.vtex-input-prefix__group) {
+  border: none;
+  min-height: 50px;
+}
+
+.externalSearchButtonWrapper--searchBarMobile {
+  border: none;
+}
+
+.autoCompleteOuterContainer--searchBarMobile
+  :global(.vtex-styleguide-9-x-input) {
+  font-size: 14px;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: #777;
 }
 
 .imageElement--imageSliderBrands {

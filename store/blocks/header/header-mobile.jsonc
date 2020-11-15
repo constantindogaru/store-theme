@@ -31,13 +31,31 @@
     "children": ["flex-layout.col#header-mobile-col-wrapper"]
   },
   "flex-layout.col#header-mobile-col-wrapper": {
-    "children": ["flex-layout.row#header-mobile-row-1"]
+    "children": [
+      "flex-layout.row#header-mobile-row-1",
+      "flex-layout.row#header-mobile-row-2"
+    ]
   },
   "flex-layout.row#header-mobile-row-1": {
     "children": ["flex-layout.col#header-mobile-row-1"]
   },
   "flex-layout.col#header-mobile-row-1": {
+    "children": ["search-bar#mobile"]
+  },
+  "flex-layout.row#header-mobile-row-2": {
+    "children": ["flex-layout.col#header-mobile-row-2"]
+  },
+  "flex-layout.col#header-mobile-row-2": {
     "children": ["menu#drawer"]
+  },
+
+  "search-bar#mobile": {
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "autocompleteAlignment": "center",
+      "displayMode": "search-and-clear-buttons",
+      "blockClass": "searchBarMobile"
+    }
   },
 
   "login#mobile": {
