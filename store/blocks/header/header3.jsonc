@@ -66,12 +66,22 @@
     "children": [
       "menu-item#primary-oferte-speciale",
       "menu-item#primary-produse-noi",
-      "menu-item#primary-apa-bauturi-racoritoare",
-      "menu-item#primary-bere-cidru",
+      "menu-item#primary-bauturi",
       "menu-item#primary-ciorbe",
       "menu-item#primary-cafea",
       "menu-item#primary-carne-vanat-specialitati",
-      "menu-item#primary-sare-condimente-si-sosuri"
+      "menu-item#primary-sare-condimente-si-sosuri",
+      "menu-item#primary-burger",
+      "menu-item#primary-conserve",
+      "menu-item#primary-dulciuri",
+      "menu-item#primary-mezeluri",
+      "menu-item#primary-miere",
+      "menu-item#primary-paste",
+      "menu-item#primary-bio",
+      "menu-item#primary-vegan",
+      "menu-item#primary-semipreparate",
+      "menu-item#primary-trufe",
+      "menu-item#primary-ulei"
     ]
   },
   "menu-item#primary-oferte-speciale": {
@@ -104,10 +114,10 @@
       }
     }
   },
-  "menu-item#primary-apa-bauturi-racoritoare": {
+  "menu-item#primary-bauturi": {
     "props": {
       "blockClass": "primary-category",
-      "id": "menu-item-primary-apa-bauturi-racoritoare",
+      "id": "menu-item-primary-bauturi",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -115,14 +125,32 @@
         "type": "internal",
         "href": "/product-category/apa-bauturi-racoritoare/",
         "noFollow": false,
-        "text": "Apă minerala plata si carbogazoasa, băuturi răcoritoare, bauturi diverse"
-      }
-    }
+        "text": "Băuturi"
+      },
+      "iconProps": {
+        "id": "mpa-angle--up"
+      },
+      "iconPosition": "right"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#bauturi"]
   },
-  "menu-item#primary-bere-cidru": {
+  "vtex.menu@2.x:submenu#bauturi": {
     "props": {
-      "blockClass": "primary-category",
-      "id": "menu-item-primary-bere-cidru",
+      "blockClass": "submenu-subcategories"
+    },
+    "children": ["flex-layout.col#bauturi"]
+  },
+  "flex-layout.col#bauturi": {
+    "children": [
+      "menu-item#secondary-bere-cidru",
+      "menu-item#secondary-apa-bauturi-racoritoare",
+      "menu-item#secondary-vinuri"
+    ]
+  },
+  "menu-item#secondary-bere-cidru": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-bere-cidru",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -131,6 +159,36 @@
         "href": "/product-category/bere-cidru/",
         "noFollow": false,
         "text": "Bere, Cidru"
+      }
+    }
+  },
+  "menu-item#secondary-apa-bauturi-racoritoare": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-apa-bauturi-racoritoare",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/apa-bauturi-racoritoare/",
+        "noFollow": false,
+        "text": "Apă minerală plată și carbogazoasă, băuturi răcoritoare, băuturi diverse"
+      }
+    }
+  },
+  "menu-item#secondary-vinuri": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-vinuri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/vinuri/",
+        "noFollow": false,
+        "text": "Vinuri"
       }
     }
   },
@@ -196,7 +254,8 @@
       "menu-item#secondary-pasare",
       "menu-item#secondary-porc",
       "menu-item#secondary-vanat",
-      "menu-item#secondary-vita"
+      "menu-item#secondary-vita",
+      "menu-item#secondary-peste"
     ]
   },
   "menu-item#secondary-miel-berbecut-muflon": {
@@ -274,6 +333,21 @@
       }
     }
   },
+  "menu-item#secondary-peste": {
+    "props": {
+      "blockClass": "secondary-category",
+      "id": "menu-item-secondary-peste",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/peste",
+        "noFollow": false,
+        "text": "Peste"
+      }
+    }
+  },
   "menu-item#primary-sare-condimente-si-sosuri": {
     "props": {
       "blockClass": "primary-category",
@@ -289,6 +363,172 @@
       }
     }
   },
+  "menu-item#primary-burger": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-burger",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/burger/",
+        "noFollow": false,
+        "text": "Burger, Chifle Burger"
+      }
+    }
+  },
+  "menu-item#primary-conserve": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-conserve",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/conserve/",
+        "noFollow": false,
+        "text": "Conserve"
+      }
+    }
+  },
+  "menu-item#primary-dulciuri": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-dulciuri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/dulciuri/",
+        "noFollow": false,
+        "text": "Dulciuri"
+      }
+    }
+  },
+  "menu-item#primary-mezeluri": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-mezeluri",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/mezeluri-low-calories-fitness/",
+        "noFollow": false,
+        "text": "Mezeluri low calories, fitness"
+      }
+    }
+  },
+  "menu-item#primary-miere": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-miere",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/miere/",
+        "noFollow": false,
+        "text": "Miere"
+      }
+    }
+  },
+  "menu-item#primary-paste": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-paste",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/product-category/paste/",
+        "noFollow": false,
+        "text": "Paste"
+      }
+    }
+  },
+  "menu-item#primary-bio": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-bio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/produse-bio/",
+        "noFollow": false,
+        "text": "Produse bio"
+      }
+    }
+  },
+  "menu-item#primary-vegan": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-vegan",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/produse-vegane/",
+        "noFollow": false,
+        "text": "Produse vegane"
+      }
+    }
+  },
+  "menu-item#primary-semipreparate": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-semipreparate",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/semipreparate/",
+        "noFollow": false,
+        "text": "Semipreparate"
+      }
+    }
+  },
+  "menu-item#primary-trufe": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-trufe",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/trufe/",
+        "noFollow": false,
+        "text": "Trufe"
+      }
+    }
+  },
+  "menu-item#primary-ulei": {
+    "props": {
+      "blockClass": "primary-category",
+      "id": "menu-item-primary-ulei",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "product-category/ulei-de-masline-uleiuri-diverse/",
+        "noFollow": false,
+        "text": "Ulei de masline, uleiuri diverse"
+      }
+    }
+  },
+
   // HOME
   "menu-item#home": {
     "props": {
