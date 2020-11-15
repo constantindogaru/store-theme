@@ -274,7 +274,7 @@
         "type": "internal",
         "href": "product-category/carne-vanat-specialitati/miel-berbecut-muflon/",
         "noFollow": false,
-        "text": "Miel, berbecut, muflon"
+        "text": "Miel, berbecuț, muflon"
       }
     }
   },
@@ -289,7 +289,7 @@
         "type": "internal",
         "href": "product-category/carne-vanat-specialitati/pasare/",
         "noFollow": false,
-        "text": "Pasare"
+        "text": "Pasăre"
       }
     }
   },
@@ -319,7 +319,7 @@
         "type": "internal",
         "href": "product-category/carne-vanat-specialitati/vanat/",
         "noFollow": false,
-        "text": "Vanat"
+        "text": "Vânat"
       }
     }
   },
@@ -334,7 +334,7 @@
         "type": "internal",
         "href": "product-category/carne-vanat-specialitati/vita/",
         "noFollow": false,
-        "text": "Vita"
+        "text": "Vită"
       }
     }
   },
@@ -349,7 +349,7 @@
         "type": "internal",
         "href": "product-category/peste",
         "noFollow": false,
-        "text": "Peste"
+        "text": "Pește"
       }
     }
   },
@@ -529,7 +529,7 @@
         "type": "internal",
         "href": "product-category/ulei-de-masline-uleiuri-diverse/",
         "noFollow": false,
-        "text": "Ulei de masline, uleiuri diverse"
+        "text": "Ulei de măsline, uleiuri diverse"
       }
     }
   },
@@ -544,7 +544,7 @@
         "type": "internal",
         "href": "product-category/lactate-unt-iurturi-branzeturi/",
         "noFollow": false,
-        "text": "Lactate, Unt, Iaurturi, Branzeturi"
+        "text": "Lactate, Unt, Iaurturi, Brânzeturi"
       },
       "iconProps": {
         "id": "mpa-angle--up"
@@ -607,7 +607,7 @@
         "type": "internal",
         "href": "product-category/lactate-unt-iurturi-branzeturi/branzeturi/",
         "noFollow": false,
-        "text": "Branzeturi"
+        "text": "Brânzeturi"
       }
     }
   },
@@ -700,7 +700,7 @@
         "type": "internal",
         "href": "product-category/oua/",
         "noFollow": false,
-        "text": "Oua"
+        "text": "Ouă"
       },
       "iconProps": {
         "id": "mpa-angle--up"
@@ -732,7 +732,7 @@
         "type": "internal",
         "href": "product-category/oua/oua-premium/",
         "noFollow": false,
-        "text": "Oua premium"
+        "text": "Ouă premium"
       }
     }
   },
@@ -747,7 +747,7 @@
         "type": "internal",
         "href": "product-category/oua/oua-speciale/",
         "noFollow": false,
-        "text": "Oua speciale"
+        "text": "Ouă speciale"
       }
     }
   },
@@ -762,7 +762,7 @@
         "type": "internal",
         "href": "product-category/patiserie-si-panificatie/",
         "noFollow": false,
-        "text": "Patiserie, Panificatie"
+        "text": "Patiserie, Panificație"
       },
       "iconProps": {
         "id": "mpa-angle--up"
@@ -809,7 +809,7 @@
         "type": "internal",
         "href": "product-category/patiserie-si-panificatie/fara-gluten/",
         "noFollow": false,
-        "text": "Fara gluten"
+        "text": "Fără gluten"
       }
     }
   },
@@ -868,7 +868,7 @@
         "type": "internal",
         "href": "product-category/produse-copii/pachetel-de-scoala/",
         "noFollow": false,
-        "text": "Pachetel de scoala"
+        "text": "Pachețel de școală"
       }
     }
   },
