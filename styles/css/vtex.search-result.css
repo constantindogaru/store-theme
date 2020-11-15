@@ -26,6 +26,11 @@
   max-width: 100%;
 }
 
+.galleryTitle--layout {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
 /* .orderByButton {
   padding-right: 140px;
 } */
