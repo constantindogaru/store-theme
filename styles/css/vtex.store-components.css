@@ -62,8 +62,21 @@
   margin-right: -24px;
 }
 
+.inputGroup--newsletter-home-page {
+  max-width: 100%;
+}
+
+.inputGroup--newsletter-home-page :global(.vtex-input) {
+  flex-grow: 1;
+}
+
 .buttonContainer {
   padding-top: 0px;
+}
+
+.buttonContainer--newsletter-home-page :global(.vtex-button) {
+  max-width: 100%;
+  margin: 0;
 }
 
 .imageElement--storePrint {
