@@ -36,14 +36,18 @@
   "flex-layout.col#product-delivery-row-1-col-1": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
     "children": []
   },
   "flex-layout.col#product-delivery-row-1-col-2": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
     "children": ["rich-text#product-delivery-dear-client-text"]
   },
@@ -64,14 +68,18 @@
   "flex-layout.col#product-delivery-row-2-col-1": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
     "children": ["image#product-delivery-info-image-1"]
   },
   "flex-layout.col#product-delivery-row-2-col-2": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
     "children": ["rich-text#product-delivery-info-text-1"]
   },
@@ -92,20 +100,20 @@
   "flex-layout.col#product-delivery-row-3-col-1": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
-    "children": [
-      "image#product-delivery-info-image-2"
-    ]
+    "children": ["image#product-delivery-info-image-2"]
   },
   "flex-layout.col#product-delivery-row-3-col-2": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
-    "children": [
-      "rich-text#product-delivery-info-text-2"
-    ]
+    "children": ["rich-text#product-delivery-info-text-2"]
   },
 
   "flex-layout.row#product-delivery-row-4": {
@@ -124,20 +132,20 @@
   "flex-layout.col#product-delivery-row-4-col-1": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
-    "children": [
-      "image#product-delivery-info-image-3"
-    ]
+    "children": ["image#product-delivery-info-image-3"]
   },
   "flex-layout.col#product-delivery-row-4-col-2": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
-    "children": [
-      "rich-text#product-delivery-info-text-3"
-    ]
+    "children": ["rich-text#product-delivery-info-text-3"]
   },
 
   "flex-layout.row#product-delivery-row-5": {
@@ -156,20 +164,20 @@
   "flex-layout.col#product-delivery-row-5-col-1": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
-    "children": [
-      "image#product-delivery-info-image-4"
-    ]
+    "children": ["image#product-delivery-info-image-4"]
   },
   "flex-layout.col#product-delivery-row-5-col-2": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
-    "children": [
-      "rich-text#product-delivery-info-text-4"
-    ]
+    "children": ["rich-text#product-delivery-info-text-4"]
   },
 
   "flex-layout.row#product-delivery-row-6": {
@@ -188,18 +196,20 @@
   "flex-layout.col#product-delivery-row-6-col-1": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
     "children": []
   },
   "flex-layout.col#product-delivery-row-6-col-2": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "marginLeft": 4,
+      "marginRight": 4
     },
-    "children": [
-      "rich-text#product-delivery-thank-you-text"
-    ]
+    "children": ["rich-text#product-delivery-thank-you-text"]
   },
 
   "image#product-delivery-info-image-1": {
