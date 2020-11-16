@@ -426,6 +426,10 @@
   margin-bottom: 50px;
 }
 
+.container--text-credits {
+  justify-content: center;
+}
+
 .paragraph--text-credits {
   text-align: center;
 }
