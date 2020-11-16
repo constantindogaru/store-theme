@@ -3,6 +3,13 @@
   margin: auto;
 }
 
+@media screen and (max-width: 1222px) {
+  .relatedProducts--relatedProductsProductPage {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .shelfContentContainer--relatedProductsProductPage {
   margin-bottom: 100px;
 }
