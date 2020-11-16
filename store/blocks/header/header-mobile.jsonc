@@ -78,14 +78,13 @@
       "menu-item#about-us-mobile",
       "menu-item#shop-mobile",
       "menu-item#blog-mobile",
-      "menu-item#contact-us-mobile"
+      "menu-item#contact-us-mobile",
+      "menu-item#faq-mobile",
+      "menu-item#newsletter-mobile"
     ]
   },
   "stack-layout#category-menu": {
-    "children": [
-      "menu-item#browse-categories-mobile",
-      "category-menu"
-    ]
+    "children": ["menu-item#browse-categories-mobile", "category-menu"]
   },
   "menu-item#browse-categories-mobile": {
     "props": {
@@ -203,6 +202,40 @@
         "noFollow": true,
         "tagTitle": "CONTACT",
         "text": "CONTACT"
+      }
+    }
+  },
+  // FAQ
+  "menu-item#faq-mobile": {
+    "props": {
+      "blockClass": "headermenuMobile",
+      "id": "menu-item-faq-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "ÎNTREBĂRI FRECVENTE",
+        "text": "ÎNTREBĂRI FRECVENTE"
+      }
+    }
+  },
+  // NEWSLETTER
+  "menu-item#newsletter-mobile": {
+    "props": {
+      "blockClass": "headermenuMobile",
+      "id": "menu-item-newsletter-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/newsletter",
+        "noFollow": true,
+        "tagTitle": "NEWSLETTER",
+        "text": "NEWSLETTER"
       }
     }
   }
