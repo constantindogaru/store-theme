@@ -29,8 +29,9 @@
   },
   "flex-layout.row#recommended-products-middle-title-row": {
     "props": {
-      // "fullWidth": true,
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
     },
     "children": [
       "flex-layout.col#vertical-middle-divider",
@@ -46,7 +47,7 @@
   },
   "rich-text#recommended-products-title-2": {
     "props": {
-      "text": "### PRODUSE RECOMADATE",
+      "text": "### PRODUSE RECOMANDATE",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "recommendedTitleHeader"
