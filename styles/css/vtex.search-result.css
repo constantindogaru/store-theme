@@ -44,3 +44,15 @@
   visibility: visible;
   content: "Category";
 } */
+
+.filterBreadcrumbsContent {
+  outline: none;
+}
+
+.filterAccordionBreadcrumbs {
+  outline: none;
+}
+
+.filterPopupButton {
+  outline: none;
+}
