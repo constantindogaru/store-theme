@@ -54,9 +54,7 @@
     "props": {
       "width": "20%"
     },
-    "children": [
-      "rich-text#recommended-categories-title-2"
-    ]
+    "children": ["rich-text#recommended-categories-title-2"]
   },
   "rich-text#recommended-categories-title-2": {
     "props": {
@@ -85,6 +83,7 @@
     "children": [
       "flex-layout.col#spacer5",
       "flex-layout.col#recommended-category-highlight-1",
+      "flex-layout.col#spacer1",
       "flex-layout.col#recommended-categories-highlights-2",
       "flex-layout.col#spacer5"
     ]
@@ -144,12 +143,14 @@
     },
     "children": [
       "flex-layout.col#recommended-categories-right-row-1-col-1",
+      "flex-layout.col#spacer3",
       "flex-layout.col#recommended-categories-right-row-1-col-2"
     ]
   },
   "flex-layout.row#recommended-categories-right-row-2": {
     "children": [
       "flex-layout.col#recommended-categories-right-row-2-col-1",
+      "flex-layout.col#spacer3",
       "flex-layout.col#recommended-categories-right-row-2-col-2"
     ]
   },
