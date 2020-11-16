@@ -24,14 +24,14 @@
 
 .link--movingProdText {
   text-decoration: none;
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
-  width: 80%;
+  width: 100%;
 }
 
 .label--movingProdText {
   color: white;
-  font-size: 54px;
+  font-size: 3rem;
   font-weight: 600;
   font-family: Poppins;
   white-space: normal;

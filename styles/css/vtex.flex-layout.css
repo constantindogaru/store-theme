@@ -353,6 +353,8 @@
   max-width: 1222px;
   margin: auto;
   animation: slideIn-bottom 6s infinite;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @keyframes slideIn-bottom {

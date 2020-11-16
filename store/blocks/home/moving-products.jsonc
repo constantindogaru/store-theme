@@ -99,7 +99,6 @@
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/Mango.png",
       "maxHeight": 450,
-      "maxWidth": 450,
       "blockClass": "movingProdImage",
       "link": {
         "url": "/product/iaurt-cu-mango-si-fructul-pasiunii-natural-live-yoghurt-glenilen-farm-140-g/"
@@ -118,7 +117,6 @@
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/Raspberry.png",
       "maxHeight": 450,
-      "maxWidth": 450,
       "blockClass": "movingProdImage",
       "link": {
         "url": "/product/iaurt-cu-zmeura-natural-live-yoghurt-glenilen-farm-140-g/"
