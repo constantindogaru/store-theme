@@ -130,6 +130,8 @@
 .latestPostsBlockContainer--detailedBlogPost {
   max-width: 1222px !important;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .postNavigationFlexItem--detailedBlogPost {
