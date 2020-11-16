@@ -349,3 +349,23 @@
   width: 100%;
   object-fit: cover;
 }
+
+.imageElement--newsletterBannerImage {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.buttonContainer--newsletterPageForm {
+  padding-left: 5px !important;
+}
+
+.buttonContainer--newsletterPageForm :global(.vtex-button) {
+  margin: 0;
+  border-radius: 0;
+}
+
+.buttonContainer--newsletterPageForm :global(.vtex-button__label) {
+  font-size: 13px;
+  font-weight: 600;
+}

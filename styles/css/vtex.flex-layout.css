@@ -405,3 +405,12 @@
 .flexRow--drawerWrapper {
   width: 100%;
 }
+
+.flexRow--newsletterBanner {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.flexColChild--colNewsletterBannerText {
+  width: 100%;
+}

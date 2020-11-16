@@ -444,3 +444,9 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .headingLevel2--newsletterTitle {
+    font-size: 1.75rem;
+  }
+}

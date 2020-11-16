@@ -47,6 +47,7 @@
 
   "image#newsletter-banner": {
     "props": {
+      "blockClass": "newsletterBannerImage",
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/07/OH71GF0-scaled.jpg?id=2792"
     }
   },
@@ -61,14 +62,15 @@
   },
 
   "flex-layout.col#newsletter-banner-text-col": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "colNewsletterBannerText"
+    },
     "children": [
       "rich-text#newsletter-title",
       "rich-text#newsletter-subtitle",
       "newsletter"
-    ],
-    "props": {
-      "horizontalAlign": "center"
-    }
+    ]
   },
 
   "rich-text#newsletter-title": {
@@ -94,7 +96,8 @@
   "newsletter": {
     "props": {
       "placeholder": "Adresa dvs. de email",
-      "hideLabel": true
+      "hideLabel": true,
+      "blockClass": "newsletterPageForm"
     }
   }
 }
