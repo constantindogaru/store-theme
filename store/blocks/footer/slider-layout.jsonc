@@ -8,13 +8,20 @@
       "image#brand5",
       "image#brand6",
       "image#brand7",
-      "image#brand8"
+      "image#brand8",
+      "image#brand9",
+      "image#brand10",
+      "image#brand11",
+      "image#brand12",
+      "image#brand13",
+      "image#brand14",
+      "image#brand15"
     ],
     "props": {
       "fullWidth": false,
       "showPaginationDots": "never",
       "showNavigationArrows": "always",
-      "itemsPerPage": { 
+      "itemsPerPage": {
         "desktop": 6,
         "tablet": 3,
         "phone": 1
@@ -31,57 +38,150 @@
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-almdudler-s.png",
       "maxHeight": 60,
-      "blockClass": "imageSliderBrands"
-      // TODO Need to add links to these images. They should filter the products based on these brands.
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/almdudler"
+      }
     }
   },
   "image#brand2": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-carpe-diem-s.png",
       "maxHeight": 60,
-      "blockClass": "imageSliderBrands"
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/carpe-diem"
+      }
     }
   },
   "image#brand3": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/07/Clarence-Court-EPS-Logo-1.5MB-8.8.2017.png",
       "maxHeight": 60,
-      "blockClass": "imageSliderBrands"
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/clarence-court"
+      }
     }
   },
   "image#brand4": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/Screen-Shot-2017-03-21-at-10.46.34.png",
       "maxHeight": 60,
-      "blockClass": "imageSliderBrands"
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/clay-oven-bakery"
+      }
     }
   },
   "image#brand5": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/brand-oetker.png",
       "maxHeight": 60,
-      "blockClass": "imageSliderBrands"
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/oetker"
+      }
     }
   },
   "image#brand6": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-finefood-negru-s.png",
       "maxHeight": 60,
-      "blockClass": "imageSliderBrands"
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/fine-food-black-label"
+      }
     }
   },
   "image#brand7": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-finefood-albastru-s.png",
       "maxHeight": 60,
-      "blockClass": "imageSliderBrands"
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/fine-food-blue-label"
+      }
     }
   },
   "image#brand8": {
     "props": {
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-finefood-portocaliu-s.png",
       "maxHeight": 60,
-      "blockClass": "imageSliderBrands"
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/fine-food-brown-label"
+      }
+    }
+  },
+  "image#brand9": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/04/Logo_Windsor_en_rgb_def.png",
+      "maxHeight": 60,
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/windsor"
+      }
+    }
+  },
+  "image#brand10": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-wetter-s.png",
+      "maxHeight": 60,
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/wetter"
+      }
+    }
+  },
+  "image#brand11": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/05/Sigla-Werner-Lauenroth-.png",
+      "maxHeight": 60,
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/werner-lauenroth"
+      }
+    }
+  },
+  "image#brand12": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-vega-vita-s.png",
+      "maxHeight": 60,
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/vega-vita"
+      }
+    }
+  },
+  "image#brand13": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-tynant-s.png",
+      "maxHeight": 60,
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/tynant"
+      }
+    }
+  },
+  "image#brand14": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/logo-tautonic-s.png",
+      "maxHeight": 60,
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/tautonic"
+      }
+    }
+  },
+  "image#brand15": {
+    "props": {
+      "src": "https://www.fine-food.ro/wp-content/uploads/2020/06/desc%C4%83rcare.png",
+      "maxHeight": 60,
+      "blockClass": "imageSliderBrands",
+      "link": {
+        "url": "*?fuzzy=0&map=brand&operator=and&query=/sunny-berry"
+      }
     }
   }
 }
