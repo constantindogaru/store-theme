@@ -450,3 +450,7 @@
     font-size: 1.75rem;
   }
 }
+
+.container--newsletter {
+  width: 100%;
+}

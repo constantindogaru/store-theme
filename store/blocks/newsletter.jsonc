@@ -20,14 +20,17 @@
     "props": {
       "horizontalAlign": "center",
       "marginTop": 9,
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "blockClass": "rowRecentNewsletterTitle"
     },
     "children": ["rich-text#newsletter"]
   },
   "rich-text#newsletter": {
     "props": {
       "blockClass": "newsletter",
-      "text": "### NEWSLETTERE RECENTE"
+      "text": "### NEWSLETTERE RECENTE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "iframe#newsletter": {
