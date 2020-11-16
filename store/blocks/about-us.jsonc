@@ -6,7 +6,6 @@
       "flex-layout.row#social-network-about-us",
       "flex-layout.row#about-us-contact-block",
       "flex-layout.row#verticalSpacer"
-      // "flex-layout.row#about-us-recommended-categories-row"
     ]
   },
   "stack-layout#about-us-top-banner": {
@@ -17,6 +16,7 @@
   },
   "image#about-us-top-banner": {
     "props": {
+      "blockClass": "aboutUsImageBanner",
       "src": "https://www.fine-food.ro/wp-content/uploads/2020/03/469b-scaled.jpg?id=1487"
     }
   },
@@ -45,9 +45,7 @@
     "props": {
       "blockClass": "aboutUsDescriptionSocialNetworks"
     },
-    "children": [
-      "social-networks#about-us"
-    ]
+    "children": ["social-networks#about-us"]
   },
   "flex-layout.col#spacer-middle": {
     "props": {
