@@ -177,8 +177,6 @@
   cursor: pointer;
   max-width: 100%;
   position: relative;
-  top: 50%;
-  transform: translate(0, -50%);
 }
 
 .imageElement--movingProdImage:hover {
