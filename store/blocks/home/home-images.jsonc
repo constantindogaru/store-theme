@@ -9,11 +9,6 @@
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      // "slideTransition": {
-      //   "speed": 0,
-      //   "delay": 0,
-      //   "timing": ""
-      // },
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": true
