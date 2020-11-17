@@ -68,12 +68,13 @@
 }
 .styledLinkContainer--browse-categories {
   margin-left: 0px;
+  margin-top: 1px;
   /* padding-top: 19px; */
 }
-/* .menuItem--browse-categories {
-  width: 20%;
-  margin-right: 30px;
-} */
+.menuItem--browse-categories {
+  /* width: 20%; */
+  margin-right: 25px;
+}
 .styledLinkIcon--browse-categories {
   margin-right: 10px;
 }
@@ -122,7 +123,7 @@
 /* styles for menu drop down */
 /* ------------------------- */
 .submenuWrapper--submenu-browse-categories {
-  /* margin-top: -12px; */
+  margin-top: -11px;
   padding-bottom: 0px;
   border-bottom: unset;
 }
@@ -161,7 +162,7 @@
 .submenuWrapper--submenu-subcategories {
   margin-top: -52px;
   /* This should be recalculated in case we change the width of the parent. */
-  margin-left: 201px;
+  margin-left: 259px;
 }
 /* ---------------------------- */
 
