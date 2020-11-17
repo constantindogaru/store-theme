@@ -220,6 +220,12 @@
   width: unset !important;
 }
 
+.flexRowContent--quantityAndWishlistButtonQuickView {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: unset !important;
+}
+
 .flexRowContent--shareProduct
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: unset !important;

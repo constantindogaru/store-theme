@@ -1,9 +1,6 @@
 {
   "modal-trigger#quickview": {
-    "children": [
-      "icon-expand",
-      "modal-layout#quickview"
-    ],
+    "children": ["icon-expand", "modal-layout#quickview"],
     "props": {
       "blockClass": "quickview"
     }
@@ -29,10 +26,43 @@
       "vtex.store-components:product-name#quickview",
       "flex-layout.col#quickviewPrice",
       "product-summary-sku-selector#quickview",
-      "flex-layout.row#quantity-buy-button"
+      "flex-layout.row#quantity-wishlist-button-quickview",
+      "flex-layout.row#add-to-cart-quickview"
     ],
     "props": {
       "blockClass": "quickviewContent"
+    }
+  },
+  "flex-layout.row#add-to-cart-quickview": {
+    "children": ["flex-layout.col#add-to-cart-quickview"]
+  },
+  "flex-layout.col#add-to-cart-quickview": {
+    "children": ["flex-layout.col#add-to-cart-button"]
+  },
+  "flex-layout.row#quantity-wishlist-button-quickview": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "quantityAndWishlistButtonQuickView",
+      "colGap": 2,
+      "rowGap": 4,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#product-quantity",
+      "flex-layout.col#spacer5",
+      "flex-layout.col#add-to-wishlist-button-quickview"
+    ]
+  },
+  "flex-layout.col#add-to-wishlist-button-quickview": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["add-to-list-btn#quickview"]
+  },
+  "add-to-list-btn#quickview": {
+    "props": {
+      "blockClass": "addToWishlistQuickView"
     }
   },
   "flex-layout.col#quickviewPrice": {
@@ -53,9 +83,7 @@
   },
 
   "flex-layout.row#view-more-details": {
-    "children": [
-      "link.product#button-pdp"
-    ]
+    "children": ["link.product#button-pdp"]
   },
   "link.product#button-pdp": {
     "props": {
@@ -78,15 +106,10 @@
     }
   },
   "flex-layout.col#quickview-images": {
-    "children": [
-      "product-images#quickview"
-    ]
+    "children": ["product-images#quickview"]
   },
   "flex-layout.col#quickview-product-details": {
-    "children": [
-      "modal-content#quickview",
-      "modal-actions#quickview"
-    ],
+    "children": ["modal-content#quickview", "modal-actions#quickview"],
     "props": {
       "preventVerticalStretch": true,
       "blockClass": "quickviewDetails"
@@ -105,7 +128,7 @@
       "blockClass": "quickview"
     }
   },
-  "product-images#quickview" : {
+  "product-images#quickview": {
     "props": {
       "blockClass": "quickview",
       "showNavigationArrows": true
