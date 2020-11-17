@@ -35,20 +35,39 @@
     "blocks": ["product-review-form"]
   },
 
+  // In case we get a 404 for a product, this part will become visible.
   "store.not-found#product": {
-    "blocks": ["rich-text#not-found"]
+    "blocks": ["stack-layout#title-404", "rich-text#descriptive-text-404"]
   },
 
   "store.not-found#search": {
     "blocks": ["rich-text#not-found"]
   },
 
+  "stack-layout#title-404": {
+    "children": ["rich-text#text-404", "rich-text#not-found"],
+    "props": {
+      "blockClass": "stackNotFound"
+    }
+  },
+  "rich-text#text-404": {
+    "props": {
+      "text": "404",
+      "blockClass": "grey404Text"
+    }
+  },
   "rich-text#not-found": {
+    "props": {
+      "text": "NOT FOUND",
+      "blockClass": "greenNotFoundText"
+    }
+  },
+  "rich-text#descriptive-text-404": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "**PAGE NOT FOUND**",
-      "font": "t-heading-1"
+      "text": "## THIS IS SOMEWHAT EMBARRASSING, ISN'T IT?\nIt looks like nothing was found at this location. Maybe try a search?",
+      "blockClass": "descriptiveText404"
     }
   }
 }
