@@ -89,3 +89,8 @@
 .backdrop--quickview {
   background-color: rgb(0, 0, 0, 0.7);
 }
+
+.actionsContainerEndOfContent--quickview {
+  padding: 2rem;
+  padding-top: 0;
+}
