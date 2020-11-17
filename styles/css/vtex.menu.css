@@ -130,13 +130,14 @@
 .styledLinkContent--primary-category {
   white-space: initial;
   word-break: normal;
-  width: 100%;
+  /* width: 100%; */
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 13px;
   color: #333;
 }
 .styledLinkContainer--primary-category {
+  width: 90%;
   margin-left: 20px;
 }
 .styledLinkIcon--primary-category {
