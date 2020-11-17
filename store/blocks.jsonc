@@ -41,7 +41,7 @@
   },
 
   "store.not-found#search": {
-    "blocks": ["rich-text#not-found"]
+    "blocks": ["stack-layout#title-404", "rich-text#descriptive-text-404"]
   },
 
   "stack-layout#title-404": {
