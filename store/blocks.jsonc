@@ -47,7 +47,8 @@
   "stack-layout#title-404": {
     "children": ["rich-text#text-404", "rich-text#not-found"],
     "props": {
-      "blockClass": "stackNotFound"
+      "blockClass": "stackNotFound",
+      "zIndexOffset": -1
     }
   },
   "rich-text#text-404": {

@@ -463,7 +463,7 @@
   color: #f4f4f4;
   font-weight: 700;
   font-size: 25rem;
-  line-height: 1;
+  /* line-height: 1; */
   margin: 0;
 }
 
@@ -494,6 +494,7 @@
 .container--descriptiveText404 {
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-bottom: 100px;
 }
 
 .paragraph--descriptiveText404 {
