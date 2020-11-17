@@ -157,6 +157,10 @@
   color: #777;
 }
 
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+  border-radius: 0 !important;
+}
+
 .imageElement--imageSliderBrands {
   cursor: pointer;
   opacity: 0.5;
