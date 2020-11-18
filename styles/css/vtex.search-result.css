@@ -56,3 +56,7 @@
 .filterPopupButton {
   outline: none;
 }
+
+:global(.vtex-search-result-3-x-orderByOptionsContainer) {
+  z-index: 10;
+}
