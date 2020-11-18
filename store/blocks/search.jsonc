@@ -93,7 +93,8 @@
     "props": {
       "marginBottom": 8,
       "preventHorizontalStretch": true,
-      // "fullWidth": true,
+      "horizontalAlign": "center",
+      "fullWidth": true,
       "blockClass": "flex-search-results"
     }
   },
