@@ -81,7 +81,7 @@
     }
   },
   "flex-layout.row#searchbread": {
-    "children": ["breadcrumb.search"],
+    "children": ["breadcrumb.search", "order-by.v2"],
     "props": {
       "preserveLayoutOnMobile": true,
       // "fullWidth": true,
@@ -105,7 +105,7 @@
   },
   "flex-layout.col#content": {
     "children": [
-      "flex-layout.row#searchinfo",
+      // "flex-layout.row#searchinfo",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
