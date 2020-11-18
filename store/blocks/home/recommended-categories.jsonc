@@ -96,8 +96,8 @@
     },
     "children": [
       "flex-layout.row#recommended-category-highlight-1-image",
-      "rich-text#recommended-category-highlight-1",
-      "rich-text#recommended-category-highlight-products-info-1"
+      "rich-text#recommended-category-highlight-1"
+      // "rich-text#recommended-category-highlight-products-info-1"
     ]
   },
   "flex-layout.row#recommended-category-highlight-1-image": {
@@ -162,8 +162,8 @@
     },
     "children": [
       "flex-layout.row#recommended-categories-right-row-1-col-1-image",
-      "rich-text#recommended-category-highlight-2",
-      "rich-text#recommended-category-highlight-products-info-2"
+      "rich-text#recommended-category-highlight-2"
+      // "rich-text#recommended-category-highlight-products-info-2"
     ]
   },
   "flex-layout.row#recommended-categories-right-row-1-col-1-image": {
@@ -179,8 +179,8 @@
     },
     "children": [
       "flex-layout.row#recommended-categories-right-row-1-col-2-image",
-      "rich-text#recommended-category-highlight-3",
-      "rich-text#recommended-category-highlight-products-info-3"
+      "rich-text#recommended-category-highlight-3"
+      // "rich-text#recommended-category-highlight-products-info-3"
     ]
   },
   "flex-layout.row#recommended-categories-right-row-1-col-2-image": {
@@ -196,8 +196,8 @@
     },
     "children": [
       "flex-layout.row#recommended-categories-right-row-2-col-1-image",
-      "rich-text#recommended-category-highlight-4",
-      "rich-text#recommended-category-highlight-products-info-4"
+      "rich-text#recommended-category-highlight-4"
+      // "rich-text#recommended-category-highlight-products-info-4"
     ]
   },
   "flex-layout.row#recommended-categories-right-row-2-col-1-image": {

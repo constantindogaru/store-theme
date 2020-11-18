@@ -157,6 +157,10 @@
   max-width: 100%;
 }
 
+.flexCol--categoryHighlightedInfoTitle {
+  padding-bottom: 25px;
+}
+
 .flexRowContent--faq {
   max-width: 700px;
   margin: 50px auto;
