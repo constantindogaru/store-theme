@@ -167,9 +167,9 @@
   "flex-layout.row#products": {
     "children": ["search-content"]
   },
-  "search-content": {
-    "blocks": ["gallery", "not-found"]
-  },
+  // "search-content": {
+  //   "blocks": ["gallery", "not-found"]
+  // },
 
   "search-result-layout.mobile": {
     "children": [
@@ -234,10 +234,12 @@
       "blockClass": "switcherMobileCol"
     }
   },
+  // "search-not-found-layout": {
+  //   "children": ["search-title.v2", "flex-layout.row#notfound", "flex-layout.row#verticalSpacer8"]
+  // },
   "search-not-found-layout": {
-    "children": ["search-title.v2", "flex-layout.row#notfound", "flex-layout.row#verticalSpacer8"]
+    "children": ["flex-layout.row#searchbread", "total-products.v2", "flex-layout.row#notfound", "flex-layout.row#verticalSpacer8"]
   },
-
   "flex-layout.row#notfound": {
     "children": ["not-found"],
     "props": {
