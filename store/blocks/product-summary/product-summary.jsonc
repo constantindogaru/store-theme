@@ -10,6 +10,7 @@
       "blockClass": "flex-product-summary"
     },
     "children": [
+      "flex-layout.row#list-button",
       "stack-layout#prodsum",
       "product-summary-name#summary",
       // "product-rating-inline",
@@ -23,29 +24,36 @@
   "flex-layout.row#add-to-cart": {
     "props": {
       "blockClass": "flex-add-to-cart",
-      "colSizing": "auto",
+      // "colSizing": "auto",
       "colGap": 5,
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center",
+      "fullWidth": true
     },
     "children": [
-      "flex-layout.col#list-button",
+      // "flex-layout.col#list-button",
       // Allow a small gap between buttons, to avoid them overlap.
-      "flex-layout.col#spacer8",
-      "flex-layout.col#cart-button",
-      "flex-layout.col#spacer8",
-      "flex-layout.col#quick-button"
+      // "flex-layout.col#spacer8",
+      "flex-layout.col#cart-button"
+      // "flex-layout.col#spacer8",
+      // "flex-layout.col#quick-button"
     ]
   },
-  "flex-layout.col#list-button": {
+  "flex-layout.row#list-button": {
     "props": {
       "verticalAlign": "middle",
-      "blockClass": "summaryListButton"
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "blockClass": "summaryListButton",
+      "fullWidth": true
     },
     "children": ["add-to-list-btn"]
   },
   "flex-layout.col#cart-button": {
     "props": {
       "verticalAlign": "middle",
+      "horizontalAlign": "center",
       "blockClass": "summaryCartButton"
     },
     "children": ["add-to-cart-button#summary"]

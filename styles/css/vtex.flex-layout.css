@@ -291,11 +291,15 @@
   border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
 
-.flexColChild--flex-product-summary:last-child {
+.flexColChild--flex-product-summary:last-child, .flexColChild--flex-product-summary:first-child {
   visibility: hidden;
 }
 
 .flexCol--flex-product-summary:hover :last-child {
+  visibility: visible;
+}
+
+.flexCol--flex-product-summary:hover :first-child {
   visibility: visible;
 }
 
