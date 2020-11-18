@@ -106,8 +106,10 @@
   "flex-layout.col#content": {
     "children": [
       // "flex-layout.row#searchinfo",
+      "total-products.v2",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
+      "search-products-count-per-page",
       "flex-layout.row#fetchmore"
     ],
     "props": {
