@@ -112,13 +112,19 @@
       "total-products.v2",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
-      "search-products-count-per-page",
+      "flex-layout.row#count-per-page",
       "flex-layout.row#fetchmore"
     ],
     "props": {
       "width": "grow",
       "preventVerticalStretch": true
     }
+  },
+  "flex-layout.row#count-per-page": {
+    "props": {
+      "marginTop": 6
+    },
+    "children": ["search-products-count-per-page"]
   },
   "flex-layout.row#filter": {
     "props": {
