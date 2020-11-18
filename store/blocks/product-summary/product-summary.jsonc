@@ -45,6 +45,7 @@
       "verticalAlign": "middle",
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
       "blockClass": "summaryListButton",
       "fullWidth": true
     },
