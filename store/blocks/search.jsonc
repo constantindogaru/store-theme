@@ -167,9 +167,9 @@
   "flex-layout.row#products": {
     "children": ["search-content"]
   },
-  // "search-content": {
-  //   "blocks": ["gallery", "not-found"]
-  // },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
 
   "search-result-layout.mobile": {
     "children": [
