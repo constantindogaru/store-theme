@@ -15,6 +15,10 @@
   padding-bottom: 20px;
 }
 
+.sliderTrackContainer--sliderAllCategories {
+  width: 92%;
+}
+
 .sliderLayoutContainer--movingProductSlider {
   background-color: rgb(131, 1, 1);
 }

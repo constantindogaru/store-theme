@@ -75,7 +75,7 @@
   },
   "flex-layout.col#recommended-products-slider": {
     "props": {
-      "width": "100%"
+      "width": "90%"
       // "preventHorizontalStretch": true
     },
     "children": ["list-context.product-list#recommended-products"]
