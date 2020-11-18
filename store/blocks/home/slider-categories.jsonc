@@ -37,8 +37,8 @@
     },
     "children": [
       "image#category-1",
-      "rich-text#category-1",
-      "rich-text#category-products-info-1"
+      "rich-text#category-1"
+      // "rich-text#category-products-info-1"
     ]
   },
   "image#category-1": {
@@ -74,8 +74,8 @@
     },
     "children": [
       "image#category-2",
-      "rich-text#category-2",
-      "rich-text#category-products-info-2"
+      "rich-text#category-2"
+      // "rich-text#category-products-info-2"
     ]
   },
   "image#category-2": {
@@ -111,8 +111,8 @@
     },
     "children": [
       "image#category-3",
-      "rich-text#category-3",
-      "rich-text#category-products-info-3"
+      "rich-text#category-3"
+      // "rich-text#category-products-info-3"
     ]
   },
   "image#category-3": {
@@ -148,8 +148,8 @@
     },
     "children": [
       "image#category-4",
-      "rich-text#category-4",
-      "rich-text#category-products-info-4"
+      "rich-text#category-4"
+      // "rich-text#category-products-info-4"
     ]
   },
   "image#category-4": {
@@ -185,8 +185,8 @@
     },
     "children": [
       "image#category-5",
-      "rich-text#category-5",
-      "rich-text#category-products-info-5"
+      "rich-text#category-5"
+      // "rich-text#category-products-info-5"
     ]
   },
   "image#category-5": {
@@ -222,8 +222,8 @@
     },
     "children": [
       "image#category-6",
-      "rich-text#category-6",
-      "rich-text#category-products-info-6"
+      "rich-text#category-6"
+      // "rich-text#category-products-info-6"
     ]
   },
   "image#category-6": {
@@ -259,8 +259,8 @@
     },
     "children": [
       "image#category-7",
-      "rich-text#category-7",
-      "rich-text#category-products-info-7"
+      "rich-text#category-7"
+      // "rich-text#category-products-info-7"
     ]
   },
   "image#category-7": {
@@ -296,8 +296,8 @@
     },
     "children": [
       "image#category-8",
-      "rich-text#category-8",
-      "rich-text#category-products-info-8"
+      "rich-text#category-8"
+      // "rich-text#category-products-info-8"
     ]
   },
   "image#category-8": {
@@ -333,8 +333,8 @@
     },
     "children": [
       "image#category-9",
-      "rich-text#category-9",
-      "rich-text#category-products-info-9"
+      "rich-text#category-9"
+      // "rich-text#category-products-info-9"
     ]
   },
   "image#category-9": {
@@ -370,8 +370,8 @@
     },
     "children": [
       "image#category-10",
-      "rich-text#category-10",
-      "rich-text#category-products-info-10"
+      "rich-text#category-10"
+      // "rich-text#category-products-info-10"
     ]
   },
   "image#category-10": {
@@ -407,8 +407,8 @@
     },
     "children": [
       "image#category-11",
-      "rich-text#category-11",
-      "rich-text#category-products-info-11"
+      "rich-text#category-11"
+      // "rich-text#category-products-info-11"
     ]
   },
   "image#category-11": {
@@ -444,8 +444,8 @@
     },
     "children": [
       "image#category-12",
-      "rich-text#category-12",
-      "rich-text#category-products-info-12"
+      "rich-text#category-12"
+      // "rich-text#category-products-info-12"
     ]
   },
   "image#category-12": {
@@ -481,8 +481,8 @@
     },
     "children": [
       "image#category-13",
-      "rich-text#category-13",
-      "rich-text#category-products-info-13"
+      "rich-text#category-13"
+      // "rich-text#category-products-info-13"
     ]
   },
   "image#category-13": {
@@ -518,8 +518,8 @@
     },
     "children": [
       "image#category-14",
-      "rich-text#category-14",
-      "rich-text#category-products-info-14"
+      "rich-text#category-14"
+      // "rich-text#category-products-info-14"
     ]
   },
   "image#category-14": {
@@ -555,8 +555,8 @@
     },
     "children": [
       "image#category-15",
-      "rich-text#category-15",
-      "rich-text#category-products-info-15"
+      "rich-text#category-15"
+      // "rich-text#category-products-info-15"
     ]
   },
   "image#category-15": {
@@ -592,8 +592,8 @@
     },
     "children": [
       "image#category-16",
-      "rich-text#category-16",
-      "rich-text#category-products-info-16"
+      "rich-text#category-16"
+      // "rich-text#category-products-info-16"
     ]
   },
   "image#category-16": {
