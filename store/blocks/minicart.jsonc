@@ -107,7 +107,7 @@
   },
   "link#back-to-shop": {
     "props": {
-      "href": "/shop",
+      "href": "/138?map=productClusterIds",
       "label": "ÎNAPOI LA MAGAZIN",
       "displayMode": "button",
       "blockClass": "backToShopMiniCart"
