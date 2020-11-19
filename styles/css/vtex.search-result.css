@@ -60,6 +60,7 @@
 
 .filterPopupButton {
   outline: none;
+  height: auto;
 }
 
 :global(.vtex-search-result-3-x-orderByOptionsContainer) {
@@ -68,4 +69,16 @@
 
 .filter__container--search-filter-navigator--title {
   display: none;
+}
+
+.filterIcon--search-filter-navigator {
+  display: flex;
+}
+
+.filterPopupArrowIcon {
+  padding-top: 0;
+}
+
+.orderByDropdown {
+  padding-top: 0;
 }
