@@ -186,11 +186,8 @@
   margin: auto;
 }
 
-/* .flexRowContent--flex-search-results {
-  padding-left: 15%;
-} */
-
-.flexRow--flex-search-results {
+.flexRow--flex-search-results,
+.flexRow--flex-search-not-found {
   max-width: 1222px;
   margin: auto;
   width: 60%;
@@ -296,7 +293,8 @@
   border-bottom: 1px solid rgba(129, 129, 129, 0.2);
 }
 
-.flexColChild--flex-product-summary:last-child, .flexColChild--flex-product-summary:first-child {
+.flexColChild--flex-product-summary:last-child,
+.flexColChild--flex-product-summary:first-child {
   visibility: hidden;
 }
 

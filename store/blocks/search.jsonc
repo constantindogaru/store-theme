@@ -241,11 +241,22 @@
       "blockClass": "switcherMobileCol"
     }
   },
-  // "search-not-found-layout": {
-  //   "children": ["search-title.v2", "flex-layout.row#notfound", "flex-layout.row#verticalSpacer8"]
-  // },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "total-products.v2", "flex-layout.row#notfound", "flex-layout.row#verticalSpacer8"]
+    "children": ["flex-layout.row#search-not-found-wrapper"]
+  },
+  "flex-layout.row#search-not-found-wrapper": {
+    "children": ["flex-layout.col#search-not-found-wrapper"],
+    "props": {
+      "blockClass": "flex-search-not-found"
+    }
+  },
+  "flex-layout.col#search-not-found-wrapper": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "total-products.v2",
+      "flex-layout.row#notfound",
+      "flex-layout.row#verticalSpacer8"
+    ]
   },
   "flex-layout.row#notfound": {
     "children": ["not-found"],
