@@ -65,3 +65,7 @@
 :global(.vtex-search-result-3-x-orderByOptionsContainer) {
   z-index: 10;
 }
+
+.filter__container--search-filter-navigator--title {
+  display: none;
+}
