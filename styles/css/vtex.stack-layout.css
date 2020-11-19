@@ -51,3 +51,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.stackItem--stack-prodsum {
+  width: 100%;
+}

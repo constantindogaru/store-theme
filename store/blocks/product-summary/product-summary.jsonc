@@ -81,7 +81,10 @@
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights#collection"
       // "modal-trigger#quickview" // Check quickview.jsonc
-    ]
+    ],
+    "props": {
+      "blockClass": "stack-prodsum"
+    }
   },
 
   "product-summary-image#shelf": {
