@@ -27,3 +27,19 @@
   color: #8e8e8e;
   padding-left: 0;
 }
+
+.container--breadcrumb-search-result {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 0.5rem;
+}
+
+.homeIcon--breadcrumb-search-result {
+  display: flex;
+}
+
+.link--breadcrumb-search-result {
+  padding-top: 0;
+  padding-bottom: 0;
+}
