@@ -18,6 +18,11 @@
 .galleryItem {
   margin: 0;
   min-width: 33%;
+  padding: 0;
+}
+
+.gallery {
+  padding: 0;
 }
 
 .searchResultContainer {
