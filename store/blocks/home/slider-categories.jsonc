@@ -1,5 +1,4 @@
 {
-  // TODO Add links for each category.
   "slider-layout#all-categories": {
     "props": {
       "infinite": true,
