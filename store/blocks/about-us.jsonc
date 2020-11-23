@@ -12,7 +12,10 @@
     "children": [
       "image#about-us-top-banner",
       "rich-text#about-us-title-top-banner"
-    ]
+    ],
+    "props": {
+      "zIndexOffset": -1
+    }
   },
   "image#about-us-top-banner": {
     "props": {

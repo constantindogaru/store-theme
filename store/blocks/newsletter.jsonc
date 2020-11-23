@@ -45,7 +45,10 @@
     "children": [
       "image#newsletter-banner",
       "flex-layout.row#newsletter-banner-text-row"
-    ]
+    ],
+    "props": {
+      "zIndexOffset": -1
+    }
   },
 
   "image#newsletter-banner": {
