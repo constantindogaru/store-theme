@@ -46,8 +46,12 @@
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
   background-color: transparent;
-  color: #fff;
+  /* color: #fff; */
   border: none;
+}
+
+.inputGroup--newsletterPageForm :global(.vtex-styleguide-9-x-hideDecorators) {
+  color: #fff;
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
@@ -376,4 +380,8 @@
 
 .shareContainer {
   justify-content: center;
+}
+
+.confirmationTitle--newsletterPageForm, .confirmationText--newsletterPageForm {
+  color: #fff;
 }

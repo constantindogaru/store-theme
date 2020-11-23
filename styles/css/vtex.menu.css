@@ -49,7 +49,7 @@
   padding-bottom: 5.12px;
 }
 .styledLinkContainer--wishlist:hover {
-  background-color: #eef7ee;
+  /* background-color: #eef7ee; */
 }
 .styledLinkIcon--wishlist {
   color: #333;
