@@ -250,7 +250,7 @@
     ]
   },
   "flex-layout.row#searchbread-not-found": {
-    "children": ["flex-layout.col#spacer2", "breadcrumb.search#search-result"],
+    "children": ["flex-layout.col#spacer2", "breadcrumb.search#search-result", "flex-layout.col#orderby"],
     "props": {
       "preserveLayoutOnMobile": true,
       "blockClass": "flex-search-bread"
