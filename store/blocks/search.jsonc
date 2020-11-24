@@ -209,6 +209,7 @@
   "flex-layout.col#orderByMobile": {
     "children": ["order-by.v2"],
     "props": {
+      "verticalAlign": "middle",
       "blockClass": "orderByMobileCol"
     }
   },
@@ -223,12 +224,14 @@
   "flex-layout.col#filterMobile": {
     "children": ["filter-navigator.v3"],
     "props": {
+      "verticalAlign": "middle",
       "blockClass": "filterMobileCol"
     }
   },
   "flex-layout.col#switcherMobile": {
     "children": ["search-layout-switcher"],
     "props": {
+      "verticalAlign": "middle",
       "blockClass": "switcherMobileCol"
     }
   },
