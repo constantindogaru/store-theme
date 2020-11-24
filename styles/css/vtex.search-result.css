@@ -75,6 +75,14 @@
   display: flex;
 }
 
+.accordionFilterContainer--search-filter-navigator {
+  border-bottom: solid 1px rgba(129, 129, 129, 0.2);
+}
+
+.accordionFilterItem--search-filter-navigator {
+  border: none;
+}
+
 .filterPopupArrowIcon {
   padding-top: 0;
 }
