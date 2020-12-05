@@ -60,7 +60,7 @@
   "slider-layout#wishlist": {
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 4,
         "tablet": 2,
         "phone": 1
       },
