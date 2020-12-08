@@ -27,8 +27,8 @@
   },
   "form#contact-us": {
     "props": {
-      "entity": "personEntity",
-      "schema": "personSchema",
+      "entity": "CO",
+      "schema": "mdv1",
       "blockClass": "formContactUs"
     },
     "blocks": [
@@ -36,9 +36,9 @@
     ],
     "children": [
       "form-input.text#name",
-      "form-input.text#emailAddress",
+      "form-input.text#email",
       "form-input.text#subject",
-      "form-input.textarea#message",
+      "form-input.textarea#comment",
       "form-submit#contact"
     ]
   },
@@ -66,9 +66,9 @@
       "label": "Numele dumneavoastră (obligatoriu)"
     }
   },
-  "form-input.text#emailAddress": {
+  "form-input.text#email": {
     "props": {
-      "pointer": "#/properties/emailAddress",
+      "pointer": "#/properties/email",
       "label": "Email-ul dumneavoastră (obligatoriu)"
     }
   },
@@ -77,10 +77,10 @@
       "pointer": "#/properties/subject"
     }
   },
-  "form-input.textarea#message": {
+  "form-input.textarea#comment": {
     "props": {
       "blockClass": "formContactUs",
-      "pointer": "#/properties/message"
+      "pointer": "#/properties/comment"
     }
   },
   "form-submit#contact": {
